@@ -1,0 +1,378 @@
+{"p": "PTT", "pow": "120 kW", "n": "PTT Rama 2 (Outbound)", "d": "ChargeCore NKR-ADC: 2x CCS2, Type 2 (1000V 200A), IOCharger IOCAW05C 7kW: Type 2"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Ekkamai-Ramintra", "d": "StarCharge Jupiter120: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Borommaratchachonnani (Inbound)", "d": "IOCharger IOCAW05C 7kW: Type 2, StarCharge Jupiter120: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT NuanChan", "d": "ChargeCore NKR-ADC: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Maiyalap", "d": "StarCharge Jupiter120: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Ladprao-Wanghin", "d": "IOCharger IOCAW05C 7kW: Type 2, StarCharge Jupiter120: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Thung Khru", "d": "Delta AC Mini Plus: Type 2, StarCharge Jupiter120: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Pracha Uthit-Ladprao", "d": "Delta AC Mini Plus: Type 2, ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Wongwankarnjanaphisek-Talingchan", "d": "ChargeCore CCSx2: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Pattanakarn (OB)", "d": "ChargeCore NKR: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Phahon Yothin km.25", "d": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT NGV Station Kamphaengphet 2", "d": "ChargeCore CCSx2: 2x CCS2 (1000V 200A), ChargeCore CCSx2: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Vibhavadi", "d": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Thep Rak", "d": "ChargeCore NKR-ADC: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Minburi", "d": "ChargeCore NKR-ADC: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Ratchaphruek 1", "d": "ChargeCore NKR-ADC: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Kanchanapisek-Bangbon", "d": "ChargeCore NKR-ADC: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Rat Burana (OB)", "d": "ChargeCore NKR-ADC: 2x CCS2, Type 2 (1000V 200A), IOCharger IOCAW05C 7kW: Type 2"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Office of The Permanent Secretary for Defence (Bangna-Out)", "d": "ChargeCore NKR-ADC: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Office of The Permanent Secretary for Defence (Bangna-In)", "d": "ChargeCore NKR-ADC: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Samyan", "d": "ChargeCore NKR-ADC: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Sanphawut-Bangna", "d": "ChargeCore NKR-ADC: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Jiang-Asawan Nongkhai Suvarnabhumi Branch", "d": "StarCharge Jupiter120: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "60 kW", "n": "Cafe Amazon Planet Comm Ramintra 34", "d": "ChargeCore CCSx2: 2x CCS2 (1000V 200A), ChargeCore CCSx2: 2x CCS2 (1000V 200A), IOCharger IOCAP06C 22kW: 2x Type 2"}
+{"p": "PTT", "pow": "60 kW", "n": "PTT NGV Station Siri Charoen Wattana", "d": "ChargeCore CCSx2: 2x CCS2 (1000V 200A), ChargeCore CCSx2: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "60 kW", "n": "PTT NGV Station Chor Sam Sien", "d": "ChargeCore CCSx2: 2x CCS2 (1000V 200A), ChargeCore CCSx2: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "60 kW", "n": "PTT NGV Station Phawadee Kanchanaphisek", "d": "ChargeCore CCSx2: 2x CCS2 (1000V 200A), ChargeCore CCSx2: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "60 kW", "n": "PTT NGV Station NGV Km.5", "d": "ChargeCore CCSx2: 2x CCS2 (1000V 200A), ChargeCore CCSx2: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "60 kW", "n": "PTT NGV Station Asia Minburi", "d": "ChargeCore CCSx2: 2x CCS2 (1000V 200A), ChargeCore CCSx2: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "Benz BKK Group", "d": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "Benz TTC Motor Co., Ltd", "d": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "Lotus Go Fresh Sirikasem Phutthamonthon Sai 3", "d": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "The Sense Pinklao", "d": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "The Tree Bang Bon", "d": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "Dadfa lasalle", "d": "ChargeCore NKR: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "Amari Don Muang Airport Bangkok", "d": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "Stage Find The Real U", "d": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "LPG Auto Station KSM Auto Gas Co., Ltd", "d": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "Bangpakok 9 International Hospital", "d": "ChargeCore NKR: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "Burger King Ratchada Drive Thru", "d": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "Benz Rama 3", "d": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Lasalle", "d": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT PM (Prawet)", "d": "StarCharge Jupiter120: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Deeyiam Innovation", "d": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT S. Rungwipha", "d": "StarCharge Jupiter120: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT S. Charoenkit Permsin", "d": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Akara", "d": "StarCharge Jupiter120: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Teerawan Chalet", "d": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT JP Elite Au-Ngern", "d": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT S. Charoenkit Sukhaphiban 5", "d": "StarCharge Jupiter120: CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT 3 NPP", "d": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Rienthong Ratchapruek", "d": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Energy Park", "d": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Phutthamonthon Sai 3", "d": "StarCharge Jupiter120: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Ekkachai-Bangbon (Outbound)", "d": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Sinmaphaiboon Petroleum", "d": "StarCharge Jupiter120: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Rama 2 48", "d": "StarCharge Jupiter120: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Charoen Rat", "d": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Kluaynamthai", "d": "StarCharge Jupiter120: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT S.T. Romklao Petroleum", "d": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Expert Energy", "d": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Sri Charoenphan", "d": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Ramkhamhaeng", "d": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Super Model Energy", "d": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Sukhaphiban 3", "d": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "Siam Brasserie", "d": "ChargeCore NKR: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "Vanilla Moon", "d": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Songprapha", "d": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Lat Pla Khao", "d": "ChargeCore NKR: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Phatthanakan (IB)", "d": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Ram Inthra Km.6.5", "d": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Lat Krabang Industrial Estate Branch", "d": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Sutthisan", "d": "ChargeCore NKR: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Suan Phak", "d": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Suksawat", "d": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Pracha Uthit 35", "d": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT THAI ENERGY FOR THAI", "d": "ChargeCore NKR: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT T.K.T Commercial", "d": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Sang Aree Station (6)", "d": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "Benz Primus Autohaus", "d": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Petroleum (Udomsuk)", "d": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Brax & Ben", "d": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Sikaree Petroleum", "d": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Suk Sawat (Outbound)", "d": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "180 kW", "n": "PTT Vibhavadi 62", "d": "StarCharge Nova V2: 2x CCS2 (1000V 200A), StarCharge Nova V2: 2x CCS2 (1000V 200A), StarCharge Nova V2: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT On Nut Rungruang", "d": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "PTT Nong Khaem", "d": "StarCharge Jupiter120: 2x CCS2, Type 2 (1000V 200A)"}
+{"p": "PTT", "pow": "120 kW", "n": "Grande Centre Point Surawong", "d": "ChargeCore CCSx2: 2x CCS2 (1000V 200A)"}
+{"p": "PEA", "pow": "50 kW", "n": null, "d": null}
+{"p": "PEA", "pow": "40 kW", "n": null, "d": null}
+{"p": "PEA", "pow": "120 kW", "n": null, "d": null}
+{"p": "PEA", "pow": "50 kW", "n": null, "d": null}
+{"p": "Altervim", "pow": "160 kW", "n": "Lotus’s Pinklao", "d": "2x CCS2: 160 kW, Type2: 11 kW"}
+{"p": "Altervim", "pow": "160 kW", "n": "Lotus's Sukhapiban 1", "d": "2x CCS2: 160 kW, Type2: 11 kW"}
+{"p": "Altervim", "pow": "150 kW", "n": "Lotus's Sukhumvit 50", "d": "2x CCS2: 150 kW (1000V 200A), Type2: 11 kW"}
+{"p": "Altervim", "pow": "150 kW", "n": "Lotus's Bangkapi", "d": "2x CCS2: 150 kW (1000V 200A), Type2: 11 kW"}
+{"p": "Altervim", "pow": "150 kW", "n": "Lotus's Lak Si", "d": "2x CCS2: 150 kW (1000V 200A), Type2: 11 kW"}
+{"p": "Altervim", "pow": "150 kW", "n": "Lotus's Ladprao", "d": "2x CCS2: 150 kW (1000V 200A), Type2: 11 kW"}
+{"p": "Altervim", "pow": "150 kW", "n": "Lotus's Chaengwattana", "d": "2x CCS2: 150 kW (1000V 200A), Type2: 11 kW"}
+{"p": "Altervim", "pow": "150 kW", "n": "Lotus's (Sukhaphiban 3)", "d": "2x CCS2: 150 kW (1000V 200A), Type2: 11 kW"}
+{"p": "Altervim", "pow": "150 kW", "n": "Lotus's Charan Sanitwong 70", "d": "2x CCS2: 150 kW (1000V 200A), Type2: 11 kW"}
+{"p": "Altervim", "pow": "60 kW", "n": "Lotus's Bangpakok\t\t\t\t\t\t\t\t\t\t\t\t", "d": "2x CCS2: 60 kW, Type2: 11 kW"}
+{"p": "Altervim", "pow": "150 kW", "n": "Lotus’s Bang Khae", "d": "2x CCS2: 150 kW (1000V 200A), Type2: 11 kW"}
+{"p": "Altervim", "pow": "60 kW", "n": "Lotus’s Nong Chok", "d": "2x CCS2: 60 kW, Type2: 11 kW"}
+{"p": "Altervim", "pow": "60 kW", "n": "Lotus’s On Nut 80", "d": "2x CCS2: 60 kW, Type2: 11 kW"}
+{"p": "Altervim", "pow": "150 kW", "n": "Lotus's Lat Krabang", "d": "2x CCS2: 150 kW (1000V 200A), Type2: 11 kW"}
+{"p": "Altervim", "pow": "60 kW", "n": "Lotus's Pracha Uthit", "d": "2x CCS2: 60 kW, Type2: 11 kW"}
+{"p": "Altervim", "pow": "150 kW", "n": "Lotus's Liap Khlong Song", "d": "2x CCS2: 150 kW (1000V 200A), Type2: 11 kW"}
+{"p": "EleX", "pow": "125 kW", "n": null, "d": "2x CCS2 125 kW (300A), 2x CCS2 60 kW"}
+{"p": "EleX", "pow": "50 kW", "n": null, "d": "CCS2 50 kW, CHAdeMO 50 kW, Type2 22 kW, Type2 7 kW"}
+{"p": "EleX", "pow": "60 kW", "n": null, "d": "Type2 22 kW, Type2 22 kW, CCS2 60 kW, CHAdeMO 60 kW"}
+{"p": "EleX", "pow": "125 kW", "n": null, "d": "2x CCS2 125 kW (300A)"}
+{"p": "EleX", "pow": "30 kW", "n": null, "d": "Type2 22 kW, Type2 22 kW, 2x CCS2 30 kW"}
+{"p": "EleX", "pow": "150 kW", "n": null, "d": "2x CCS2 150 kW"}
+{"p": "EleX", "pow": "30 kW", "n": null, "d": "CCS2 30 kW, 2x CCS2 30 kW, CCS2 30 kW, CCS2 30 kW"}
+{"p": "EleX", "pow": "150 kW", "n": null, "d": "2x CCS2 150 kW"}
+{"p": "EA-24 Hr", "pow": "117 kW", "n": null, "d": "CCS2: 118 kW, 200A, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "0 kW", "n": null, "d": "Type2: CLOSED, CCS2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "35 kW", "n": null, "d": "CCS2: 35 kW, Type2: 22 kW"}
+{"p": "EA-Peak", "pow": "38 kW", "n": null, "d": "Type1: 11 kW, Type2: 7x 11 kW, CCS2: 38 kW, CLOSED"}
+{"p": "EA-24 Hr", "pow": "22 kW", "n": null, "d": "Type2: 22 kW, CCS2: CLOSED"}
+{"p": "EA-Peak", "pow": "150 kW", "n": null, "d": "Type2: 22 kW, CCS2: 2x 150 kW, 200A"}
+{"p": "EA-24 Hr", "pow": "40 kW", "n": null, "d": "Type1: 22 kW, CLOSED, Type2: 2x 22 kW, CCS2: 40 kW"}
+{"p": "EA-24 Hr", "pow": "22 kW", "n": null, "d": "Type1: 22 kW, Type2: 22 kW, CCS2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "40 kW", "n": null, "d": "CCS2: 40 kW"}
+{"p": "EA-24 Hr", "pow": "117 kW", "n": null, "d": "CCS2: 2x 118 kW, 200A, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "75 kW", "n": null, "d": "CCS2: 75 kW, Type2: 22 kW"}
+{"p": "EA-Closed", "pow": "0 kW", "n": null, "d": "CCS2: CLOSED, Type2: CLOSED"}
+{"p": "EA-Peak", "pow": "110 kW", "n": null, "d": "Type2: 22 kW, CCS2: 2x 110 kW, 200A"}
+{"p": "EA-Peak", "pow": "40 kW", "n": null, "d": "CCS2: 2x 40 kW, Type2: 22 kW"}
+{"p": "EA-24 Hr", "pow": "90 kW", "n": null, "d": "Type2: 22 kW, CCS2: 90 kW, 200A"}
+{"p": "EA-24 Hr", "pow": "75 kW", "n": null, "d": "CCS2: 75 kW, CLOSED"}
+{"p": "EA-24 Hr", "pow": "75 kW", "n": null, "d": "CCS2: 75 kW, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "11 kW", "n": null, "d": "Type2: 5x 11 kW, CCS2: CLOSED"}
+{"p": "EA-Closed", "pow": "0 kW", "n": null, "d": "CCS2: CLOSED, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "102 kW", "n": null, "d": "CCS2: 103 kW, 200A, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "150 kW", "n": null, "d": "CCS2: 6x 150 kW, 200A"}
+{"p": "EA-24 Hr", "pow": "150 kW", "n": null, "d": "CCS2: 4x 150 kW, 200A"}
+{"p": "EA-24 Hr", "pow": "117 kW", "n": null, "d": "CCS2: 2x 118 kW, 200A, Type2: CLOSED"}
+{"p": "EA-Closed", "pow": "11 kW", "n": null, "d": "CCS2: CLOSED, Type2: 11 kW, CLOSED, Type1: CLOSED"}
+{"p": "EA-Peak", "pow": "110 kW", "n": null, "d": "CCS2: 2x 110 kW, 200A, Type2: CLOSED"}
+{"p": "EA-Closed", "pow": "90 kW", "n": null, "d": "Type1: 22 kW, CLOSED, Type2: 5 kW, CLOSED, CCS2: 90 kW, 200A, CLOSED"}
+{"p": "EA-Peak", "pow": "90 kW", "n": null, "d": "Type2: 5 kW, CLOSED, CCS2: 2x 90 kW, 200A"}
+{"p": "EA-24 Hr", "pow": "117 kW", "n": null, "d": "CCS2: 2x 117 kW, 200A, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "150 kW", "n": null, "d": "CCS2: 2x 150 kW, 200A"}
+{"p": "EA-Closed", "pow": "150 kW", "n": null, "d": "CCS2: 150 kW, 200A, CLOSED"}
+{"p": "EA-24 Hr", "pow": "90 kW", "n": null, "d": "Type1: 22 kW, Type2: 5 kW, CCS2: 2x 90 kW, 200A"}
+{"p": "EA-24 Hr", "pow": "117 kW", "n": null, "d": "CCS2: 2x 118 kW, 200A, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "116 kW", "n": null, "d": "CCS2: 2x 116 kW, 200A, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "152 kW", "n": null, "d": "CCS2: 2x 152 kW, 200A"}
+{"p": "EA-24 Hr", "pow": "38 kW", "n": null, "d": "Type2: 3x 22 kW, CCS2: 4x 38 kW"}
+{"p": "EA-24 Hr", "pow": "0 kW", "n": null, "d": "CCS2: CLOSED, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "117 kW", "n": null, "d": "CCS2: 2x 118 kW, 200A, Type2: CLOSED"}
+{"p": "EA-Closed", "pow": "110 kW", "n": null, "d": "Type2: 22 kW, CLOSED, CCS2: 110 kW, 200A, CLOSED"}
+{"p": "EA-24 Hr", "pow": "75 kW", "n": null, "d": "Type2: 22 kW, CCS2: 75 kW"}
+{"p": "EA-24 Hr", "pow": "117 kW", "n": null, "d": "CCS2: 2x 118 kW, 200A, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "22 kW", "n": null, "d": "Type2: 22 kW, CLOSED, CCS2: CLOSED"}
+{"p": "EA-Closed", "pow": "135 kW", "n": null, "d": "Type2: 22 kW, CLOSED, CCS2: 135 kW, 200A, CLOSED"}
+{"p": "EA-Closed", "pow": "110 kW", "n": null, "d": "CCS2: 110 kW, 200A, CLOSED, Type2: CLOSED"}
+{"p": "EA-Peak", "pow": "90 kW", "n": null, "d": "Type2: 22 kW, CCS2: 2x 90 kW, 200A"}
+{"p": "EA-24 Hr", "pow": "110 kW", "n": null, "d": "Type2: 5 kW, CCS2: 2x 110 kW, 200A"}
+{"p": "EA-Closed", "pow": "0 kW", "n": null, "d": "CCS2: CLOSED, Type2: CLOSED"}
+{"p": "EA-Closed", "pow": "75 kW", "n": null, "d": "CCS2: 75 kW, CLOSED, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "150 kW", "n": null, "d": "CCS2: 3x 150 kW, 200A"}
+{"p": "EA-24 Hr", "pow": "300 kW", "n": null, "d": "CCS2: 6x 300 kW, 200A"}
+{"p": "EA-Closed", "pow": "90 kW", "n": null, "d": "Type2: 22 kW, CLOSED, CCS2: 90 kW, 200A, CLOSED"}
+{"p": "EA-Closed", "pow": "102 kW", "n": null, "d": "CCS2: 102 kW, 200A, CLOSED, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "75 kW", "n": null, "d": "CCS2: 75 kW, Type2: CLOSED"}
+{"p": "EA-Off Peak", "pow": "110 kW", "n": null, "d": "CCS2: 110 kW, 200A, CLOSED, Type2: 22 kW, CLOSED"}
+{"p": "EA-24 Hr", "pow": "180 kW", "n": null, "d": "CCS2: 3x 180 kW, 200A"}
+{"p": "EA-24 Hr", "pow": "300 kW", "n": null, "d": "CCS2: 4x 300 kW, 200A"}
+{"p": "EA-24 Hr", "pow": "150 kW", "n": null, "d": "CCS2: 2x 150 kW, 200A"}
+{"p": "EA-24 Hr", "pow": "180 kW", "n": null, "d": "CCS2: 7x 180 kW, 200A"}
+{"p": "EA-Closed", "pow": "180 kW", "n": null, "d": "CCS2: 180 kW, 200A, CLOSED"}
+{"p": "EA-24 Hr", "pow": "117 kW", "n": null, "d": "CCS2: 118 kW, 200A, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "360 kW", "n": null, "d": "CCS2: 4x 360 kW, 200A"}
+{"p": "EA-Closed", "pow": "22 kW", "n": null, "d": "Type2: 22 kW, CLOSED, CCS2: CLOSED, Type1: 7 kW, CLOSED"}
+{"p": "EA-24 Hr", "pow": "58 kW", "n": null, "d": "CCS2: 59 kW, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "117 kW", "n": null, "d": "CCS2: 2x 118 kW, 200A, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "117 kW", "n": null, "d": "CCS2: 2x 118 kW, 200A, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "135 kW", "n": null, "d": "CCS2: 135 kW, 200A, CLOSED, Type2: 22 kW"}
+{"p": "EA-24 Hr", "pow": "58 kW", "n": null, "d": "Type2: 22 kW, CCS2: 59 kW"}
+{"p": "EA-24 Hr", "pow": "110 kW", "n": null, "d": "CCS2: 2x 110 kW, 200A, Type2: 22 kW"}
+{"p": "EA-24 Hr", "pow": "90 kW", "n": null, "d": "Type2: 2x 22 kW, CCS2: 2x 90 kW, 200A"}
+{"p": "EA-Peak", "pow": "97 kW", "n": null, "d": "Type1: CLOSED, Type2: 22 kW, CCS2: 2x 97 kW, 200A"}
+{"p": "EA-24 Hr", "pow": "300 kW", "n": null, "d": "CCS2: 3x 300 kW, 200A"}
+{"p": "EA-24 Hr", "pow": "152 kW", "n": null, "d": "CCS2: 3x 152 kW, 200A"}
+{"p": "EA-24 Hr", "pow": "150 kW", "n": null, "d": "CCS2: 2x 150 kW, 200A"}
+{"p": "EA-Peak", "pow": "90 kW", "n": null, "d": "Type1: 5 kW, CLOSED, Type2: 11 kW, CCS2: 2x 90 kW, 200A"}
+{"p": "EA-Off Peak", "pow": "75 kW", "n": null, "d": "CCS2: 75 kW, CLOSED, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "22 kW", "n": null, "d": "Type2: 22 kW, CCS2: CLOSED"}
+{"p": "EA-Peak", "pow": "90 kW", "n": null, "d": "Type2: 22 kW, CCS2: 2x 90 kW, 200A"}
+{"p": "EA-Closed", "pow": "22 kW", "n": null, "d": "Type2: 22 kW, CLOSED, CCS2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "110 kW", "n": null, "d": "Type2: 5 kW, CCS2: 2x 110 kW, 200A"}
+{"p": "EA-24 Hr", "pow": "300 kW", "n": null, "d": "CCS2: 4x 300 kW, 200A"}
+{"p": "EA-Off Peak", "pow": "300 kW", "n": null, "d": "CCS2: 300 kW, 200A, CLOSED"}
+{"p": "EA-24 Hr", "pow": "180 kW", "n": null, "d": "CCS2: 8x 180 kW, 200A"}
+{"p": "EA-24 Hr", "pow": "300 kW", "n": null, "d": "CCS2: 4x 300 kW, 200A"}
+{"p": "EA-24 Hr", "pow": "110 kW", "n": null, "d": "Type2: 5 kW, CLOSED, CCS2: 2x 110 kW, 200A"}
+{"p": "EA-24 Hr", "pow": "110 kW", "n": null, "d": "CCS2: 110 kW, 200A, Type2: CLOSED"}
+{"p": "EA-Peak", "pow": "110 kW", "n": null, "d": "CCS2: 2x 110 kW, 200A, Type2: CLOSED"}
+{"p": "EA-Closed", "pow": "0 kW", "n": null, "d": "CCS2: CLOSED, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "117 kW", "n": null, "d": "CCS2: 2x 117 kW, 200A, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "22 kW", "n": null, "d": "CCS2: CLOSED, Type2: 2x 22 kW"}
+{"p": "EA-24 Hr", "pow": "360 kW", "n": null, "d": "CCS2: 7x 360 kW, 200A"}
+{"p": "EA-24 Hr", "pow": "360 kW", "n": null, "d": "CCS2: 6x 360 kW, 200A"}
+{"p": "EA-24 Hr", "pow": "117 kW", "n": null, "d": "CCS2: 118 kW, 200A, Type2: CLOSED, Type2: CLOSED"}
+{"p": "EA-Peak", "pow": "110 kW", "n": null, "d": "Type2: 22 kW, CCS2: 110 kW, 200A, CCS2: 110 kW, 200A"}
+{"p": "EA-24 Hr", "pow": "360 kW", "n": null, "d": "CCS2: 2x 360 kW, 200A, "}
+{"p": "EA-24 Hr", "pow": "117 kW", "n": null, "d": "CCS2: 2x 118 kW, 200A, Type2: CLOSED, Type2: CLOSED"}
+{"p": "EA-Off Peak", "pow": "75 kW", "n": null, "d": "CCS2: 75 kW, CLOSED, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "110 kW", "n": null, "d": "CCS2: 2x 110 kW, 200A, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "110 kW", "n": null, "d": "Type2: 22 kW, CCS2: 2x 110 kW, 200A"}
+{"p": "EA-Closed", "pow": "0 kW", "n": null, "d": "CCS2: CLOSED, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "0 kW", "n": null, "d": "CCS2: CLOSED, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "110 kW", "n": null, "d": "CCS2: 2x 110 kW, 200A, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "110 kW", "n": null, "d": "Type2: 22 kW, CCS2: 110 kW, 200A, CLOSED"}
+{"p": "EA-Off Peak", "pow": "30 kW", "n": null, "d": "CCS2: 30 kW, CLOSED, Type2: CLOSED"}
+{"p": "EA-Peak", "pow": "90 kW", "n": null, "d": "Type1: 22 kW, CLOSED, Type2: 5 kW, CLOSED, CCS2: 90 kW, 200A"}
+{"p": "EA-24 Hr", "pow": "58 kW", "n": null, "d": "CCS2: 58 kW, Type2: CLOSED"}
+{"p": "EA-Peak", "pow": "22 kW", "n": null, "d": "CCS2: CLOSED, Type2: 2x 22 kW"}
+{"p": "EA-24 Hr", "pow": "110 kW", "n": null, "d": "Type2: 22 kW, CCS2: 2x 110 kW, 200A"}
+{"p": "EA-Peak", "pow": "110 kW", "n": null, "d": "Type2: 22 kW, CCS2: 2x 110 kW, 200A"}
+{"p": "EA-24 Hr", "pow": "360 kW", "n": null, "d": "CCS2: 6x 360 kW, 200A, "}
+{"p": "EA-24 Hr", "pow": "75 kW", "n": null, "d": "Type2: 22 kW, CCS2: 75 kW, CLOSED"}
+{"p": "EA-Closed", "pow": "117 kW", "n": null, "d": "CCS2: 117 kW, 200A, CLOSED, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "150 kW", "n": null, "d": "CCS2: 2x 150 kW, 200A, "}
+{"p": "EA-24 Hr", "pow": "117 kW", "n": null, "d": "CCS2: 2x 118 kW, 200A, Type2: CLOSED"}
+{"p": "EA-Closed", "pow": "75 kW", "n": null, "d": "CCS2: 75 kW, CLOSED, Type2: CLOSED"}
+{"p": "EA-Peak", "pow": "90 kW", "n": null, "d": "Type2: 22 kW, Type1: 22 kW, CCS2: 2x 90 kW, 200A"}
+{"p": "EA-24 Hr", "pow": "117 kW", "n": null, "d": "CCS2: 118 kW, 200A, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "150 kW", "n": null, "d": "CCS2: 3x 150 kW, 200A, "}
+{"p": "EA-24 Hr", "pow": "150 kW", "n": null, "d": "CCS2: 7x 150 kW, 200A, "}
+{"p": "EA-24 Hr", "pow": "110 kW", "n": null, "d": "Type1: 22 kW, CCS2: 110 kW, 200A, CLOSED, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "58 kW", "n": null, "d": "CCS2: 59 kW, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "135 kW", "n": null, "d": "CCS2: 135 kW, 200A, CLOSED, "}
+{"p": "EA-24 Hr", "pow": "117 kW", "n": null, "d": "CCS2: 118 kW, 200A, Type2: CLOSED"}
+{"p": "EA-Peak", "pow": "90 kW", "n": null, "d": "Type2: 2x 22 kW, CCS2: 90 kW, 200A"}
+{"p": "EA-Closed", "pow": "117 kW", "n": null, "d": "CCS2: 117 kW, 200A, CLOSED, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "117 kW", "n": null, "d": "Type2: 22 kW, CCS2: 2x 118 kW, 200A"}
+{"p": "EA-Closed", "pow": "110 kW", "n": null, "d": "Type2: 22 kW, CLOSED, CCS2: 110 kW, 200A, CLOSED"}
+{"p": "EA-24 Hr", "pow": "40 kW", "n": null, "d": "CCS2: 2x 40 kW, "}
+{"p": "EA-24 Hr", "pow": "51 kW", "n": null, "d": "CCS2: 51 kW, Type2: CLOSED"}
+{"p": "EA-Closed", "pow": "90 kW", "n": null, "d": "CCS2: 90 kW, 200A, CLOSED, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "75 kW", "n": null, "d": "CCS2: 75 kW, Type2: CLOSED"}
+{"p": "EA-Peak", "pow": "75 kW", "n": null, "d": "Type2: 3x 22 kW, CCS2: 2x 75 kW"}
+{"p": "EA-Peak", "pow": "58 kW", "n": null, "d": "Type2: 22 kW, CCS2: 58 kW"}
+{"p": "EA-24 Hr", "pow": "150 kW", "n": null, "d": "Type2: 22 kW, CCS2: 150 kW, 200A, CLOSED"}
+{"p": "EA-24 Hr", "pow": "58 kW", "n": null, "d": "CCS2: 58 kW, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "117 kW", "n": null, "d": "CCS2: 2x 117 kW, 200A, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "90 kW", "n": null, "d": "Type2: 22 kW, Type1: 5 kW, CCS2: 90 kW, 200A"}
+{"p": "EA-24 Hr", "pow": "117 kW", "n": null, "d": "CCS2: 2x 118 kW, 200A, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "110 kW", "n": null, "d": "Type2: 5 kW, CCS2: 2x 110 kW, 200A"}
+{"p": "EA-Peak", "pow": "75 kW", "n": null, "d": "Type1: 11 kW, Type2: 22 kW, CCS2: 2x 75 kW"}
+{"p": "EA-24 Hr", "pow": "110 kW", "n": null, "d": "Type1: 22 kW, CCS2: 110 kW, 200A, CLOSED, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "90 kW", "n": null, "d": "Type1: 22 kW, Type2: 22 kW, CLOSED, CCS2: 90 kW, 200A"}
+{"p": "EA-24 Hr", "pow": "110 kW", "n": null, "d": "CCS2: 2x 110 kW, 200A, Type2: CLOSED"}
+{"p": "EA-Peak", "pow": "117 kW", "n": null, "d": "Type2: 2x 22 kW, CCS2: 2x 118 kW, 200A"}
+{"p": "EA-Peak", "pow": "22 kW", "n": null, "d": "CCS2: 20 kW, Type2: 2x 22 kW"}
+{"p": "EA-24 Hr", "pow": "150 kW", "n": null, "d": "CCS2: 6x 150 kW, 200A, "}
+{"p": "EA-24 Hr", "pow": "150 kW", "n": null, "d": "CCS2: 3x 150 kW, 200A, "}
+{"p": "EA-24 Hr", "pow": "150 kW", "n": null, "d": "CCS2: 150 kW, 200A, "}
+{"p": "EA-Peak", "pow": "75 kW", "n": null, "d": "Type2: 5 kW, CCS2: 75 kW"}
+{"p": "EA-Closed", "pow": "110 kW", "n": null, "d": "CCS2: 110 kW, 200A, CLOSED, Type2: 5 kW, CLOSED"}
+{"p": "EA-Closed", "pow": "135 kW", "n": null, "d": "CCS2: 135 kW, 200A, CLOSED, Type2: 5 kW, CLOSED"}
+{"p": "EA-Peak", "pow": "117 kW", "n": null, "d": "CCS2: 2x 117 kW, 200A, Type2: CLOSED"}
+{"p": "EA-Closed", "pow": "0 kW", "n": null, "d": "CCS2: CLOSED, Type2: CLOSED"}
+{"p": "EA-Peak", "pow": "117 kW", "n": null, "d": "Type2: 5 kW, CCS2: 2x 118 kW, 200A"}
+{"p": "EA-24 Hr", "pow": "115 kW", "n": null, "d": "CCS2: 115 kW, 200A, CLOSED, "}
+{"p": "EA-24 Hr", "pow": "300 kW", "n": null, "d": "CCS2: 4x 300 kW, 200A, "}
+{"p": "EA-24 Hr", "pow": "150 kW", "n": null, "d": "CCS2: 9x 150 kW, 200A, "}
+{"p": "EA-24 Hr", "pow": "117 kW", "n": null, "d": "CCS2: 118 kW, 200A, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "0 kW", "n": null, "d": "CCS2: CLOSED, Type2: CLOSED"}
+{"p": "EA-Closed", "pow": "115 kW", "n": null, "d": "CCS2: 115 kW, 200A, CLOSED, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "117 kW", "n": null, "d": "CCS2: 2x 117 kW, 200A, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "117 kW", "n": null, "d": "CCS2: 118 kW, 200A, Type2: CLOSED"}
+{"p": "EA-Off Peak", "pow": "117 kW", "n": null, "d": "CCS2: 117 kW, 200A, CLOSED, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "116 kW", "n": null, "d": "CCS2: 2x 116 kW, 200A, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "117 kW", "n": null, "d": "CCS2: 117 kW, 200A, Type2: CLOSED"}
+{"p": "EA-Closed", "pow": "135 kW", "n": null, "d": "CCS2: 135 kW, 200A, CLOSED, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "117 kW", "n": null, "d": "CCS2: 2x 118 kW, 200A, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "90 kW", "n": null, "d": "CCS2: 90 kW, 200A, Type2: 2x 22 kW"}
+{"p": "EA-Peak", "pow": "110 kW", "n": null, "d": "Type2: 22 kW, CCS2: 2x 110 kW, 200A"}
+{"p": "EA-24 Hr", "pow": "110 kW", "n": null, "d": "CCS2: 2x 110 kW, 200A, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "117 kW", "n": null, "d": "CCS2: 118 kW, 200A, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "110 kW", "n": null, "d": "Type2: 22 kW, CCS2: 110 kW, 200A, CLOSED"}
+{"p": "EA-24 Hr", "pow": "117 kW", "n": null, "d": "CCS2: 2x 117 kW, 200A, Type2: CLOSED"}
+{"p": "EA-Closed", "pow": "22 kW", "n": null, "d": "Type2: 22 kW, CLOSED, CCS2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "117 kW", "n": null, "d": "CCS2: 2x 118 kW, 200A, Type2: CLOSED"}
+{"p": "EA-Closed", "pow": "150 kW", "n": null, "d": "Type2: 22 kW, CLOSED, CCS2: 150 kW, 200A, CLOSED"}
+{"p": "EA-24 Hr", "pow": "117 kW", "n": null, "d": "CCS2: 2x 117 kW, 200A, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "90 kW", "n": null, "d": "Type1: 22 kW, Type2: 22 kW, CCS2: 90 kW, 200A, CLOSED"}
+{"p": "EA-24 Hr", "pow": "110 kW", "n": null, "d": "CCS2: 2x 110 kW, 200A, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "58 kW", "n": null, "d": "CCS2: 2x 58 kW, Type2: 22 kW"}
+{"p": "EA-24 Hr", "pow": "117 kW", "n": null, "d": "CCS2: 2x 117 kW, 200A, Type2: CLOSED"}
+{"p": "EA-Closed", "pow": "110 kW", "n": null, "d": "CCS2: 110 kW, 200A, CLOSED, Type2: 5 kW, CLOSED"}
+{"p": "EA-24 Hr", "pow": "75 kW", "n": null, "d": "CCS2: 2x 75 kW, Type2: CLOSED"}
+{"p": "EA-24 Hr", "pow": "150 kW", "n": null, "d": "CCS2: 5x 150 kW, 200A, "}
+{"p": "EA-24 Hr", "pow": "150 kW", "n": null, "d": "CCS2: 3x 150 kW, 200A, "}
+{"p": "EA-24 Hr", "pow": "110 kW", "n": null, "d": "CCS2: 2x 110 kW, 200A, Type2: CLOSED"}
+{"p": "EVolt", "pow": "10 kW", "n": null, "d": ", "}
+{"p": "EVolt", "pow": "10 kW", "n": null, "d": null}
+{"p": "EVolt", "pow": "100 kW", "n": null, "d": null}
+{"p": "GWM", "pow": "160 kW", "n": null, "d": "6x CCS2"}
+{"p": "GWM", "pow": null, "n": null, "d": null}
+{"p": "GWM", "pow": null, "n": null, "d": null}
+{"p": "Haup", "pow": "25 kW", "n": null, "d": "ชั้น 2"}
+{"p": "Haup", "pow": "25 kW", "n": null, "d": null}
+{"p": "EVolt", "pow": "100 kW", "n": null, "d": "2x CCS2"}
+{"p": "GWM", "pow": null, "n": null, "d": null}
+{"p": "EVolt", "pow": "150 kW", "n": null, "d": "2x CCS2"}
+{"p": "EVolt", "pow": "150 kW", "n": null, "d": "2x CCS2"}
+{"p": "EVolt", "pow": "150 kW", "n": null, "d": "2x CCS2"}
+{"p": "EVolt", "pow": "150 kW", "n": null, "d": "2x CCS2"}
+{"p": "EVolt", "pow": "150 kW", "n": null, "d": "2x CCS2"}
+{"p": "Tesla", "pow": "250 kW", "n": null, "d": "11 Superchargers"}
+{"p": "Tesla", "pow": "250 kW", "n": null, "d": "8 Superchargers"}
+{"p": "Tesla", "pow": "250 kW", "n": null, "d": "10 Superchargers"}
+{"p": "Tesla", "pow": "250 kW", "n": null, "d": "9 Superchargers"}
+{"p": "Tesla", "pow": "250 kW", "n": null, "d": "4 Superchargers"}
+{"p": "Tesla", "pow": "250 kW", "n": null, "d": "8 Superchargers"}
+{"p": "MEA", "pow": "50 kW", "n": "MEA Ploen Chit", "d": "CCS2, CHAdeMO, Type 2"}
+{"p": "MEA", "pow": "125 kW", "n": "MEA Klong Toei", "d": "4x CCS2, 2x Type 2"}
+{"p": "MEA", "pow": "50 kW", "n": "MEA Wat Liab", "d": "CCS2, CHAdeMO, Type 2"}
+{"p": "MEA", "pow": "50 kW", "n": "MEA Rat Burana", "d": "CCS2, Type 2"}
+{"p": "MEA", "pow": "50 kW", "n": "MEA Thon Buri", "d": "CCS2, CHAdeMO, Type 2"}
+{"p": "MEA", "pow": "50 kW", "n": "MEA Lat Krabang", "d": "CCS2, CHAdeMO, Type 2"}
+{"p": "MEA", "pow": "50 kW", "n": "MEA Bang Khen", "d": "CCS2, CHAdeMO, Type 2"}
+{"p": "Galvanic", "pow": "47 kW", "n": null, "d": "2x CCS2: 47 kW"}
+{"p": "Galvanic", "pow": "120 kW", "n": null, "d": "2x CCS2: 120 kW"}
+{"p": "Galvanic", "pow": "60 kW", "n": null, "d": "CCS2: 60 kW, Type2: 22 kW"}
+{"p": "Galvanic", "pow": "47 kW", "n": null, "d": "2x CCS2: 47 kW, 2x Type2: 22 kW"}
+{"p": "Sharge", "pow": "50 kW", "n": null, "d": "CCS2: 50 kW, CHAdeMO: 50 kW, Type2: 22 kW, Type2: 50 kW"}
+{"p": "Sharge", "pow": "60 kW", "n": null, "d": "2x CCS2: 60 kW, Type2: 22 kW"}
+{"p": "Sharge", "pow": "60 kW", "n": null, "d": "2x CCS2: 60 kW"}
+{"p": "Sharge", "pow": "60 kW", "n": null, "d": "2x CCS2: 60 kW, 2x Type2: 22 kW"}
+{"p": "Sharge", "pow": "60 kW", "n": null, "d": "2x CCS2: 60 kW, 2x Type2: 22 kW"}
+{"p": "Sharge", "pow": "60 kW", "n": null, "d": "2x CCS2: 60 kW, 2x Type2: 22 kW"}
+{"p": "Sharge", "pow": "60 kW", "n": null, "d": "2x CCS2: 60 kW, 2x Type2: 22 kW"}
+{"p": "Sharge", "pow": "60 kW", "n": null, "d": "2x CCS2: 60 kW, 2x Type2: 22 kW"}
+{"p": "Sharge", "pow": "90 kW", "n": null, "d": "CCS2: 90 kW, CHAdeMO: 90 kW, Type2: 90 kW"}
+{"p": "Sharge", "pow": "50 kW", "n": null, "d": "CCS2: 50 kW, Type2: 22 kW"}
+{"p": "Sharge", "pow": "50 kW", "n": null, "d": "CCS2: 50 kW, Type2: 22 kW"}
+{"p": "Sharge", "pow": "50 kW", "n": null, "d": "CCS2: 50 kW, Type2: 22 kW"}
+{"p": "Sharge", "pow": "90 kW", "n": null, "d": "2x CCS2: 90 kW"}
+{"p": "Sharge", "pow": "90 kW", "n": null, "d": "2x CCS2: 90 kW"}
+{"p": "Sharge", "pow": "180 kW", "n": null, "d": "2x CCS2: 180 kW"}
+{"p": "OneCharge", "pow": "250 kW", "n": null, "d": "12 Superchargers, available 24/7"}
+{"p": "MG-Dealership", "pow": null, "n": null, "d": null}
+{"p": "MG-Dealership", "pow": null, "n": null, "d": null}
+{"p": "MG-Dealership", "pow": null, "n": null, "d": null}
+{"p": "MG-Dealership", "pow": null, "n": null, "d": null}
+{"p": "MG-Dealership", "pow": null, "n": null, "d": null}
+{"p": "MG-Non-Dealership", "pow": "24 kW", "n": null, "d": null}
+{"p": "MG-Dealership", "pow": null, "n": null, "d": null}
+{"p": "MG-Dealership", "pow": null, "n": null, "d": null}
+{"p": "MG-Dealership", "pow": null, "n": null, "d": null}
+{"p": "MG-Dealership", "pow": null, "n": null, "d": null}
+{"p": "MG-Dealership", "pow": null, "n": null, "d": null}
+{"p": "MG-Non-Dealership", "pow": "50 kW", "n": null, "d": null}
+{"p": "MG-Non-Dealership", "pow": null, "n": null, "d": null}
+{"p": "MG-Non-Dealership", "pow": "50 kW", "n": null, "d": null}
+{"p": "MG-Non-Dealership", "pow": null, "n": null, "d": null}
+{"p": "MG-Non-Dealership", "pow": null, "n": null, "d": null}
+{"p": "MG-Non-Dealership", "pow": null, "n": null, "d": null}
+{"p": "MG-Non-Dealership", "pow": null, "n": null, "d": null}
+{"p": "MG-Non-Dealership", "pow": null, "n": null, "d": null}
+{"p": "MG-Non-Dealership", "pow": "50 kW", "n": null, "d": null}
+{"p": "MG-Dealership", "pow": null, "n": null, "d": null}
+{"p": "MG-Non-Dealership", "pow": null, "n": null, "d": null}
+{"p": "MG-Non-Dealership", "pow": null, "n": null, "d": null}
+{"p": "MG-Non-Dealership", "pow": null, "n": null, "d": null}
+{"p": "MG-Non-Dealership", "pow": "120 kW", "n": null, "d": "2x CCS2"}
+{"p": "MG-Dealership", "pow": null, "n": null, "d": null}
+{"p": "MG-Dealership", "pow": null, "n": null, "d": null}
+{"p": "MG-Non-Dealership", "pow": null, "n": null, "d": null}
+{"p": "MG-Non-Dealership", "pow": null, "n": null, "d": null}
+{"p": "MG-Non-Dealership", "pow": null, "n": null, "d": null}

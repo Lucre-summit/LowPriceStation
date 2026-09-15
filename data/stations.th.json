@@ -1,0 +1,7767 @@
+{
+ "version": 1,
+ "updatedAt": "2026-09-15",
+ "stations": [
+  {
+   "id": "pea-volta-0001",
+   "name": "PEA VOLTA สำนักงานใหญ่",
+   "network": "PEA VOLTA",
+   "position": {
+    "lat": 13.850428,
+    "lng": 100.558578
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 5
+    },
+    {
+     "standard": "CHAdeMO",
+     "maxPowerKw": 120,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "จตุจักร, กทม.",
+   "openingHours": null,
+   "notes": "PEA file lists several power bands here (50 kW, 120 kW); the highest is carried on the connector",
+   "sourceIds": [
+    {
+     "source": "pea-xlsx",
+     "id": "1"
+    },
+    {
+     "source": "pea-xlsx",
+     "id": "122"
+    },
+    {
+     "source": "pea-xlsx",
+     "id": "123"
+    }
+   ]
+  },
+  {
+   "id": "pea-volta-0002",
+   "name": "PEA VOLTA รังสิต",
+   "network": "PEA VOLTA",
+   "position": {
+    "lat": 14.045281,
+    "lng": 100.616188
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 50,
+     "count": 1
+    },
+    {
+     "standard": "CHAdeMO",
+     "maxPowerKw": 50,
+     "count": 1
+    }
+   ],
+   "address": "คลองหลวง, ปทุมธานี",
+   "openingHours": null,
+   "notes": null,
+   "sourceIds": [
+    {
+     "source": "pea-xlsx",
+     "id": "9"
+    }
+   ]
+  },
+  {
+   "id": "pea-volta-0003",
+   "name": "PEA VOLTA นครชัยศรี",
+   "network": "PEA VOLTA",
+   "position": {
+    "lat": 13.803429,
+    "lng": 100.188705
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 50,
+     "count": 1
+    },
+    {
+     "standard": "CHAdeMO",
+     "maxPowerKw": 50,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "นครชัยศรี, นครปฐม",
+   "openingHours": null,
+   "notes": null,
+   "sourceIds": [
+    {
+     "source": "pea-xlsx",
+     "id": "13"
+    }
+   ]
+  },
+  {
+   "id": "pea-volta-0004",
+   "name": "PEA VOLTA สมุทรสาคร",
+   "network": "PEA VOLTA",
+   "position": {
+    "lat": 13.543326,
+    "lng": 100.26477
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 50,
+     "count": 1
+    },
+    {
+     "standard": "CHAdeMO",
+     "maxPowerKw": 50,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "เมือง, สมุทรสาคร",
+   "openingHours": null,
+   "notes": null,
+   "sourceIds": [
+    {
+     "source": "pea-xlsx",
+     "id": "14"
+    }
+   ]
+  },
+  {
+   "id": "pea-volta-0005",
+   "name": "PEA VOLTA บางจาก เมืองนครปฐม (เพชรเกษม กม. 61 ขาเข้า)",
+   "network": "PEA VOLTA",
+   "position": {
+    "lat": 13.804488,
+    "lng": 100.023228
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 50,
+     "count": 2
+    },
+    {
+     "standard": "CHAdeMO",
+     "maxPowerKw": 50,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "เมือง, นครปฐม",
+   "openingHours": null,
+   "notes": null,
+   "sourceIds": [
+    {
+     "source": "pea-xlsx",
+     "id": "56"
+    }
+   ]
+  },
+  {
+   "id": "pea-volta-0006",
+   "name": "PEA VOLTA บางจาก นาโคก (ขาออก)",
+   "network": "PEA VOLTA",
+   "position": {
+    "lat": 13.452056,
+    "lng": 100.084284
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 50,
+     "count": 2
+    },
+    {
+     "standard": "CHAdeMO",
+     "maxPowerKw": 50,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "เมือง, สมุทรสาคร",
+   "openingHours": null,
+   "notes": null,
+   "sourceIds": [
+    {
+     "source": "pea-xlsx",
+     "id": "57"
+    }
+   ]
+  },
+  {
+   "id": "pea-volta-0007",
+   "name": "PEA VOLTA บางจาก สามพราน",
+   "network": "PEA VOLTA",
+   "position": {
+    "lat": 13.785147,
+    "lng": 100.272556
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 50,
+     "count": 2
+    },
+    {
+     "standard": "CHAdeMO",
+     "maxPowerKw": 50,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "สามพราน, นครปฐม",
+   "openingHours": null,
+   "notes": null,
+   "sourceIds": [
+    {
+     "source": "pea-xlsx",
+     "id": "58"
+    }
+   ]
+  },
+  {
+   "id": "pea-volta-0008",
+   "name": "PEA VOLTA ปทุมธานี 2",
+   "network": "PEA VOLTA",
+   "position": {
+    "lat": 13.991345,
+    "lng": 100.581678
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 25,
+     "count": 1
+    }
+   ],
+   "address": "เมือง, ปทุมธานี",
+   "openingHours": null,
+   "notes": null,
+   "sourceIds": [
+    {
+     "source": "pea-xlsx",
+     "id": "100"
+    }
+   ]
+  },
+  {
+   "id": "pea-volta-0009",
+   "name": "PEA VOLTA ธัญบุรี",
+   "network": "PEA VOLTA",
+   "position": {
+    "lat": 13.997938,
+    "lng": 100.673836
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 25,
+     "count": 1
+    }
+   ],
+   "address": "ธัญบุรี, ปทุมธานี",
+   "openingHours": null,
+   "notes": null,
+   "sourceIds": [
+    {
+     "source": "pea-xlsx",
+     "id": "101"
+    }
+   ]
+  },
+  {
+   "id": "pea-volta-0010",
+   "name": "PEA VOLTA นครปฐม",
+   "network": "PEA VOLTA",
+   "position": {
+    "lat": 13.823657,
+    "lng": 100.068922
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 25,
+     "count": 1
+    }
+   ],
+   "address": "เมือง, นครปฐม",
+   "openingHours": null,
+   "notes": null,
+   "sourceIds": [
+    {
+     "source": "pea-xlsx",
+     "id": "106"
+    }
+   ]
+  },
+  {
+   "id": "pea-volta-0011",
+   "name": "PEA VOLTA บางเลน",
+   "network": "PEA VOLTA",
+   "position": {
+    "lat": 14.005841,
+    "lng": 100.172547
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 25,
+     "count": 1
+    }
+   ],
+   "address": "บางเลน, นครปฐม",
+   "openingHours": null,
+   "notes": null,
+   "sourceIds": [
+    {
+     "source": "pea-xlsx",
+     "id": "109"
+    }
+   ]
+  },
+  {
+   "id": "pea-volta-0012",
+   "name": "PEA VOLTA บางจาก เมืองปทุมธานี",
+   "network": "PEA VOLTA",
+   "position": {
+    "lat": 13.991613,
+    "lng": 100.55101
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 50,
+     "count": 2
+    },
+    {
+     "standard": "CHAdeMO",
+     "maxPowerKw": 50,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "เมืองปทุมธานี, ปทุมธานี",
+   "openingHours": null,
+   "notes": null,
+   "sourceIds": [
+    {
+     "source": "pea-xlsx",
+     "id": "150"
+    }
+   ]
+  },
+  {
+   "id": "pea-volta-0013",
+   "name": "PEA VOLTA บางจาก บางเลน",
+   "network": "PEA VOLTA",
+   "position": {
+    "lat": 14.01161,
+    "lng": 100.21178
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 50,
+     "count": 2
+    },
+    {
+     "standard": "CHAdeMO",
+     "maxPowerKw": 50,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "บางเลน, นครปฐม",
+   "openingHours": null,
+   "notes": null,
+   "sourceIds": [
+    {
+     "source": "pea-xlsx",
+     "id": "157"
+    }
+   ]
+  },
+  {
+   "id": "pea-volta-0014",
+   "name": "PEA VOLTA บางจาก สามโคก",
+   "network": "PEA VOLTA",
+   "position": {
+    "lat": 14.039536,
+    "lng": 100.525593
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 50,
+     "count": 2
+    },
+    {
+     "standard": "CHAdeMO",
+     "maxPowerKw": 50,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "สามโคก, ปทุมธานี",
+   "openingHours": null,
+   "notes": null,
+   "sourceIds": [
+    {
+     "source": "pea-xlsx",
+     "id": "180"
+    }
+   ]
+  },
+  {
+   "id": "pea-volta-0015",
+   "name": "PEA VOLTA บางจาก กระทุ่มแบน",
+   "network": "PEA VOLTA",
+   "position": {
+    "lat": 13.705331,
+    "lng": 100.307371
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 50,
+     "count": 2
+    },
+    {
+     "standard": "CHAdeMO",
+     "maxPowerKw": 50,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "กระทุ่มแบน, สมุทรสาคร",
+   "openingHours": null,
+   "notes": null,
+   "sourceIds": [
+    {
+     "source": "pea-xlsx",
+     "id": "193"
+    }
+   ]
+  },
+  {
+   "id": "pea-volta-0016",
+   "name": "PEA VOLTA บางจาก เมืองสมุทรสาคร",
+   "network": "PEA VOLTA",
+   "position": {
+    "lat": 13.466987,
+    "lng": 100.104638
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 50,
+     "count": 2
+    },
+    {
+     "standard": "CHAdeMO",
+     "maxPowerKw": 50,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "เมืองสมุทรสาคร, สมุทรสาคร",
+   "openingHours": null,
+   "notes": null,
+   "sourceIds": [
+    {
+     "source": "pea-xlsx",
+     "id": "194"
+    }
+   ]
+  },
+  {
+   "id": "pea-volta-0017",
+   "name": "PEA VOLTA บางจาก ลำลูกกา",
+   "network": "PEA VOLTA",
+   "position": {
+    "lat": 13.934561,
+    "lng": 100.74495
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 50,
+     "count": 2
+    },
+    {
+     "standard": "CHAdeMO",
+     "maxPowerKw": 50,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "ลำลูกกา, ปทุมธานี",
+   "openingHours": null,
+   "notes": null,
+   "sourceIds": [
+    {
+     "source": "pea-xlsx",
+     "id": "209"
+    }
+   ]
+  },
+  {
+   "id": "pea-volta-0018",
+   "name": "PEA VOLTA โคกขาม",
+   "network": "PEA VOLTA",
+   "position": {
+    "lat": 13.55939,
+    "lng": 100.31421
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 25,
+     "count": 1
+    }
+   ],
+   "address": "เมืองสมุทรสาคร, สมุทรสาคร",
+   "openingHours": null,
+   "notes": null,
+   "sourceIds": [
+    {
+     "source": "pea-xlsx",
+     "id": "226"
+    }
+   ]
+  },
+  {
+   "id": "pea-volta-0019",
+   "name": "PEA VOLTA ปทุมธานี",
+   "network": "PEA VOLTA",
+   "position": {
+    "lat": 14.022386,
+    "lng": 100.527413
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 25,
+     "count": 1
+    }
+   ],
+   "address": "เมืองปทุมธานี, ปทุมธานี",
+   "openingHours": null,
+   "notes": null,
+   "sourceIds": [
+    {
+     "source": "pea-xlsx",
+     "id": "240"
+    }
+   ]
+  },
+  {
+   "id": "pea-volta-0020",
+   "name": "PEA VOLTA อ้อมน้อย",
+   "network": "PEA VOLTA",
+   "position": {
+    "lat": 13.72346,
+    "lng": 100.29793
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 25,
+     "count": 1
+    }
+   ],
+   "address": "สามพราน, นครปฐม",
+   "openingHours": null,
+   "notes": null,
+   "sourceIds": [
+    {
+     "source": "pea-xlsx",
+     "id": "251"
+    }
+   ]
+  },
+  {
+   "id": "pea-volta-0021",
+   "name": "PEA VOLTA คลองหลวง",
+   "network": "PEA VOLTA",
+   "position": {
+    "lat": 14.06699,
+    "lng": 100.707177
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 25,
+     "count": 1
+    }
+   ],
+   "address": "คลองหลวง, ปทุมธานี",
+   "openingHours": null,
+   "notes": null,
+   "sourceIds": [
+    {
+     "source": "pea-xlsx",
+     "id": "254"
+    }
+   ]
+  },
+  {
+   "id": "pea-volta-0022",
+   "name": "PEA VOLTA สามพราน",
+   "network": "PEA VOLTA",
+   "position": {
+    "lat": 13.74307,
+    "lng": 100.212721
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 25,
+     "count": 1
+    }
+   ],
+   "address": "สามพราน, นครปฐม",
+   "openingHours": null,
+   "notes": null,
+   "sourceIds": [
+    {
+     "source": "pea-xlsx",
+     "id": "260"
+    }
+   ]
+  },
+  {
+   "id": "pea-volta-0023",
+   "name": "PEA VOLTA สศช.",
+   "network": "PEA VOLTA",
+   "position": {
+    "lat": 13.757351,
+    "lng": 100.514778
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "ป้อมปราบศัตรูพ่าย, กทม.",
+   "openingHours": null,
+   "notes": null,
+   "sourceIds": [
+    {
+     "source": "pea-xlsx",
+     "id": "266"
+    }
+   ]
+  },
+  {
+   "id": "pea-volta-0024",
+   "name": "PEA VOLTA บางจาก คลองหลวง",
+   "network": "PEA VOLTA",
+   "position": {
+    "lat": 14.0005,
+    "lng": 100.613
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "คลองหลวง, ปทุมธานี",
+   "openingHours": null,
+   "notes": null,
+   "sourceIds": [
+    {
+     "source": "pea-xlsx",
+     "id": "303"
+    }
+   ]
+  },
+  {
+   "id": "pea-volta-0025",
+   "name": "PEA VOLTA คาลเท็กซ์ กระทุ่มแบน",
+   "network": "PEA VOLTA",
+   "position": {
+    "lat": 13.705175,
+    "lng": 100.317018
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "กระทุ่มแบน, สมุทรสาคร",
+   "openingHours": null,
+   "notes": null,
+   "sourceIds": [
+    {
+     "source": "pea-xlsx",
+     "id": "393"
+    }
+   ]
+  },
+  {
+   "id": "pea-volta-0026",
+   "name": "PEA VOLTA บางจาก เมืองสมุทรสาคร 2 (บางกระเจ้า)",
+   "network": "PEA VOLTA",
+   "position": {
+    "lat": 13.539376,
+    "lng": 100.230024
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "เมืองสมุทรสาคร, สมุทรสาคร",
+   "openingHours": null,
+   "notes": null,
+   "sourceIds": [
+    {
+     "source": "pea-xlsx",
+     "id": "394"
+    }
+   ]
+  },
+  {
+   "id": "pea-volta-0027",
+   "name": "PEA VOLTA บางจาก สามพราน 2 (บางกระทึก)",
+   "network": "PEA VOLTA",
+   "position": {
+    "lat": 13.759246,
+    "lng": 100.301677
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "สามพราน, นครปฐม",
+   "openingHours": null,
+   "notes": null,
+   "sourceIds": [
+    {
+     "source": "pea-xlsx",
+     "id": "395"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0001",
+   "name": "ปตท พระราม 2 (ขาออก)",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.62534,
+    "lng": 100.394307
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 2
+    }
+   ],
+   "address": "585 ถ.พระรามที่ 2 แขวงแสมดำ เขตบางขุน",
+   "openingHours": null,
+   "notes": "ChargeCore NKR-ADC: 2x CCS2, Type 2 (1000V 200A), IOCharger IOCAW05C 7kW: Type 2",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "1"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0002",
+   "name": "ปตท เอกมัย-รามอินทรา",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.798286,
+    "lng": 100.613438
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "31/1 ถ.ประดิษฐ์มนูธรรม แขวงลาดพร้าว เขตลาดพร้าว",
+   "openingHours": null,
+   "notes": "StarCharge Jupiter120: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "2"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0003",
+   "name": "ปตท บรมราชชนนี (ขาเข้า)",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.783562,
+    "lng": 100.415335
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 2
+    }
+   ],
+   "address": "302/1 ถ.บรมราชชนนี แขวงฉิมพลี เข",
+   "openingHours": null,
+   "notes": "IOCharger IOCAW05C 7kW: Type 2, StarCharge Jupiter120: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "3"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0004",
+   "name": "ปตท นวลจันทร์",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.82083,
+    "lng": 100.643254
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "195 ม.10 ถ.นวลจันทร์ แขวงคลองกุ่ม เขตบึงกุ่ม กรุงเทพมห",
+   "openingHours": null,
+   "notes": "ChargeCore NKR-ADC: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "4"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0005",
+   "name": "ปตท มัยลาภ",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.841563,
+    "lng": 100.617943
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "148 ซ.ประเสริฐมนูกิจ 29 ถ.ประเสริฐมนูกิจ แขวงจรเข้บั",
+   "openingHours": null,
+   "notes": "StarCharge Jupiter120: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "5"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0006",
+   "name": "ปตท ลาดพร้าว-วังหิน",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.821897,
+    "lng": 100.590825
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 2
+    }
+   ],
+   "address": "499 ถ.ลาดพร้าววังหิน แขวงลาดพร้าว เข",
+   "openingHours": null,
+   "notes": "IOCharger IOCAW05C 7kW: Type 2, StarCharge Jupiter120: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "6"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0007",
+   "name": "ปตท ทุ่งครุ",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.620463,
+    "lng": 100.492274
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 2
+    }
+   ],
+   "address": "26/4 ถ.เลียบทางด่วน แขวงทุ่งครุ เขตทุ่ง",
+   "openingHours": null,
+   "notes": "Delta AC Mini Plus: Type 2, StarCharge Jupiter120: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "7"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0008",
+   "name": "ปตท แยกประชาอุทิศ-ลาดพร้าว",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.771578,
+    "lng": 100.604518
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 2
+    }
+   ],
+   "address": "359 ถ.ประดิษฐ์มนูธรรม แขวงวังทองหลาง เ",
+   "openingHours": null,
+   "notes": "Delta AC Mini Plus: Type 2, ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "8"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0009",
+   "name": "ปตท วงแหวนกาญจนาภิเษก-ตลิ่งชัน",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.773852,
+    "lng": 100.407223
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "365/6 ถ.กาญจนาภิเษก แขวงศาลาธรรมสพน์ เขตทวีวัฒน",
+   "openingHours": null,
+   "notes": "ChargeCore CCSx2: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "9"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0010",
+   "name": "ปตท พัฒนาการ (ขาออก)",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.7251,
+    "lng": 100.6579
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "315/4 ถ.พัฒนาการ แขวงประเวศ เขตประเวศ กรุงเทพฯ 10250",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "10"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0011",
+   "name": "ปตท พหลโยธิน กม.25",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.933744,
+    "lng": 100.626143
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "438 ถ.พหลโยธิน แขวงสายไหม เขตสายไหม กรุงเทพมหานคร",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "11"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0012",
+   "name": "ปตท กำแพงเพชร 2",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.803582,
+    "lng": 100.547996
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 4
+    }
+   ],
+   "address": "ซอยริมถนนกำแพงเพชร 2 แขวงจตุจัก",
+   "openingHours": null,
+   "notes": "ChargeCore CCSx2: 2x CCS2 (1000V 200A), ChargeCore CCSx2: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "12"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0013",
+   "name": "ปตท วิภาวดี (เดิม-สวัสดิการ ร.1 รอ.)",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.77939,
+    "lng": 100.55613
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "181 ถ.วิภาวดีรังสิต แขวงสามเสนใน เขตพญาไท กรุงเทพมหา",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "13"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0014",
+   "name": "ปตท เทพรักษ์",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.878698,
+    "lng": 100.63063
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "202/1 ถ.เทพรักษ์ แขวงท่าแร้ง เขตบางเขน กรุงเทพมหานคร 1",
+   "openingHours": null,
+   "notes": "ChargeCore NKR-ADC: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "14"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0015",
+   "name": "ปตท มีนบุรี",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.819436,
+    "lng": 100.733949
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "75/5 ถ.สุวินทวงศ์ แขวงมีนบุรี เขตมีนบุรี กรุงเทพมหาน",
+   "openingHours": null,
+   "notes": "ChargeCore NKR-ADC: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "15"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0016",
+   "name": "ปตท ราชพฤกษ์ 1",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.761986,
+    "lng": 100.444455
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "31/12 ม.13 แขวงบางระมาด เขตตลิ่งชัน กรุงเทพมหานคร 10170",
+   "openingHours": null,
+   "notes": "ChargeCore NKR-ADC: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "16"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0017",
+   "name": "ปตท กาญจนาภิเษก-บางบอน",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.672026,
+    "lng": 100.405144
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "97/1 ถ.กาญจนาภิเษก แขวงบางบอนเหนือ เขตบางบอน กร",
+   "openingHours": null,
+   "notes": "ChargeCore NKR-ADC: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "17"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0018",
+   "name": "ปตท ราษฎร์บูรณะ ขาออก",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.683377,
+    "lng": 100.499078
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 2
+    }
+   ],
+   "address": "193/2 ถ.ราษฎร์บูรณะ แขวงบางปะกอก เขตรา",
+   "openingHours": null,
+   "notes": "ChargeCore NKR-ADC: 2x CCS2, Type 2 (1000V 200A), IOCharger IOCAW05C 7kW: Type 2",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "18"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0019",
+   "name": "ปตท สำนักงานปลัดกระทรวงกลาโหม(บางนาขาออก)",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.686431,
+    "lng": 100.603068
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "82 ซ.สุขุมวิท 64 แขวงพระโขนงใต้ เขตพระ",
+   "openingHours": null,
+   "notes": "ChargeCore NKR-ADC: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "19"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0020",
+   "name": "ปตท สวัสดิการสำนักงานปลัดกระทรวงกลาโหม(บางนาขาเข้า)",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.686255,
+    "lng": 100.601724
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "138 ซ.สุขุมวิท 64 แยก 10 แขวงพระโขนงใต้ เ",
+   "openingHours": null,
+   "notes": "ChargeCore NKR-ADC: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "20"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0021",
+   "name": "ปตท สามย่าน",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.734604,
+    "lng": 100.524868
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "1323 ถ.พระราม 4 แขวงวังไหม่ เขตปทุมวัน กรุงเทพมหานคร 10330",
+   "openingHours": null,
+   "notes": "ChargeCore NKR-ADC: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "21"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0022",
+   "name": "ปตท สรรพาวุธ-บางนา",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.675492,
+    "lng": 100.59483
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "500/4 ถ.สรรพาวุธ แขวงบางนาเหนือ เขตบางนา กรุงเทพมห",
+   "openingHours": null,
+   "notes": "ChargeCore NKR-ADC: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "22"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0023",
+   "name": "ปตท บจ.เจียง-อัศวรรณ หนองคาย สุวรรณภูมิ",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.720671,
+    "lng": 100.792571
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "608 ถ.หลวงแพ่ง แขวงทับยาว เขตลาดกระบัง",
+   "openingHours": null,
+   "notes": "StarCharge Jupiter120: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "23"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0024",
+   "name": "คาเฟ่ อเมซอน แพลนเน็ต คอม รามอินทรา 34",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.844833,
+    "lng": 100.632963
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 60,
+     "count": 4
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 2
+    }
+   ],
+   "address": "บริษัท แพลนเน็ตค",
+   "openingHours": null,
+   "notes": "ChargeCore CCSx2: 2x CCS2 (1000V 200A), ChargeCore CCSx2: 2x CCS2 (1000V 200A), IOCharger IOCAP06C 22kW: 2x Type 2",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "24"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0025",
+   "name": "ปตท สิริเจริญวัฒนา",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.781,
+    "lng": 100.424002
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 60,
+     "count": 4
+    }
+   ],
+   "address": "86 หมู่ที่ 8 แขวงฉิมพลี เขตตลิ่ง",
+   "openingHours": null,
+   "notes": "ChargeCore CCSx2: 2x CCS2 (1000V 200A), ChargeCore CCSx2: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "25"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0026",
+   "name": "ปตท ช.สามเศียร",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.714264,
+    "lng": 100.440796
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 60,
+     "count": 4
+    }
+   ],
+   "address": "444/4 ถ.เพชรเกษม แขวงบางหว้า เขตภาษี",
+   "openingHours": null,
+   "notes": "ChargeCore CCSx2: 2x CCS2 (1000V 200A), ChargeCore CCSx2: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "26"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0027",
+   "name": "ปตท ภาวดี กาญจนาภิเษก",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.67138,
+    "lng": 100.40666
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 60,
+     "count": 4
+    }
+   ],
+   "address": "40/28 หมู่ที่ 10 แขวงบางบอน เขตบาง",
+   "openingHours": null,
+   "notes": "ChargeCore CCSx2: 2x CCS2 (1000V 200A), ChargeCore CCSx2: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "27"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0028",
+   "name": "ปตท เอ็น.จี.วี. กม.5",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.815707,
+    "lng": 100.761791
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 60,
+     "count": 4
+    }
+   ],
+   "address": "77/1 หมู่ที่ 3 แขวงแสนแสบ เขตมีนบุรี ก",
+   "openingHours": null,
+   "notes": "ChargeCore CCSx2: 2x CCS2 (1000V 200A), ChargeCore CCSx2: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "28"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0029",
+   "name": "ปตท เอเชียมีนบุรี",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.80223,
+    "lng": 100.72171
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 60,
+     "count": 4
+    }
+   ],
+   "address": "78/2 ถนนรามคำแหง แขวงมีนบุรี เขตมีน",
+   "openingHours": null,
+   "notes": "ChargeCore CCSx2: 2x CCS2 (1000V 200A), ChargeCore CCSx2: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "29"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0030",
+   "name": "เบนซ์ บีเคเค กรุ๊ป",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.666057,
+    "lng": 100.647434
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "999 ถนนเทพรัตน์ แขวงบางนาเหนือ เขตบางนา กรุงเทพมหาน",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "30"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0031",
+   "name": "เบนซ์ ทีทีซี มอเตอร์",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.737686,
+    "lng": 100.63789
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "2265,2297 ถนนพัฒนาการ แขวงพัฒนาการ เขตสวนหลวง กรุงเท",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "31"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0032",
+   "name": "โลตัส โก เฟลช ศิริเกษม พุทธมณฑลสาย 3",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.736629,
+    "lng": 100.364264
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "ซอย ศิริเกษม แขวง บางไผ่ เขตบางแค กรุงเ",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "32"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0033",
+   "name": "เดอะ เซนส์ ปิ่นเกล้า",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.779535,
+    "lng": 100.47475
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "71/50 ถนนบรมราชชนนี แขวงอรุณอมรินทร์ เขตบางกอกน้อย",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "33"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0034",
+   "name": "เดอะ ทรี บางบอน",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.679149,
+    "lng": 100.383267
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "286/11 ถนนบางบอน 3 แขวงหนองแขม เขตหนองแขม กรุงเทพมหาน",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "34"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0035",
+   "name": "ดาดฟ้า ลาซาล",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.663585,
+    "lng": 100.618166
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "เลขที่ 539 ถนนลาซาล แขวงบางนาใต้ เขตบางนา กทม. 10260",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "35"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0036",
+   "name": "อมารี สนามบินดอนเมือง กรุงเทพ",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.920788,
+    "lng": 100.600708
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "333 ถนน เชิดวุฒากาศ แขวง สีกัน เขตดอนเมือง กรุง",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "36"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0037",
+   "name": "สเตจ ฟายด์ เดอะ เรียล ยู",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.805839,
+    "lng": 100.62472
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "95 ซอยโยธินพัฒนา 11 แยก 7 แขวงคลองจั่น เขตบางกะปิ กร",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "37"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0038",
+   "name": "ปตท แอลพีจี บจก.เคเอสเอ็ม ออโต้แก๊ส",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.64302,
+    "lng": 100.36732
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "254 ถนนบางบอน 5 ต.บางบอน เขตบางบอน กรุงเทพมหา",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "38"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0039",
+   "name": "โรงพยาบาลบางปะกอก 9 อินเตอร์เนชั่นแนล",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.681924,
+    "lng": 100.474525
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "362 ถนนพระราม 2 แขวงบางมด เขตจอมทอง กรุงเทพมหานค",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "39"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0040",
+   "name": "เบอร์เกอร์ คิง รัชดา ไดร์ฟทรู",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.81967,
+    "lng": 100.575597
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "40/12 แขวง จันทรเกษม เขตจตุจักร กรุงเทพมหานคร 10900",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "40"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0041",
+   "name": "เบนซ์ พระราม 3",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.688846,
+    "lng": 100.515975
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "487 ถนนพระราม3 แขวงบางโคล่ เขตบางคอแหลม กรงุเทพมหานคร",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "41"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0042",
+   "name": "ปตท ลาซาล",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.66225,
+    "lng": 100.620308
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "627 ถ.ลาซาล แขวงบางนา เขตบางนา กรุงเทพมหานคร 10260",
+   "openingHours": null,
+   "notes": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "42"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0043",
+   "name": "ปตท บจ.พีเอ็ม (ประเวศ)",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.70162,
+    "lng": 100.688689
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "126/3,126/4 ถ.เฉลิมพระเกียรติ ร.9 แขวงดอกไม้ เขตประเวศ จ.",
+   "openingHours": null,
+   "notes": "StarCharge Jupiter120: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "43"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0044",
+   "name": "ปตท บจ.ดีเยี่ยม อินโนเวชั่น",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.750262,
+    "lng": 100.68633
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "92/8 ซอยกรุงเทพกรีฑา 37 ถนน กรุงเทพกรีฑาตัดใหม่ เเข",
+   "openingHours": null,
+   "notes": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "44"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0045",
+   "name": "ปตท บจ.ส.รุ่งวิภา",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.886453,
+    "lng": 100.583386
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "201/19 ถ.วิภาวดี รังสิต แขวงตลาดบางเขน เขตหลักสี่ ก",
+   "openingHours": null,
+   "notes": "StarCharge Jupiter120: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "45"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0046",
+   "name": "ปตท บจ.ส.เจริญกิจ เพิ่มสิน",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.9007,
+    "lng": 100.6412
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "29/12 ถ.เพิ่มสิน แขวงคลองถนน เขตสายไหม กรุงเทพมหาน",
+   "openingHours": null,
+   "notes": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "46"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0047",
+   "name": "ปตท บจ.อัครายา",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.800363,
+    "lng": 100.641867
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "120 ถ.โพธิ์แก้ว แขวงนวมินทร์ เขตบึงกุ่ม จังหวัดกรุง",
+   "openingHours": null,
+   "notes": "StarCharge Jupiter120: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "47"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0048",
+   "name": "ปตท บจ.ธีรวรรณชาเล่ต์",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.833029,
+    "lng": 100.678153
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "8/9 ถ.ปัญญาอินทรา แขวงคันนายาว เขตคันนายาว กรุงเทพ",
+   "openingHours": null,
+   "notes": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "48"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0049",
+   "name": "ปตท บจ.เจพีอีลีทออเงิน",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.891825,
+    "lng": 100.658529
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "42/94 ถ.สุขาภิบาล 5 แขวงออเงิน เขตสายไหม กรุงเทพมหาน",
+   "openingHours": null,
+   "notes": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "49"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0050",
+   "name": "ปตท บจ.ส.เจริญกิจ สุขาภิบาล 5",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.894609,
+    "lng": 100.659522
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "48 ถ.สุขาภิบาล 5 แขวงออเงิน เขตสายไหม กรุงเทพ",
+   "openingHours": null,
+   "notes": "StarCharge Jupiter120: CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "50"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0051",
+   "name": "ปตท บจ.3เอ็นพีพี",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.785001,
+    "lng": 100.458191
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "112/4 ถ.บรมราชชนนี แขวงตลิ่งชัน เขตตลิ่งชัน กรุงเทพมหาน",
+   "openingHours": null,
+   "notes": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "51"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0052",
+   "name": "ปตท บจ.เหรียญทองราชพฤกษ์",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.792169,
+    "lng": 100.447612
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "59 ถ. ราชพฤกษ์ แขวง ตลิ่งชัน เขตตลิ่งชัน กรุงเทพม",
+   "openingHours": null,
+   "notes": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "52"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0053",
+   "name": "ปตท บจ.เอนเนอร์ยี่ พาร์ค",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.792885,
+    "lng": 100.410862
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "254 ถ.กาญจนาภิเษก แขวงฉิมพลี เขตตลิ่งชัน จ.กรุงเทพมห",
+   "openingHours": null,
+   "notes": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "53"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0054",
+   "name": "ปตท พุทธมณฑลสาย 3",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.763605,
+    "lng": 100.363335
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "125 ถ.พุทธมณฑลสาย 3 แขวงทวีวัฒนา เขตทวีวัฒนา กร",
+   "openingHours": null,
+   "notes": "StarCharge Jupiter120: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "54"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0055",
+   "name": "ปตท เอกชัย-บางบอน (ขาออก)",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.667582,
+    "lng": 100.414343
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "933/1 ถนนเอกชัย แขวงคลองบางบอน เขตบางบอน กรุงเท",
+   "openingHours": null,
+   "notes": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "55"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0056",
+   "name": "ปตท บจ.สินมาไพบูลย์ ปิโตรเลียม",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.719797,
+    "lng": 100.36406
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "228 ถ.พุทธมณฑล สาย 3 แขวงหนองค้างพลู เขตหนองแข",
+   "openingHours": null,
+   "notes": "StarCharge Jupiter120: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "56"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0057",
+   "name": "ปตท พระราม2 48",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.666699,
+    "lng": 100.445554
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "118/5 ถ.พระรามที่ 2 แขวงแสมดา เขตบางขุนเทียน กรุงเทพ",
+   "openingHours": null,
+   "notes": "StarCharge Jupiter120: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "57"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0058",
+   "name": "ปตท เจริญราษฎร์",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.697465,
+    "lng": 100.513684
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "92/1 ถ.เจริญราษฎร์ แขวงบางโคล่ เขตบางคอแหลม กรุงเทพม",
+   "openingHours": null,
+   "notes": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "58"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0059",
+   "name": "ปตท กล้วยน้ำไท",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.712443,
+    "lng": 100.589391
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "4638 ถ.พระราม 4 แขวงพระโขนง เขตคลองเตย กรุงเทพมหานค",
+   "openingHours": null,
+   "notes": "StarCharge Jupiter120: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "59"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0060",
+   "name": "ปตท บจ.เอส.ที. ร่มเกล้า ปิโตรเลียม",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.785813,
+    "lng": 100.746723
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "179 ถ. ร่มเกล้า แขวงแสนแสบ เขตมีนบุรี กรุงเทพมหาน",
+   "openingHours": null,
+   "notes": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "60"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0061",
+   "name": "ปตท บจ.เอ็กซ์เพิร์ท เอนเนอจี",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.823052,
+    "lng": 100.630194
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "189 เกษตร - นวมินทร์ แขวง นวมินทร์ เขตบึงกุ่ม กรุงเทพ",
+   "openingHours": null,
+   "notes": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "61"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0062",
+   "name": "ปตท หจก.ศรีเจริญภัณฑ์",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.825373,
+    "lng": 100.558758
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "1093 ถ.วิภาวดีรังสิต แขวงลาดยาว เขตจตุจักร กรุงเทพม",
+   "openingHours": null,
+   "notes": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "62"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0063",
+   "name": "ปตท รามคำแหง",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.745066,
+    "lng": 100.603649
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "ถ.รามคำแหง แขวงสวนหลวง เขตสวนหลวง กรุงเทพมหานคร 10250",
+   "openingHours": null,
+   "notes": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "63"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0064",
+   "name": "ปตท บจ.ซุปเปอร์โมเดล เอนเนอจี",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.920985,
+    "lng": 100.660421
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "388 ถนนสายไหม แขวงสายไหม เขตสายไหม กรุงเทพมหานคร 10",
+   "openingHours": null,
+   "notes": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "64"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0065",
+   "name": "ปตท สุขาภิบาล 3",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.777907,
+    "lng": 100.67425
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "33/30 ม.3 แขวงสะพานสูง เขตสะพานสูง กรุงเทพมหานคร 10240",
+   "openingHours": null,
+   "notes": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "65"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0066",
+   "name": "สยามบราสเซอรี",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.739149,
+    "lng": 100.655308
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "3477 ถนนพระราม 9 ถนนกรุงเทพกรีฑา 8 แยก 9 (ติดถนนกรุงเทพ-ชลบุ",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "66"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0067",
+   "name": "วนิลา มูน",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.70682,
+    "lng": 100.521714
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "265/2 ถนนจันทน์ แขวงทุ่งวัดดอน เขตสาทร กรุงเทพมหานคร 101",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "67"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0068",
+   "name": "ปตท สรงประภา",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.927804,
+    "lng": 100.585211
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "372 ถนนสรงประภา แขวงสีกัน เขตดอนเมือง กรุงเทพมหานคร",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "68"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0069",
+   "name": "ปตท ลาดปลาเค้า",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.84596,
+    "lng": 100.602747
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "480 ถนนลาดปลาเค้า แขวงจรเข้บัว เขตลาดพร้าว จ.กรุงเทพมห",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "69"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0070",
+   "name": "ปตท พัฒนาการ",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.731598,
+    "lng": 100.65024
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "2992 ถนนพัฒนาการ แขวงพัฒนาการ เขตสวนหลวง กรุงเทพม",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "70"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0071",
+   "name": "ปตท รามอินทรา กม.6.5",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.847106,
+    "lng": 100.647318
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "27/1 ถนนรามอินทรา แขวงรามอินทรา เขตคันนายาว จังหว",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "71"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0072",
+   "name": "ปตท การนิคมอุตสาหกรรมลาดกระบัง",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.755093,
+    "lng": 100.797187
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "105 ถนนฉลองกรุง แขวงลำปลาทิว เขตลาดกระบัง",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "72"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0073",
+   "name": "ปตท สุทธิสาร",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.789194,
+    "lng": 100.586614
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "80/7 ถนนสุทธิสารวินิจฉัย แขวงสามเสนนอก เขตห้วยขวาง จังห",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "73"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0074",
+   "name": "ปตท สวนผัก",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.792485,
+    "lng": 100.422257
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "79 ถนนสวนผัก แขวงฉิมพลี เขตตลิ่งชัน จ.กรุงเทพมหานคร 1",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "74"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0075",
+   "name": "ปตท สุขสวัสดิ์",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.679084,
+    "lng": 100.496255
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "100/1 ถนนสุขสวัสดิ์ แขวงบางปะกอก เขตราษฎร์บูรณะ จังหว",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "75"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0076",
+   "name": "ปตท ประชาอุทิศ 35",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.65571,
+    "lng": 100.49897
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "527 ถนนประชาอุทิศ แขวงราษฎร์บูรณะ เขตราษฎร์บูรณะ",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "76"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0077",
+   "name": "ปตท บจ.พลังไทยเพื่อไทย",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.788125,
+    "lng": 100.678225
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "58/8-58/17 ถ.เสรีไทย แขวงคันนายาว เขตคันนายาว กรุงเทพมหา",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "77"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0078",
+   "name": "ปตท บจ.ที.เค.ที คอมเมอร์เชียล",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.818466,
+    "lng": 100.684281
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "673/1 ถ.รามอินทรา แขวงคันนายาว เขตคันนายาว กรุงเทพม",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "78"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0079",
+   "name": "ปตท บจ.แสงอารี สเตชั่น (6)",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.8567,
+    "lng": 100.68144
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "56 ถ.คู้บอน แขวงบางชัน เขตคลองสามวา กรุงเทพมหาน",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "79"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0080",
+   "name": "เบนซ์ ไพรม์มัส ออโต้เฮาส์",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.773124,
+    "lng": 100.605702
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "395 ถนนประดิษฐ์มนูธรรม แขวงวังทองหลาง เขตวังทองห",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "80"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0081",
+   "name": "ปตท บจก.ปิโตรเลียม (อุดมสุข)ปิโตเลียม",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.679779,
+    "lng": 100.644983
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "470/6 ถ.ศรีนครินทร์ แขวงหนองบอน เขตประเวศ จ.กรุงเทพ",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "81"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0082",
+   "name": "ปตท บจ.แบร็กซ์ แอนด์ เบน",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.713209,
+    "lng": 100.582095
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "3767 ถนนพระรามที่ 4 แขวงพระโขนง เขตคลองเตย จ.กรุงเทพมห",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "82"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0083",
+   "name": "ปตท บจ.สิขรีปิโตรเลียม",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.74917,
+    "lng": 100.745977
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "110 ถ.ร่มเกล้า แขวงคลองสามประเวศ เขตลาดกระบัง จัง",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "83"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0084",
+   "name": "ปตท สุขสวัสดิ์ ขาออก",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.679693,
+    "lng": 100.496506
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "809 ถ.สุขสวัสดิ์ แขวงบางปะกอก เขตราษฎร์บูรณะ จัง",
+   "openingHours": null,
+   "notes": "ChargeCore NKR: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "84"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0085",
+   "name": "ปตท วิภาวดีรังสิต 62",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.870245,
+    "lng": 100.574524
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 180,
+     "count": 6
+    }
+   ],
+   "address": "599 ถนนวิภาวดีรังสิต",
+   "openingHours": null,
+   "notes": "StarCharge Nova V2: 2x CCS2 (1000V 200A), StarCharge Nova V2: 2x CCS2 (1000V 200A), StarCharge Nova V2: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "85"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0086",
+   "name": "ปตท บจ.อ่อนนุชรุ่งเรือง",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.716018,
+    "lng": 100.650057
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "2371 ถนนอ่อนนุช แขวงสวนหลวง เขตสวนหลวง กรุงเทพมหาน",
+   "openingHours": null,
+   "notes": "StarCharge Jupiter120: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "86"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0087",
+   "name": "ปตท หนองแขม",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.706658,
+    "lng": 100.370452
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "15/1 ถ.เพชรเกษม แขวงหนองค้างพลู เขตหนองแขม กรุงเทพ",
+   "openingHours": null,
+   "notes": "StarCharge Jupiter120: 2x CCS2, Type 2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "87"
+    }
+   ]
+  },
+  {
+   "id": "pluz-0088",
+   "name": "โรงแรมแกรนด์ เซนเตอร์ พอยต์ สุรวงศ์",
+   "network": "EV Station PluZ",
+   "position": {
+    "lat": 13.731528,
+    "lng": 100.52047
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 120,
+     "count": 2
+    }
+   ],
+   "address": "299 ซอย สุรวงศ์ แขวงสุริยวงศ์ เขตบางรัก กรุงเทพมห",
+   "openingHours": null,
+   "notes": "ChargeCore CCSx2: 2x CCS2 (1000V 200A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "88"
+    }
+   ]
+  },
+  {
+   "id": "elex-0001",
+   "name": "PT บรมราชชนนี 2",
+   "network": "EleX by EGAT",
+   "position": {
+    "lat": 13.78906,
+    "lng": 100.342273
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 125,
+     "count": 4
+    }
+   ],
+   "address": "ทวีวัฒนา กรุงเทพมหานคร",
+   "openingHours": null,
+   "notes": "2x CCS2 125 kW (300A), 2x CCS2 60 kW",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "109"
+    }
+   ]
+  },
+  {
+   "id": "elex-0002",
+   "name": "กระทรวงพลังงาน",
+   "network": "EleX by EGAT",
+   "position": {
+    "lat": 13.820229,
+    "lng": 100.556165
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 50,
+     "count": 1
+    },
+    {
+     "standard": "CHAdeMO",
+     "maxPowerKw": 50,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 2
+    }
+   ],
+   "address": "555/2 วิภาวดีรังสิต แขวงจตุจักร เขตจตุจักร กรุงเทพมหานคร 10900 ป",
+   "openingHours": null,
+   "notes": "CCS2 50 kW, CHAdeMO 50 kW, Type2 22 kW, Type2 7 kW",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "110"
+    }
+   ]
+  },
+  {
+   "id": "elex-0003",
+   "name": "ทำเนียบรัฐบาล (สำหรับข้าราชการและผู้มาติดต่อราชการ)",
+   "network": "EleX by EGAT",
+   "position": {
+    "lat": 13.761954,
+    "lng": 100.511995
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 60,
+     "count": 1
+    },
+    {
+     "standard": "CHAdeMO",
+     "maxPowerKw": 60,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 2
+    }
+   ],
+   "address": "1 Phitsanulok Road Dusit District 10300",
+   "openingHours": null,
+   "notes": "Type2 22 kW, Type2 22 kW, CCS2 60 kW, CHAdeMO 60 kW",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "111"
+    }
+   ]
+  },
+  {
+   "id": "elex-0004",
+   "name": "PT ถ.พระราม 2 ขาเข้า กม.5",
+   "network": "EleX by EGAT",
+   "position": {
+    "lat": 13.665328,
+    "lng": 100.443071
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 125,
+     "count": 2
+    }
+   ],
+   "address": "ถ.พระราม 2 กรุงเทพมหานคร",
+   "openingHours": null,
+   "notes": "2x CCS2 125 kW (300A)",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "112"
+    }
+   ]
+  },
+  {
+   "id": "elex-0005",
+   "name": "Silom Edge (สีลมเอจ) ชั้น 5",
+   "network": "EleX by EGAT",
+   "position": {
+    "lat": 13.729547,
+    "lng": 100.536017
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 30,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 2
+    }
+   ],
+   "address": "เลขที่ 2 ถนนสีลม ลานจอดรถชั้น 5 โครงการสีลมเอจ แขวงสุริยวงศ์ เ",
+   "openingHours": null,
+   "notes": "Type2 22 kW, Type2 22 kW, 2x CCS2 30 kW",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "113"
+    }
+   ]
+  },
+  {
+   "id": "elex-0006",
+   "name": "PT ถ.พระเทพ 1",
+   "network": "EleX by EGAT",
+   "position": {
+    "lat": 13.751819,
+    "lng": 100.442613
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 150,
+     "count": 2
+    }
+   ],
+   "address": "เลขที่ 509/3 ถนนพรานนก-พุทธมณฑล แขวงบางพรม เขตตลิ่งชัน กรุงเทพมหานคร",
+   "openingHours": null,
+   "notes": "2x CCS2 150 kW",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "114"
+    }
+   ]
+  },
+  {
+   "id": "elex-0007",
+   "name": "Stay Plus Hotel",
+   "network": "EleX by EGAT",
+   "position": {
+    "lat": 13.754586,
+    "lng": 100.526973
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 30,
+     "count": 5
+    }
+   ],
+   "address": "เลขที่ 153-155 ถนนบรรทัดทอง, ถนนเพชรบุรี เขตราชเทวี กรุงเทพฯ10",
+   "openingHours": null,
+   "notes": "CCS2 30 kW, 2x CCS2 30 kW, CCS2 30 kW, CCS2 30 kW",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "115"
+    }
+   ]
+  },
+  {
+   "id": "elex-0008",
+   "name": "PT ถ.วิภาวดีรังสิต 1 (ซ.32)",
+   "network": "EleX by EGAT",
+   "position": {
+    "lat": 13.826043,
+    "lng": 100.558889
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 150,
+     "count": 2
+    }
+   ],
+   "address": "เลขที่ 1092 ถนนวิภาวดีรังสิต แขวงจตุจักร กรุงเทพมหานคร",
+   "openingHours": null,
+   "notes": "2x CCS2 150 kW",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "116"
+    }
+   ]
+  },
+  {
+   "id": "ea-0001",
+   "name": "7-11 สีตบุตร",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.742579,
+    "lng": 100.521029
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 118,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "รองเมือง, ปทุมวัน, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 118 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "117"
+    }
+   ]
+  },
+  {
+   "id": "ea-0002",
+   "name": "แมกโนเลียส์ วอเตอร์ฟรอนซ์ เรสซิเดนซ์",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.727306,
+    "lng": 100.510499
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 35,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "คลองต้นไทร, คลองสาน, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 35 kW, Type2: 22 kW",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "119"
+    }
+   ]
+  },
+  {
+   "id": "ea-0003",
+   "name": "ICONSIAM (B1 Zone Gold)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.726441,
+    "lng": 100.510086
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 38,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "คลองต้นไทร, คลองสาน, กรุงเทพมหานคร",
+   "openingHours": "Peak",
+   "notes": "Type1: 11 kW, Type2: 7x 11 kW, CCS2: 38 kW, CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "120"
+    }
+   ]
+  },
+  {
+   "id": "ea-0004",
+   "name": "THE RIVER เจริญนคร",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.721553,
+    "lng": 100.510305
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 22,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "คลองต้นไทร, คลองสาน, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "Type2: 22 kW, CCS2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "121"
+    }
+   ]
+  },
+  {
+   "id": "ea-0005",
+   "name": "ร้านอาหารครัวในซอย ซ.จรํญสนิทวงค์ 75",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.790473,
+    "lng": 100.490014
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 150,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "บางพลัด, บางพลัด, กรุงเทพมหานคร",
+   "openingHours": "Peak",
+   "notes": "Type2: 22 kW, CCS2: 2x 150 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "122"
+    }
+   ]
+  },
+  {
+   "id": "ea-0006",
+   "name": "อาคารจอดรถ จามจุรีสแควร์ ชั้น 7",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.73299,
+    "lng": 100.530401
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 40,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "ปทุมวัน, ปทุมวัน, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "Type1: 22 kW, CLOSED, Type2: 2x 22 kW, CCS2: 40 kW",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "123"
+    }
+   ]
+  },
+  {
+   "id": "ea-0007",
+   "name": "ศูนย์การค้า SENA Fest ถ.เจริญนคร",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.719416,
+    "lng": 100.507575
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 22,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "คลองต้นไทร, คลองสาน, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "Type1: 22 kW, Type2: 22 kW, CCS2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "124"
+    }
+   ]
+  },
+  {
+   "id": "ea-0008",
+   "name": "ศูนย์การแพทย์วิชัยยุทธ",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.780432,
+    "lng": 100.5331
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 40,
+     "count": 1
+    }
+   ],
+   "address": "สามเสนใน, พญาไท, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 40 kW",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "125"
+    }
+   ]
+  },
+  {
+   "id": "ea-0009",
+   "name": "ริทึ่ม สาทร",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.717813,
+    "lng": 100.516818
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 117,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "ยานนาวา, สาทร, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 118 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "126"
+    }
+   ]
+  },
+  {
+   "id": "ea-0010",
+   "name": "อาคาร อาคเนย์ประกันภัย จำกัด",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.727318,
+    "lng": 100.532229
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 75,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "บางรัก, บางรัก, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 75 kW, Type2: 22 kW",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "127"
+    }
+   ]
+  },
+  {
+   "id": "ea-0011",
+   "name": "SCB สาขาตลาดพลู",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.720621,
+    "lng": 100.475762
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 110,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "ตลาดพลู, ธนบุรี, กรุงเทพมหานคร",
+   "openingHours": "Peak",
+   "notes": "Type2: 22 kW, CCS2: 2x 110 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "129"
+    }
+   ]
+  },
+  {
+   "id": "ea-0012",
+   "name": "เอ็มไพร์ทาวเวอร์ (อาคารจอดรถชั้น B1)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.720536,
+    "lng": 100.530224
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 40,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "ยานนาวา, สาทร, กรุงเทพมหานคร",
+   "openingHours": "Peak",
+   "notes": "CCS2: 2x 40 kW, Type2: 22 kW",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "130"
+    }
+   ]
+  },
+  {
+   "id": "ea-0013",
+   "name": "Condo ศุภาลัยริเวอร์ เพลส (ถ.เจริญนคร)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.710567,
+    "lng": 100.502822
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 90,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "บางลำภูล่าง, คลองสาน, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "Type2: 22 kW, CCS2: 90 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "131"
+    }
+   ]
+  },
+  {
+   "id": "ea-0014",
+   "name": "กรมขนส่งทหารบก ขส.ทบ. (ลานเอนกประสงค์)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.792595,
+    "lng": 100.531156
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 75,
+     "count": 1
+    }
+   ],
+   "address": "ถนนนครไชยศรี, ดุสิต, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 75 kW, CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "132"
+    }
+   ]
+  },
+  {
+   "id": "ea-0015",
+   "name": "โครนอส ทาวเวอร์ ชั้น จี สเตชั่น1",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.725044,
+    "lng": 100.538724
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 75,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "สีลม, บางรัก, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 75 kW, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "133"
+    }
+   ]
+  },
+  {
+   "id": "ea-0016",
+   "name": "คาลเท็กซ์ เพชรพระเทพ",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.752084,
+    "lng": 100.448974
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 103,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "บางพรม, ตลิ่งชัน, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 103 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "136"
+    }
+   ]
+  },
+  {
+   "id": "ea-0017",
+   "name": "E-Bus พระราม 3-บุคคโล (Station1)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.703416,
+    "lng": 100.489631
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 150,
+     "count": 2
+    }
+   ],
+   "address": "บุคคโล, ธนบุรี, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 6x 150 kW, 200A; CCS2: 4x 150 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "137"
+    },
+    {
+     "source": "bma-arcgis",
+     "id": "138"
+    }
+   ]
+  },
+  {
+   "id": "ea-0018",
+   "name": "MG 824 จำกัด",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.743377,
+    "lng": 100.447065
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 117,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "บางเชือกหนัง, ตลิ่งชัน, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 118 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "139"
+    }
+   ]
+  },
+  {
+   "id": "ea-0019",
+   "name": "The Bloc (Ratchaphruek)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.768419,
+    "lng": 100.444822
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 110,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "ตลิ่งชัน, ตลิ่งชัน, กรุงเทพมหานคร",
+   "openingHours": "Peak",
+   "notes": "CCS2: 2x 110 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "141"
+    }
+   ]
+  },
+  {
+   "id": "ea-0020",
+   "name": "สำนักงานใหญ่ เอสซีจี",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.803691,
+    "lng": 100.538499
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 90,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 5,
+     "count": 1
+    }
+   ],
+   "address": "บางซื่อ, บางซื่อ, กรุงเทพมหานคร",
+   "openingHours": "Peak",
+   "notes": "Type2: 5 kW, CLOSED, CCS2: 2x 90 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "143"
+    }
+   ]
+  },
+  {
+   "id": "ea-0021",
+   "name": "บิ๊กซี ดาวคะนอง",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.699646,
+    "lng": 100.483695
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 117,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "บุคคโล, ธนบุรี, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 117 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "144"
+    }
+   ]
+  },
+  {
+   "id": "ea-0022",
+   "name": "อี-เฟอรี่ องค์การคลังสินค้า (สเตชั่น 1)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.698133,
+    "lng": 100.489027
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 150,
+     "count": 1
+    }
+   ],
+   "address": "บุคคโล, ธนบุรี, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 150 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "145"
+    }
+   ]
+  },
+  {
+   "id": "ea-0023",
+   "name": "ปทุมธานีคอนกรีต",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.815106,
+    "lng": 100.515819
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 90,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 5,
+     "count": 1
+    }
+   ],
+   "address": "บางซื่อ, บางซื่อ, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "Type1: 22 kW, Type2: 5 kW, CCS2: 2x 90 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "147"
+    }
+   ]
+  },
+  {
+   "id": "ea-0024",
+   "name": "อาคาร ซี.พี.ทาวเวอร์ 2 (หน้าศูนย์การค้าฝั่งโลตัส)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.758519,
+    "lng": 100.565114
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 117,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "ดินแดง, ดินแดง, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 118 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "148"
+    }
+   ]
+  },
+  {
+   "id": "ea-0025",
+   "name": "สวิมคิดส์ (อินทราวาส)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.758118,
+    "lng": 100.437972
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 116,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "บางระมาด, ตลิ่งชัน, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 116 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "149"
+    }
+   ]
+  },
+  {
+   "id": "ea-0026",
+   "name": "E-BUS NEX Express Voice TV (สุทธิสาร)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.785779,
+    "lng": 100.559438
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 152,
+     "count": 1
+    }
+   ],
+   "address": "สามเสนใน, พญาไท, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 152 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "150"
+    }
+   ]
+  },
+  {
+   "id": "ea-0027",
+   "name": "เดอะ พาร์ค (สเตชั่น 1)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.721135,
+    "lng": 100.557874
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 38,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "คลองเตย, คลองเตย, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "Type2: 3x 22 kW, CCS2: 4x 38 kW",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "151"
+    }
+   ]
+  },
+  {
+   "id": "ea-0028",
+   "name": "เมโทร พาร์ค สาทร",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.709785,
+    "lng": 100.450589
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 117,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "บางหว้า, ภาษีเจริญ, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 118 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "153"
+    }
+   ]
+  },
+  {
+   "id": "ea-0029",
+   "name": "ซัสโก้ สาขารัชดาภิเษก (ขาเข้า)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.768085,
+    "lng": 100.572318
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 75,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "ห้วยขวาง, ห้วยขวาง, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "Type2: 22 kW, CCS2: 75 kW",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "155"
+    }
+   ]
+  },
+  {
+   "id": "ea-0030",
+   "name": "โชว์รูมเกียร์ธนบุรี (ตลิ่งชัน)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.780855,
+    "lng": 100.433377
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 117,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "ตลิ่งชัน, ตลิ่งชัน, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 118 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "156"
+    }
+   ]
+  },
+  {
+   "id": "ea-0031",
+   "name": "ซัสโก้ บางประกอก (สำนักงานใหญ่)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.685865,
+    "lng": 100.494137
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 22,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "บางปะกอก, ราษฎร์บูรณะ, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "Type2: 22 kW, CLOSED, CCS2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "157"
+    }
+   ]
+  },
+  {
+   "id": "ea-0032",
+   "name": "A.C.T สาขาเกษมราษฏร์ (พระราม4)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.718328,
+    "lng": 100.567215
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 90,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "คลองตัน, คลองเตย, กรุงเทพมหานคร",
+   "openingHours": "Peak",
+   "notes": "Type2: 22 kW, CCS2: 2x 90 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "160"
+    }
+   ]
+  },
+  {
+   "id": "ea-0033",
+   "name": "ซัสโก้ สาขา วิภาวดี 1",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.802918,
+    "lng": 100.561303
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 110,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 5,
+     "count": 1
+    }
+   ],
+   "address": "จอมพล, จตุจักร, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "Type2: 5 kW, CCS2: 2x 110 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "161"
+    }
+   ]
+  },
+  {
+   "id": "ea-0034",
+   "name": "อีบัส กาญจนาภิเษก-พรานนก (สเตชั่น 2)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.754485,
+    "lng": 100.423756
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 300,
+     "count": 2
+    }
+   ],
+   "address": "บางพรม, ตลิ่งชัน, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 3x 150 kW, 200A; CCS2: 6x 300 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "164"
+    },
+    {
+     "source": "bma-arcgis",
+     "id": "165"
+    }
+   ]
+  },
+  {
+   "id": "ea-0035",
+   "name": "เอควา เรสซิเดนซ์ สุขุมวิท 49",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.727257,
+    "lng": 100.575307
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 75,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "คลองตันเหนือ, วัฒนา, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 75 kW, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "168"
+    }
+   ]
+  },
+  {
+   "id": "ea-0036",
+   "name": "วินนิ่งเซเว่น ฟุตบอล คลับ สาย 1",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.758716,
+    "lng": 100.419926
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 110,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "บางระมาด, ตลิ่งชัน, กรุงเทพมหานคร",
+   "openingHours": "Off-Peak",
+   "notes": "CCS2: 110 kW, 200A, CLOSED, Type2: 22 kW, CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "169"
+    }
+   ]
+  },
+  {
+   "id": "ea-0037",
+   "name": "E-BUS ตลิ่งชัน-บรมฯ (Station 1)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.790353,
+    "lng": 100.425618
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 300,
+     "count": 2
+    }
+   ],
+   "address": "ฉิมพลี, ตลิ่งชัน, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 3x 180 kW, 200A; CCS2: 4x 300 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "170"
+    },
+    {
+     "source": "bma-arcgis",
+     "id": "171"
+    }
+   ]
+  },
+  {
+   "id": "ea-0038",
+   "name": "E-BUS ตลิ่งชัน-บรมฯ (Station 3)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.790394,
+    "lng": 100.424957
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 180,
+     "count": 2
+    }
+   ],
+   "address": "ฉิมพลี, ตลิ่งชัน, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 150 kW, 200A; CCS2: 7x 180 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "172"
+    },
+    {
+     "source": "bma-arcgis",
+     "id": "173"
+    }
+   ]
+  },
+  {
+   "id": "ea-0039",
+   "name": "เอสโซ่ เพชรเกษม 39",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.712268,
+    "lng": 100.42978
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 118,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "บางหว้า, ภาษีเจริญ, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 118 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "175"
+    }
+   ]
+  },
+  {
+   "id": "ea-0040",
+   "name": "E-BUS เคหะธนบุรี (Station2)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.799653,
+    "lng": 100.575214
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 360,
+     "count": 1
+    }
+   ],
+   "address": "แสมดำ, บางขุนเทียน, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 4x 360 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "176"
+    }
+   ]
+  },
+  {
+   "id": "ea-0041",
+   "name": "บิ๊กซี-Extra ลาดพร้าว 2",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.810139,
+    "lng": 100.569298
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 59,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "จอมพล, จตุจักร, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 59 kW, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "178"
+    }
+   ]
+  },
+  {
+   "id": "ea-0042",
+   "name": "เราะห์ มาห์ มอลล์",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.769676,
+    "lng": 100.590188
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 117,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "สามเสนนอก, ห้วยขวาง, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 118 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "179"
+    }
+   ]
+  },
+  {
+   "id": "ea-0043",
+   "name": "Mattani (เอกมัย22)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.734521,
+    "lng": 100.590171
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 117,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "คลองตันเหนือ, วัฒนา, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 118 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "180"
+    }
+   ]
+  },
+  {
+   "id": "ea-0044",
+   "name": "คอนโดโอเรียลเต็ล ทาวเวอร์ (เอกมัยซอย12)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.730031,
+    "lng": 100.588835
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 135,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "คลองตันเหนือ, วัฒนา, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 135 kW, 200A, CLOSED, Type2: 22 kW",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "181"
+    }
+   ]
+  },
+  {
+   "id": "ea-0045",
+   "name": "ซัสโก้ สาขายานนาวา",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.679603,
+    "lng": 100.547685
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 59,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "ช่องนนทรี, ยานนาวา, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "Type2: 22 kW, CCS2: 59 kW",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "182"
+    }
+   ]
+  },
+  {
+   "id": "ea-0046",
+   "name": "ซัสโก้ สาขา เพชรเกษม (บางแค2)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.712083,
+    "lng": 100.42033
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 110,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "บางแคเหนือ, บางแค, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 110 kW, 200A, Type2: 22 kW",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "183"
+    }
+   ]
+  },
+  {
+   "id": "ea-0047",
+   "name": "โรงแรมบ้านสวนรัชดาเรสซิเด้นท์ ซ.ลาดพร้าว64",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.788803,
+    "lng": 100.590917
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 90,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "วังทองหลาง, วังทองหลาง, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "Type2: 2x 22 kW, CCS2: 2x 90 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "184"
+    }
+   ]
+  },
+  {
+   "id": "ea-0048",
+   "name": "The Paseo Park (สาขากาญจนาภิเษก) ST. 2 (ลานจอดด้านหลัง)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.767229,
+    "lng": 100.405767
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 97,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "ศาลาธรรมสพน์, ทวีวัฒนา, กรุงเทพมหานคร",
+   "openingHours": "Peak",
+   "notes": "Type1: CLOSED, Type2: 22 kW, CCS2: 2x 97 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "185"
+    }
+   ]
+  },
+  {
+   "id": "ea-0049",
+   "name": "อีบัส วงเวียนพระประแดง สเตชั่น 1",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.663413,
+    "lng": 100.515179
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 300,
+     "count": 3
+    }
+   ],
+   "address": "ราษฎร์บูรณะ, ราษฎร์บูรณะ, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 3x 300 kW, 200A; CCS2: 3x 152 kW, 200A; CCS2: 2x 150 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "186"
+    },
+    {
+     "source": "bma-arcgis",
+     "id": "187"
+    },
+    {
+     "source": "bma-arcgis",
+     "id": "188"
+    }
+   ]
+  },
+  {
+   "id": "ea-0050",
+   "name": "The Paseo Park (สาขากาญจนาภิเษก) ST.3",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.765287,
+    "lng": 100.405394
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 90,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 11,
+     "count": 1
+    }
+   ],
+   "address": "ศาลาธรรมสพน์, ทวีวัฒนา, กรุงเทพมหานคร",
+   "openingHours": "Peak",
+   "notes": "Type1: 5 kW, CLOSED, Type2: 11 kW, CCS2: 2x 90 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "189"
+    }
+   ]
+  },
+  {
+   "id": "ea-0051",
+   "name": "MG พระนคร (กาญจนาภิเษก)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.737121,
+    "lng": 100.406239
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 75,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "บางไผ่, บางแค, กรุงเทพมหานคร",
+   "openingHours": "Off-peak",
+   "notes": "CCS2: 75 kW, CLOSED, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "190"
+    }
+   ]
+  },
+  {
+   "id": "ea-0052",
+   "name": "ซัสโก้ กาญจนาภิเษก",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.732931,
+    "lng": 100.406431
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 22,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "บางแม่นาง, บางใหญ่, นนทบุรี",
+   "openingHours": "24 Hr",
+   "notes": "Type2: 22 kW, CCS2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "191"
+    }
+   ]
+  },
+  {
+   "id": "ea-0053",
+   "name": "A.C.T สาขารัชดาภิเษก",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.821773,
+    "lng": 100.574743
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 90,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "จตุจักร, จตุจักร, กรุงเทพมหานคร",
+   "openingHours": "Peak",
+   "notes": "Type2: 22 kW, CCS2: 2x 90 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "192"
+    }
+   ]
+  },
+  {
+   "id": "ea-0054",
+   "name": "อารดา ทาวน์ อิน ทาวน์ (บ.ทรัพย์สิน อารดา จำกัด)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.765679,
+    "lng": 100.606936
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 110,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 5,
+     "count": 1
+    }
+   ],
+   "address": "วังทองหลาง, วังทองหลาง, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "Type2: 5 kW, CCS2: 2x 110 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "194"
+    }
+   ]
+  },
+  {
+   "id": "ea-0055",
+   "name": "E-BUS พุทธมณฑลสาย2 (สเตชั่น1)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.731885,
+    "lng": 100.396576
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 300,
+     "count": 3
+    }
+   ],
+   "address": "บางไผ่, บางแค, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 4x 300 kW, 200A; CCS2: 8x 180 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "195"
+    },
+    {
+     "source": "bma-arcgis",
+     "id": "197"
+    },
+    {
+     "source": "bma-arcgis",
+     "id": "198"
+    }
+   ]
+  },
+  {
+   "id": "ea-0056",
+   "name": "E-BUS พุทธมณฑลสาย2 (สเตชั่น4)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.732594,
+    "lng": 100.396444
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 300,
+     "count": 1
+    }
+   ],
+   "address": "บางไผ่, บางแค, กรุงเทพมหานคร",
+   "openingHours": "Off-peak",
+   "notes": "CCS2: 300 kW, 200A, CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "196"
+    }
+   ]
+  },
+  {
+   "id": "ea-0057",
+   "name": "ศูนย์การค้า Habito Mall สุขุมวิท77",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.712975,
+    "lng": 100.600755
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 110,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 5,
+     "count": 1
+    }
+   ],
+   "address": "พระโขนงเหนือ, วัฒนา, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "Type2: 5 kW, CLOSED, CCS2: 2x 110 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "199"
+    }
+   ]
+  },
+  {
+   "id": "ea-0058",
+   "name": "บิ๊กซี เอ็กซ์ตร้า อ่อนนุช",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.709948,
+    "lng": 100.601667
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 110,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "พระโขนงเหนือ, วัฒนา, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 110 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "200"
+    }
+   ]
+  },
+  {
+   "id": "ea-0059",
+   "name": "พงษ์ตระกูล เพอเฟ็ค แลนด์ ซอยพุทธบูชา 39",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.650414,
+    "lng": 100.481941
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 110,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "บางมด, ทุ่งครุ, กรุงเทพมหานคร",
+   "openingHours": "Peak",
+   "notes": "CCS2: 2x 110 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "201"
+    }
+   ]
+  },
+  {
+   "id": "ea-0060",
+   "name": "Caltex งามวงศ์วาน",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.854357,
+    "lng": 100.549927
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 117,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "ทุ่งสองห้อง, หลักสี่, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 117 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "203"
+    }
+   ]
+  },
+  {
+   "id": "ea-0061",
+   "name": "44 การ์เด้นท์เพลส",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.64823,
+    "lng": 100.487915
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 22,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "ทุ่งครุ, ทุ่งครุ, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: CLOSED, Type2: 2x 22 kW",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "204"
+    }
+   ]
+  },
+  {
+   "id": "ea-0062",
+   "name": "E-BUS ตลิ่งชัน (สเตชั่น 1)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.781252,
+    "lng": 100.392034
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 360,
+     "count": 2
+    }
+   ],
+   "address": "ศาลาธรรมสพน์, ทวีวัฒนา, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 7x 360 kW, 200A; CCS2: 6x 360 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "205"
+    },
+    {
+     "source": "bma-arcgis",
+     "id": "206"
+    }
+   ]
+  },
+  {
+   "id": "ea-0063",
+   "name": "เดอะ เอ็กซ์เพลส มอลล์ (ถ.กาญจนาภิเษก)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.694502,
+    "lng": 100.408105
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 118,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 2
+    }
+   ],
+   "address": "บางแค, บางแค, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 118 kW, 200A, Type2: CLOSED, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "207"
+    }
+   ]
+  },
+  {
+   "id": "ea-0064",
+   "name": "เดอะฟิล (สุขุมวิท 54)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.701863,
+    "lng": 100.600705
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 110,
+     "count": 2
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "บางจาก, พระโขนง, กรุงเทพมหานคร",
+   "openingHours": "Peak",
+   "notes": "Type2: 22 kW, CCS2: 110 kW, 200A, CCS2: 110 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "208"
+    }
+   ]
+  },
+  {
+   "id": "ea-0065",
+   "name": "E-BUS พุทธบูชา",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.643701,
+    "lng": 100.479139
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 360,
+     "count": 1
+    }
+   ],
+   "address": "บางมด, ทุ่งครุ, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 360 kW, 200A,",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "209"
+    }
+   ]
+  },
+  {
+   "id": "ea-0066",
+   "name": "7-11 พุทธบูชา36",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.642927,
+    "lng": 100.479214
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 117,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 2
+    }
+   ],
+   "address": "บางมด, ทุ่งครุ, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 118 kW, 200A, Type2: CLOSED, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "210"
+    }
+   ]
+  },
+  {
+   "id": "ea-0067",
+   "name": "ซัสโก้ สาขาปากท่อ กม.6",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.659461,
+    "lng": 100.433719
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 75,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "แสมดำ, บางขุนเทียน, กรุงเทพมหานคร",
+   "openingHours": "Off-peak",
+   "notes": "CCS2: 75 kW, CLOSED, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "211"
+    }
+   ]
+  },
+  {
+   "id": "ea-0068",
+   "name": "ออมนิ บิสซิเนส มอลล์ (ลาดพร้าว116)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.779194,
+    "lng": 100.620841
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 110,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "วังทองหลาง, วังทองหลาง, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 110 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "212"
+    }
+   ]
+  },
+  {
+   "id": "ea-0069",
+   "name": "พงษ์ตระกูล เพอเฟ็ค แลนด์ ซอยพุทธบูชา36",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.640591,
+    "lng": 100.478148
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 110,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "บางมด, ทุ่งครุ, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "Type2: 22 kW, CCS2: 2x 110 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "213"
+    }
+   ]
+  },
+  {
+   "id": "ea-0070",
+   "name": "7-11 พัฒนาการ 38 กลางซอย",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.731558,
+    "lng": 100.626596
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 110,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "สวนหลวง, สวนหลวง, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 110 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "216"
+    }
+   ]
+  },
+  {
+   "id": "ea-0071",
+   "name": "ซัสโก้ สาขาเอกชัย",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.66693,
+    "lng": 100.41336
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 110,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "บางบอน, บางบอน, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "Type2: 22 kW, CCS2: 110 kW, 200A, CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "217"
+    }
+   ]
+  },
+  {
+   "id": "ea-0072",
+   "name": "MG เซอร์วิส เซ็นเตอร์ อ่อนนุช",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.708782,
+    "lng": 100.620698
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 30,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "สวนหลวง, สวนหลวง, กรุงเทพมหานคร",
+   "openingHours": "Off-peak",
+   "notes": "CCS2: 30 kW, CLOSED, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "218"
+    }
+   ]
+  },
+  {
+   "id": "ea-0073",
+   "name": "A.C.T สาขาบางบอน",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.670545,
+    "lng": 100.406773
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 90,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 5,
+     "count": 1
+    }
+   ],
+   "address": "บางบอน, บางบอน, กรุงเทพมหานค",
+   "openingHours": "Peak",
+   "notes": "Type1: 22 kW, CLOSED, Type2: 5 kW, CLOSED, CCS2: 90 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "219"
+    }
+   ]
+  },
+  {
+   "id": "ea-0074",
+   "name": "โรงแรม วาบัวร์ แอสโซเทล ( ลาดพร้าว 130 )",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.769092,
+    "lng": 100.631701
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 58,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "คลองจั่น, บางกะปิ, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 58 kW, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "220"
+    }
+   ]
+  },
+  {
+   "id": "ea-0075",
+   "name": "เดอะคริสตัล เอกมัย-รามอินทรา",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.811493,
+    "lng": 100.619834
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 22,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "ลาดพร้าว, ลาดพร้าว, กรุงเทพมหานคร",
+   "openingHours": "Peak",
+   "notes": "CCS2: CLOSED, Type2: 2x 22 kW",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "221"
+    }
+   ]
+  },
+  {
+   "id": "ea-0076",
+   "name": "ซัสโก้ สาขา ประชาอุทิศ 1",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.624978,
+    "lng": 100.50809
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 110,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "ทุ่งครุ, ทุ่งครุ, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "Type2: 22 kW, CCS2: 2x 110 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "222"
+    }
+   ]
+  },
+  {
+   "id": "ea-0077",
+   "name": "บริษัท Eastern Group (ซอยโยธินพัฒนา 3 แยก2)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.810944,
+    "lng": 100.625551
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 110,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "คลองจั่น, บางกะปิ, กรุงเทพมหานคร",
+   "openingHours": "Peak",
+   "notes": "Type2: 22 kW, CCS2: 2x 110 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "223"
+    }
+   ]
+  },
+  {
+   "id": "ea-0078",
+   "name": "E-BUS เคหะธนบุรี (Station1)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.650271,
+    "lng": 100.418982
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 360,
+     "count": 1
+    }
+   ],
+   "address": "แสมดำ, บางขุนเทียน, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 6x 360 kW, 200A,",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "224"
+    }
+   ]
+  },
+  {
+   "id": "ea-0079",
+   "name": "ตลาด สุขรุ่งเรือง มาร์เก็ต",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.621166,
+    "lng": 100.488735
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 75,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "ทุ่งครุ, ทุ่งครุ, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "Type2: 22 kW, CCS2: 75 kW, CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "225"
+    }
+   ]
+  },
+  {
+   "id": "ea-0080",
+   "name": "E-BUS NEX Express Bitec Bangna",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.671002,
+    "lng": 100.613466
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 150,
+     "count": 1
+    }
+   ],
+   "address": "บางนา, บางนา, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 150 kW, 200A,",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "227"
+    }
+   ]
+  },
+  {
+   "id": "ea-0081",
+   "name": "MG วีมิโอ (สาขา สวนหลวง)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.727505,
+    "lng": 100.641852
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 117,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "สวนหลวง, สวนหลวง, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 118 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "228"
+    }
+   ]
+  },
+  {
+   "id": "ea-0082",
+   "name": "เกตุวานิช อุตสาหกรรม",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.632981,
+    "lng": 100.427775
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 90,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "แสมดำ, บางขุนเทียน, กรุงเทพมหานคร",
+   "openingHours": "Peak",
+   "notes": "Type2: 22 kW, Type1: 22 kW, CCS2: 2x 90 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "230"
+    }
+   ]
+  },
+  {
+   "id": "ea-0083",
+   "name": "7-11 ลาซาล ซ.16",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.65849,
+    "lng": 100.6098
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 118,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "บางนา, บางนา, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 118 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "231"
+    }
+   ]
+  },
+  {
+   "id": "ea-0084",
+   "name": "E-BUS แสมดำ (Station1)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.625515,
+    "lng": 100.43807
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 150,
+     "count": 1
+    }
+   ],
+   "address": "แสมดำ, บางขุนเทียน, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 3x 150 kW, 200A,",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "232"
+    }
+   ]
+  },
+  {
+   "id": "ea-0085",
+   "name": "E-BUS แสมดำ (Station2)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.625094,
+    "lng": 100.437744
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 150,
+     "count": 1
+    }
+   ],
+   "address": "แสมดำ, บางขุนเทียน, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 7x 150 kW, 200A,",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "233"
+    }
+   ]
+  },
+  {
+   "id": "ea-0086",
+   "name": "โชว์รูม อัศวยนต์ สาขานวมินทร์",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.818259,
+    "lng": 100.637113
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 110,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "คลองกุ่ม, บึงกุ่ม, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "Type1: 22 kW, CCS2: 110 kW, 200A, CLOSED, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "234"
+    }
+   ]
+  },
+  {
+   "id": "ea-0087",
+   "name": "แฮปปี้ฮับ สปอร์ต แอนด์ รีครีเอชั่น (ถนนสุคนธสวัสดิ์)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.835864,
+    "lng": 100.628302
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 59,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "ลาดพร้าว, ลาดพร้าว, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 59 kW, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "235"
+    }
+   ]
+  },
+  {
+   "id": "ea-0088",
+   "name": "กองมณฑลทหารบกที่ 11",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.893123,
+    "lng": 100.556832
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 135,
+     "count": 1
+    }
+   ],
+   "address": "ทุ่งสองห้อง, หลักสี่, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 135 kW, 200A, CLOSED,",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "236"
+    }
+   ]
+  },
+  {
+   "id": "ea-0089",
+   "name": "7-11 ประดิษฐ์มนูธรรม 27",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.833919,
+    "lng": 100.630648
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 118,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "ลาดพร้าว, ลาดพร้าว, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 118 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "237"
+    }
+   ]
+  },
+  {
+   "id": "ea-0090",
+   "name": "สถานบันบัณฑิตพัฒนบริหารศาสตร์ (ม.นิด้า)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.770734,
+    "lng": 100.65396
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 90,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "คลองจั่น, บางกะปิ, กรุงเทพมหานคร",
+   "openingHours": "Peak",
+   "notes": "Type2: 2x 22 kW, CCS2: 90 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "238"
+    }
+   ]
+  },
+  {
+   "id": "ea-0091",
+   "name": "SCB สาขาถนนนวมินทร์",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.804935,
+    "lng": 100.647431
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 117,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "คลองกุ่ม, บึงกุ่ม, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "Type2: 22 kW, CCS2: 2x 118 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "240"
+    }
+   ]
+  },
+  {
+   "id": "ea-0092",
+   "name": "บิ๊กซี มัยลาภ",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.848906,
+    "lng": 100.624068
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 40,
+     "count": 1
+    }
+   ],
+   "address": "ท่าแร้ง, บางเขน, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 40 kW,",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "242"
+    }
+   ]
+  },
+  {
+   "id": "ea-0093",
+   "name": "อาคารหลักสี่พลาซ่า (ไอที หลักสี่)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.886412,
+    "lng": 100.581202
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 51,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "ตลาดบางเขน, หลักสี่, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 51 kW, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "243"
+    }
+   ]
+  },
+  {
+   "id": "ea-0094",
+   "name": "คาร์ลอฟท์ ออโต้ อิมพอร์ต",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.699445,
+    "lng": 100.647085
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 75,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "หนองบอน, ประเวศ, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 75 kW, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "245"
+    }
+   ]
+  },
+  {
+   "id": "ea-0095",
+   "name": "The Park กรุงเทพกรีฑา",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.747003,
+    "lng": 100.660641
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 75,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "หัวหมาก, บางกะปิ, กรุงเทพมหานคร",
+   "openingHours": "Peak",
+   "notes": "Type2: 3x 22 kW, CCS2: 2x 75 kW",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "246"
+    }
+   ]
+  },
+  {
+   "id": "ea-0096",
+   "name": "ซีคอนสแควร์ (ศรีนครินทร์)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.694696,
+    "lng": 100.647763
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 58,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "หนองบอน, ประเวศ, กรุงเทพมหานคร",
+   "openingHours": "Peak",
+   "notes": "Type2: 22 kW, CCS2: 58 kW",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "247"
+    }
+   ]
+  },
+  {
+   "id": "ea-0097",
+   "name": "เบสท์ เอ็นเนอร์ยี่ พลัส สาขา 19 (รามอินทรา กม.3)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.862064,
+    "lng": 100.619509
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 150,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "อนุสาวรีย์, บางเขน, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "Type2: 22 kW, CCS2: 150 kW, 200A, CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "248"
+    }
+   ]
+  },
+  {
+   "id": "ea-0098",
+   "name": "บริสโซ่ บางนา",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.670984,
+    "lng": 100.636102
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 58,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "บางนา, บางนา, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 58 kW, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "249"
+    }
+   ]
+  },
+  {
+   "id": "ea-0099",
+   "name": "7-11 พระปิ่น 5 (ซอยรางโพธิ์)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.639777,
+    "lng": 100.391165
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 117,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "บางบอน, บางบอน, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 117 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "250"
+    }
+   ]
+  },
+  {
+   "id": "ea-0100",
+   "name": "ศูนย์การค้า EASE PARK รามอินทรา",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.856239,
+    "lng": 100.62934
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 90,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "ท่าแร้ง, บางเขน, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "Type2: 22 kW, Type1: 5 kW, CCS2: 90 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "251"
+    }
+   ]
+  },
+  {
+   "id": "ea-0101",
+   "name": "ศิลา ฟิวเจอร์ จำกัด",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.847606,
+    "lng": 100.637679
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 117,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "ท่าแร้ง, บางเขน, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 118 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "252"
+    }
+   ]
+  },
+  {
+   "id": "ea-0102",
+   "name": "SCB สาขา รามอินทรา กม. 4.5",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.854002,
+    "lng": 100.633457
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 110,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 5,
+     "count": 1
+    }
+   ],
+   "address": "ท่าแร้ง, บางเขน, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "Type2: 5 kW, CCS2: 2x 110 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "253"
+    }
+   ]
+  },
+  {
+   "id": "ea-0103",
+   "name": "The Paseo Town (สาขารามคำแหง) ST.2",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.774233,
+    "lng": 100.666866
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 75,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "สะพานสูง, สะพานสูง, กรุงเทพมหานคร",
+   "openingHours": "Peak",
+   "notes": "Type1: 11 kW, Type2: 22 kW, CCS2: 2x 75 kW",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "254"
+    }
+   ]
+  },
+  {
+   "id": "ea-0104",
+   "name": "ปั๊มน้ำมัน ส. เจริญพร บริการ จำกัด",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.873995,
+    "lng": 100.621308
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 110,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "อนุสาวรีย์, บางเขน, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "Type1: 22 kW, CCS2: 110 kW, 200A, CLOSED, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "255"
+    }
+   ]
+  },
+  {
+   "id": "ea-0105",
+   "name": "ร้านอาหาร chocolate ville ถ.ประเสริฐมนูกิจ",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.811056,
+    "lng": 100.663809
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 90,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "คันนายาว, คันนายาว, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "Type1: 22 kW, Type2: 22 kW, CLOSED, CCS2: 90 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "256"
+    }
+   ]
+  },
+  {
+   "id": "ea-0106",
+   "name": "คาลเท็กซ์ ไทรทองรุ่งเรือง บางบอน 5",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.6402,
+    "lng": 100.374563
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 110,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "บางบอน, บางบอน, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 110 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "257"
+    }
+   ]
+  },
+  {
+   "id": "ea-0107",
+   "name": "Index Living Mall สาขาบางนา",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.665111,
+    "lng": 100.650286
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 117,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "บางนา, บางนา, กรุงเทพมหานคร",
+   "openingHours": "Peak",
+   "notes": "Type2: 2x 22 kW, CCS2: 2x 118 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "258"
+    }
+   ]
+  },
+  {
+   "id": "ea-0108",
+   "name": "เพลินนารี่ มอลล์ วัชรพล",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.858407,
+    "lng": 100.644197
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 20,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "ท่าแร้ง, บางเขน, กรุงเทพมหานคร",
+   "openingHours": "Peak",
+   "notes": "CCS2: 20 kW, Type2: 2x 22 kW",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "259"
+    }
+   ]
+  },
+  {
+   "id": "ea-0109",
+   "name": "E-BUS บึงกุ่ม (สเตชั่น3)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.786546,
+    "lng": 100.67899
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 150,
+     "count": 2
+    }
+   ],
+   "address": "คันนายาว, คันนายาว, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 6x 150 kW, 200A,; CCS2: 3x 150 kW, 200A,",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "260"
+    },
+    {
+     "source": "bma-arcgis",
+     "id": "261"
+    }
+   ]
+  },
+  {
+   "id": "ea-0110",
+   "name": "E-BUS บึงกุ่ม (สเตชั่น1)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.786651,
+    "lng": 100.679558
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 150,
+     "count": 1
+    }
+   ],
+   "address": "คันนายาว, คันนายาว, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 150 kW, 200A,",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "262"
+    }
+   ]
+  },
+  {
+   "id": "ea-0111",
+   "name": "The Steel (บางบอน 5)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.636605,
+    "lng": 100.369934
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 75,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 5,
+     "count": 1
+    }
+   ],
+   "address": "บางบอน, บางบอน, กรุงเทพมหานคร",
+   "openingHours": "Peak",
+   "notes": "Type2: 5 kW, CCS2: 75 kW",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "263"
+    }
+   ]
+  },
+  {
+   "id": "ea-0112",
+   "name": "บิ๊กซี คู้บอน",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.841268,
+    "lng": 100.662285
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 117,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "คันนายาว, คันนายาว, กรุงเทพมหานคร",
+   "openingHours": "Peak",
+   "notes": "CCS2: 2x 117 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "266"
+    }
+   ]
+  },
+  {
+   "id": "ea-0113",
+   "name": "SCB สาขา เสรีไทย (สวนสยาม)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.795896,
+    "lng": 100.691478
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 117,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 5,
+     "count": 1
+    }
+   ],
+   "address": "คลองกุ่ม, บึงกุ่ม, กรุงเทพมหานคร",
+   "openingHours": "Peak",
+   "notes": "Type2: 5 kW, CCS2: 2x 118 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "268"
+    }
+   ]
+  },
+  {
+   "id": "ea-0114",
+   "name": "หน่วยบัญชาการป้องกันภัยทางอากาศกองทัพบก (นปอ.)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.942247,
+    "lng": 100.578536
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 115,
+     "count": 1
+    }
+   ],
+   "address": "สีกัน, ดอนเมือง, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 115 kW, 200A, CLOSED,",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "269"
+    }
+   ]
+  },
+  {
+   "id": "ea-0115",
+   "name": "อี-บัส ราม 2 (Station 1)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.673501,
+    "lng": 100.691191
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 300,
+     "count": 2
+    }
+   ],
+   "address": "บางจาก, พระโขนง, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 4x 300 kW, 200A,; CCS2: 9x 150 kW, 200A,",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "270"
+    },
+    {
+     "source": "bma-arcgis",
+     "id": "271"
+    }
+   ]
+  },
+  {
+   "id": "ea-0116",
+   "name": "K-space Mini Mall ถ.สุขาภิบาล2",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.699083,
+    "lng": 100.705073
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 118,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "ประเวศ, ประเวศ, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 118 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "272"
+    }
+   ]
+  },
+  {
+   "id": "ea-0117",
+   "name": "7-11 ถนนพัฒนาชนบท 3 จุด2",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.73178,
+    "lng": 100.716077
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 117,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "คลองสองต้นนุ่น, ลาดกระบัง, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 117 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "275"
+    }
+   ]
+  },
+  {
+   "id": "ea-0118",
+   "name": "7-11 รามคำแหง 170",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.797279,
+    "lng": 100.714516
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 118,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "มีนบุรี, มีนบุรี, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 118 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "276"
+    }
+   ]
+  },
+  {
+   "id": "ea-0119",
+   "name": "ESSO พหลโยธิน กม.25",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.931871,
+    "lng": 100.625974
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 117,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "สายไหม, สายไหม, กรุงเทพมหานคร",
+   "openingHours": "Off-peak",
+   "notes": "CCS2: 117 kW, 200A, CLOSED, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "277"
+    }
+   ]
+  },
+  {
+   "id": "ea-0120",
+   "name": "ซัสโก้ สาขา สุขาภิบาล 3/2",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.800374,
+    "lng": 100.71807
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 116,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "มีนบุรี, มีนบุรี, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 116 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "278"
+    }
+   ]
+  },
+  {
+   "id": "ea-0121",
+   "name": "ตลาดเอซี พลาซ่า สายไหม",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.922011,
+    "lng": 100.642749
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 117,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "สายไหม, สายไหม, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 117 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "279"
+    }
+   ]
+  },
+  {
+   "id": "ea-0122",
+   "name": "ปั๊มน้ำมัน รวยเป๋าตุง จำกัด",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.942905,
+    "lng": 100.623263
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 117,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "สีกัน, ดอนเมือง, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 118 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "281"
+    }
+   ]
+  },
+  {
+   "id": "ea-0123",
+   "name": "The Paseo Mall (สาขาลาดกระบัง) ST.1",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.721735,
+    "lng": 100.727302
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 90,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "ลาดกระบัง, ลาดกระบัง, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 90 kW, 200A, Type2: 2x 22 kW",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "282"
+    }
+   ]
+  },
+  {
+   "id": "ea-0124",
+   "name": "บริษัท วีอาร์ ออโต้ สปา จำกัด",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.921255,
+    "lng": 100.654383
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 110,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "สายไหม, สายไหม, กรุงเทพมหานคร",
+   "openingHours": "Peak",
+   "notes": "Type2: 22 kW, CCS2: 2x 110 kW, 200A",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "283"
+    }
+   ]
+  },
+  {
+   "id": "ea-0125",
+   "name": "บิ๊กซี สุขาภิบาล3",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.806783,
+    "lng": 100.726847
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 110,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "มีนบุรี, มีนบุรี, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 110 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "284"
+    }
+   ]
+  },
+  {
+   "id": "ea-0126",
+   "name": "MG รุ่งเจริญ สาขา ลาดกระบัง",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.722254,
+    "lng": 100.734428
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 118,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "ลาดกระบัง, ลาดกระบัง, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 118 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "285"
+    }
+   ]
+  },
+  {
+   "id": "ea-0127",
+   "name": "เบสท์ เอ็นเนอร์ยี่ พลัส สาขา 20 (ลาดกระบัง)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.722308,
+    "lng": 100.735811
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 110,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "ลาดกระบัง, ลาดกระบัง, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "Type2: 22 kW, CCS2: 110 kW, 200A, CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "286"
+    }
+   ]
+  },
+  {
+   "id": "ea-0128",
+   "name": "บิ๊กซี ร่มเกล้า",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.809868,
+    "lng": 100.737612
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 117,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "มีนบุรี, มีนบุรี, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 117 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "287"
+    }
+   ]
+  },
+  {
+   "id": "ea-0129",
+   "name": "บิ๊กซี หทัยราษฎร์",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.860382,
+    "lng": 100.720714
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 117,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "บางชัน, คลองสามวา, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 118 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "289"
+    }
+   ]
+  },
+  {
+   "id": "ea-0130",
+   "name": "7-11 ร่มเกล้า23",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.745205,
+    "lng": 100.746591
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 117,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "คลองสามประเวศ, ลาดกระบัง, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 117 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "291"
+    }
+   ]
+  },
+  {
+   "id": "ea-0131",
+   "name": "บริษัท 909 มหาคุณ จำกัด",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.721812,
+    "lng": 100.761461
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 90,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "ลาดกระบัง, ลาดกระบัง, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "Type1: 22 kW, Type2: 22 kW, CCS2: 90 kW, 200A, CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "292"
+    }
+   ]
+  },
+  {
+   "id": "ea-0132",
+   "name": "คาลเท็กซ์ เจ้าคุณ ออยล์ เจ้าคุณทหาร",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.753907,
+    "lng": 100.767286
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 110,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "คลองสามประเวศ, ลาดกระบัง, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 110 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "293"
+    }
+   ]
+  },
+  {
+   "id": "ea-0133",
+   "name": "หจก. พีอาร์กรุ๊ป 1998",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.719229,
+    "lng": 100.79471
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 58,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "ทับยาว, ลาดกระบัง, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 58 kW, Type2: 22 kW",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "294"
+    }
+   ]
+  },
+  {
+   "id": "ea-0134",
+   "name": "MG กรุงเทพ (สาขาสุวินทวงศ์)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.809549,
+    "lng": 100.803471
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 117,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "โคกแฝด, หนองจอก, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 117 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "295"
+    }
+   ]
+  },
+  {
+   "id": "ea-0135",
+   "name": "SUSCO สาขาทับยาว",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.713704,
+    "lng": 100.813221
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 75,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "ทับยาว, ลาดกระบัง, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 75 kW, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "297"
+    }
+   ]
+  },
+  {
+   "id": "ea-0136",
+   "name": "E-BUS มีนบุรี (Station 1)",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.809186,
+    "lng": 100.832026
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 150,
+     "count": 2
+    }
+   ],
+   "address": "ลำผักชี, หนองจอก, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 5x 150 kW, 200A,; CCS2: 3x 150 kW, 200A,",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "298"
+    },
+    {
+     "source": "bma-arcgis",
+     "id": "299"
+    }
+   ]
+  },
+  {
+   "id": "ea-0137",
+   "name": "บิ๊กซี หนองจอก",
+   "network": "EA Anywhere",
+   "position": {
+    "lat": 13.854351,
+    "lng": 100.854739
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 110,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": "กระทุ่มราย, หนองจอก, กรุงเทพมหานคร",
+   "openingHours": "24 Hr",
+   "notes": "CCS2: 2x 110 kW, 200A, Type2: CLOSED",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "300"
+    }
+   ]
+  },
+  {
+   "id": "mea-0001",
+   "name": "กฟน เพลินจิต",
+   "network": "MEA EV",
+   "position": {
+    "lat": 13.74436,
+    "lng": 100.543503
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 50,
+     "count": 1
+    },
+    {
+     "standard": "CHAdeMO",
+     "maxPowerKw": 50,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": null,
+   "openingHours": null,
+   "notes": "CCS2, CHAdeMO, Type 2",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "322"
+    }
+   ]
+  },
+  {
+   "id": "mea-0002",
+   "name": "การไฟฟ้านครหลวง คลองเตย",
+   "network": "MEA EV",
+   "position": {
+    "lat": 13.72112,
+    "lng": 100.55549
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 125,
+     "count": 4
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 2
+    }
+   ],
+   "address": null,
+   "openingHours": null,
+   "notes": "4x CCS2, 2x Type 2",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "323"
+    }
+   ]
+  },
+  {
+   "id": "mea-0003",
+   "name": "กฟน วัดเลียบ",
+   "network": "MEA EV",
+   "position": {
+    "lat": 13.74208,
+    "lng": 100.50052
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 50,
+     "count": 1
+    },
+    {
+     "standard": "CHAdeMO",
+     "maxPowerKw": 50,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": null,
+   "openingHours": null,
+   "notes": "CCS2, CHAdeMO, Type 2",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "324"
+    }
+   ]
+  },
+  {
+   "id": "mea-0004",
+   "name": "กฟน ราษฎร์บูรณะ",
+   "network": "MEA EV",
+   "position": {
+    "lat": 13.67921,
+    "lng": 100.51302
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 50,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": null,
+   "openingHours": null,
+   "notes": "CCS2, Type 2",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "325"
+    }
+   ]
+  },
+  {
+   "id": "mea-0005",
+   "name": "กฟน ธนบุรี",
+   "network": "MEA EV",
+   "position": {
+    "lat": 13.7459,
+    "lng": 100.47071
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 50,
+     "count": 1
+    },
+    {
+     "standard": "CHAdeMO",
+     "maxPowerKw": 50,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": null,
+   "openingHours": null,
+   "notes": "CCS2, CHAdeMO, Type 2",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "326"
+    }
+   ]
+  },
+  {
+   "id": "mea-0006",
+   "name": "กฟน ลาดกระบัง",
+   "network": "MEA EV",
+   "position": {
+    "lat": 13.8154,
+    "lng": 100.74637
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 50,
+     "count": 1
+    },
+    {
+     "standard": "CHAdeMO",
+     "maxPowerKw": 50,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": null,
+   "openingHours": null,
+   "notes": "CCS2, CHAdeMO, Type 2",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "327"
+    }
+   ]
+  },
+  {
+   "id": "mea-0007",
+   "name": "กฟน บางเขน",
+   "network": "MEA EV",
+   "position": {
+    "lat": 13.87111,
+    "lng": 100.59528
+   },
+   "connectors": [
+    {
+     "standard": "CCS2",
+     "maxPowerKw": 50,
+     "count": 1
+    },
+    {
+     "standard": "CHAdeMO",
+     "maxPowerKw": 50,
+     "count": 1
+    },
+    {
+     "standard": "Type 2",
+     "maxPowerKw": 22,
+     "count": 1
+    }
+   ],
+   "address": null,
+   "openingHours": null,
+   "notes": "CCS2, CHAdeMO, Type 2",
+   "sourceIds": [
+    {
+     "source": "bma-arcgis",
+     "id": "328"
+    }
+   ]
+  }
+ ]
+}

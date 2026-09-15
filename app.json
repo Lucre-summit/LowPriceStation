@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "LowPriceStation",
+    "slug": "lowpricestation",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "lowpricestation",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lucresummit.lowpricestation"
+    },
+    "android": {
+      "package": "com.lucresummit.lowpricestation",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "ใช้ตำแหน่งของคุณเพื่อจัดอันดับสถานีชาร์จที่ใกล้และถูกที่สุด"
+        }
+      ]
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

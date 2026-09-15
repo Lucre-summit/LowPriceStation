@@ -1,0 +1,75 @@
+{
+ "version": 1,
+ "updatedAt": "2026-09-15",
+ "networks": [
+  {
+   "network": "PEA VOLTA",
+   "effectiveFrom": "2026-05-01",
+   "checkedAt": "2026-09-15",
+   "sourceUrl": "https://peavoltaev.pea.co.th/low-priority/",
+   "evidence": "primary",
+   "peakWindow": { "days": ["mon", "tue", "wed", "thu", "fri"], "start": "09:00", "end": "22:00" },
+   "idleFee": null,
+   "rates": [
+    { "connectorStandard": "CCS2", "minPowerKw": 0, "maxPowerKw": 50, "unit": "kWh", "flatThb": null, "onPeakThb": 5.9, "offPeakThb": 4.9 },
+    { "connectorStandard": "CCS2", "minPowerKw": 50, "maxPowerKw": 180, "unit": "kWh", "flatThb": null, "onPeakThb": 6.9, "offPeakThb": 5.9 },
+    { "connectorStandard": "CCS2", "minPowerKw": 300, "maxPowerKw": 400, "unit": "kWh", "flatThb": null, "onPeakThb": 7.9, "offPeakThb": 6.9 }
+   ],
+   "siteOverrides": []
+  },
+  {
+   "network": "EV Station PluZ",
+   "effectiveFrom": "2026-09-01",
+   "checkedAt": "2026-09-15",
+   "sourceUrl": "https://www.ev-roads.com/content/38606/",
+   "evidence": "secondary",
+   "peakWindow": { "days": ["mon", "tue", "wed", "thu", "fri"], "start": "09:00", "end": "22:00" },
+   "idleFee": { "unit": "minute", "priceThb": 10, "graceMinutes": 3 },
+   "rates": [
+    { "connectorStandard": "CCS2", "minPowerKw": 0, "maxPowerKw": 180, "unit": "kWh", "flatThb": null, "onPeakThb": 7.4, "offPeakThb": 6.1 },
+    { "connectorStandard": "CCS2", "minPowerKw": 180, "maxPowerKw": 240, "unit": "kWh", "flatThb": null, "onPeakThb": 7.7, "offPeakThb": 6.4 },
+    { "connectorStandard": "CCS2", "minPowerKw": 240, "maxPowerKw": 480, "unit": "kWh", "flatThb": null, "onPeakThb": 7.9, "offPeakThb": 6.6 }
+   ],
+   "siteOverrides": []
+  },
+  {
+   "network": "EleX by EGAT",
+   "effectiveFrom": null,
+   "checkedAt": "2026-09-15",
+   "sourceUrl": "https://www.ev-roads.com/content/37433/",
+   "evidence": "secondary",
+   "peakWindow": null,
+   "idleFee": null,
+   "rates": [
+    { "connectorStandard": "CCS2", "minPowerKw": 0, "maxPowerKw": 250, "unit": "kWh", "flatThb": 7.5, "onPeakThb": null, "offPeakThb": null }
+   ],
+   "siteOverrides": []
+  },
+  {
+   "network": "MEA EV",
+   "effectiveFrom": null,
+   "checkedAt": "2026-09-15",
+   "sourceUrl": "https://www.ev-roads.com/content/37433/",
+   "evidence": "secondary",
+   "peakWindow": null,
+   "idleFee": null,
+   "rates": [
+    { "connectorStandard": "CCS2", "minPowerKw": 0, "maxPowerKw": 250, "unit": "kWh", "flatThb": 7.5, "onPeakThb": null, "offPeakThb": null }
+   ],
+   "siteOverrides": []
+  },
+  {
+   "network": "EA Anywhere",
+   "effectiveFrom": "2026-05-01",
+   "checkedAt": "2026-09-15",
+   "sourceUrl": "https://www.ev-roads.com/content/37433/",
+   "evidence": "secondary",
+   "peakWindow": null,
+   "idleFee": { "unit": "hour", "priceThb": 100, "graceMinutes": 15 },
+   "rates": [
+    { "connectorStandard": "CCS2", "minPowerKw": 0, "maxPowerKw": 400, "unit": "kWh", "flatThb": 7.08, "onPeakThb": null, "offPeakThb": null }
+   ],
+   "siteOverrides": []
+  }
+ ]
+}
