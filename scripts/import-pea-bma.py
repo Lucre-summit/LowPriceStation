@@ -127,38 +127,66 @@ def pea_stations():
 
 
 def bma_connectors(attributes):
-    """Connectors from an ArcGIS description such as '2x CCS2: 160 kW, Type2: 11 kW'."""
+    """Connectors from an ArcGIS description such as '2x CCS2: 160 kW, Type2: 11 kW'.
+
+    Segments the description on commas because the layer marks individual connectors as CLOSED,
+    and a connector that is closed is not a connector a driver can use.
+    """
     description = clean(attributes.get("DESCRIPTION")) or ""
     power_match = re.search(r"(\d+)\s*kW", clean(attributes.get("POWER")) or "")
     fallback_power = int(power_match.group(1)) if power_match else None
 
+    segments = [segment.strip() for segment in description.split(",")]
+    standard_alt = r"(?:CCS2|CHAdeMO|Type\s?2|Type\s?1)"
+    standard_token = re.compile(standard_alt, re.IGNORECASE)
+    groups = []
+    for segment in segments:
+        if not segment:
+            continue
+        if standard_token.search(segment):
+            groups.append([segment])
+        elif groups:
+            # A trailing token belongs to the connector group above it, including a bare CLOSED marker.
+            groups[-1].append(segment)
+
+    totals = {"CCS2": 0, "CHAdeMO": 0, "Type 2": 0}
+    powers = {"CCS2": 0, "CHAdeMO": 0, "Type 2": 0}
+
+    for group in groups:
+        text = ", ".join(group)
+        if "CLOSED" in text.upper():
+            continue
+        standard = None
+        for candidate, pattern in (("CCS2", r"CCS2"), ("CHAdeMO", r"CHAdeMO"), ("Type 2", r"Type\s?2")):
+            if re.search(pattern, group[0], re.IGNORECASE):
+                standard = candidate
+                break
+        if standard is None:
+            continue
+        count = 1
+        count_match = re.search(rf"(\d+)\s*x\s*{standard_alt}", text, re.IGNORECASE) or re.search(
+            rf"{standard_alt}\s*:?\s*(\d+)\s*x", text, re.IGNORECASE
+        )
+        if count_match:
+            count = int(count_match.group(1))
+        kw_match = re.search(r"(\d+)\s*kW", text)
+        power = int(kw_match.group(1)) if kw_match else None
+        if power is None and standard != "Type 2":
+            model = re.search(r"([A-Za-z]+)(\d{2,3})\b", text)
+            if model:
+                power = int(model.group(2))
+        # An AC connector is never priced on the site's DC power; 22 kW is the common Thai Type 2 ceiling.
+        power = power or (22 if standard == "Type 2" else fallback_power)
+        if power is not None and 5 <= power <= 480:
+            totals[standard] += count
+            powers[standard] = max(powers[standard], power)
+
     connectors = []
-    ccs2_count = 0
-    ccs2_power = 0
-    for match in re.finditer(r"(?:(\d+)\s*x\s*)?CCS2\s*:?\s*(?:(\d+)\s*kW)?", description, re.IGNORECASE):
-        count = int(match.group(1)) if match.group(1) else 1
-        power = int(match.group(2)) if match.group(2) else None
-        if power is None:
-            # 'StarCharge Jupiter120: 2x CCS2 (1000V 200A)' carries its power in the model name or the POWER field.
-            model = re.search(r"([A-Za-z]+)(\d{2,3})\b", description[max(0, match.start() - 40) : match.start()])
-            power = int(model.group(2)) if model else fallback_power
-        if power is not None and 20 <= power <= 400:
-            ccs2_count += count
-            ccs2_power = max(ccs2_power, power)
-    if ccs2_count:
-        connectors.append({"standard": "CCS2", "maxPowerKw": ccs2_power, "count": ccs2_count})
-
-    chademo = re.search(r"(?:(\d+)\s*x\s*)?CHAdeMO\s*:?\s*(?:(\d+)\s*kW)?", description, re.IGNORECASE)
-    if chademo:
-        count = int(chademo.group(1)) if chademo.group(1) else 1
-        power = int(chademo.group(2)) if chademo.group(2) else (fallback_power or 50)
-        connectors.append({"standard": "CHAdeMO", "maxPowerKw": power, "count": count})
-
-    type2 = re.findall(r"(\d+)?\s*x?\s*Type\s?2\s*:?\s*(?:(\d+)\s*kW)?", description, re.IGNORECASE)
-    type2_count = sum(int(count) if count else 1 for count, _ in type2)
-    if type2_count:
-        powers = [int(power) for _, power in type2 if power]
-        connectors.append({"standard": "Type 2", "maxPowerKw": max(powers) if powers else 22, "count": type2_count})
+    for standard in ("CCS2", "CHAdeMO", "Type 2"):
+        if totals[standard]:
+            connectors.append(
+                {"standard": standard, "maxPowerKw": powers[standard], "count": totals[standard]}
+            )
     return connectors
 
 

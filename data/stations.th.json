@@ -3508,11 +3508,6 @@
      "standard": "CCS2",
      "maxPowerKw": 118,
      "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
     }
    ],
    "address": "รองเมือง, ปทุมวัน, กรุงเทพมหานคร",
@@ -3557,66 +3552,6 @@
   },
   {
    "id": "ea-0003",
-   "name": "ICONSIAM (B1 Zone Gold)",
-   "network": "EA Anywhere",
-   "position": {
-    "lat": 13.726441,
-    "lng": 100.510086
-   },
-   "connectors": [
-    {
-     "standard": "CCS2",
-     "maxPowerKw": 38,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
-    }
-   ],
-   "address": "คลองต้นไทร, คลองสาน, กรุงเทพมหานคร",
-   "openingHours": "Peak",
-   "notes": "Type1: 11 kW, Type2: 7x 11 kW, CCS2: 38 kW, CLOSED",
-   "sourceIds": [
-    {
-     "source": "bma-arcgis",
-     "id": "120"
-    }
-   ]
-  },
-  {
-   "id": "ea-0004",
-   "name": "THE RIVER เจริญนคร",
-   "network": "EA Anywhere",
-   "position": {
-    "lat": 13.721553,
-    "lng": 100.510305
-   },
-   "connectors": [
-    {
-     "standard": "CCS2",
-     "maxPowerKw": 22,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
-    }
-   ],
-   "address": "คลองต้นไทร, คลองสาน, กรุงเทพมหานคร",
-   "openingHours": "24 Hr",
-   "notes": "Type2: 22 kW, CCS2: CLOSED",
-   "sourceIds": [
-    {
-     "source": "bma-arcgis",
-     "id": "121"
-    }
-   ]
-  },
-  {
-   "id": "ea-0005",
    "name": "ร้านอาหารครัวในซอย ซ.จรํญสนิทวงค์ 75",
    "network": "EA Anywhere",
    "position": {
@@ -3627,7 +3562,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 150,
-     "count": 1
+     "count": 2
     },
     {
      "standard": "Type 2",
@@ -3646,7 +3581,7 @@
    ]
   },
   {
-   "id": "ea-0006",
+   "id": "ea-0004",
    "name": "อาคารจอดรถ จามจุรีสแควร์ ชั้น 7",
    "network": "EA Anywhere",
    "position": {
@@ -3662,7 +3597,7 @@
     {
      "standard": "Type 2",
      "maxPowerKw": 22,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "ปทุมวัน, ปทุมวัน, กรุงเทพมหานคร",
@@ -3676,37 +3611,7 @@
    ]
   },
   {
-   "id": "ea-0007",
-   "name": "ศูนย์การค้า SENA Fest ถ.เจริญนคร",
-   "network": "EA Anywhere",
-   "position": {
-    "lat": 13.719416,
-    "lng": 100.507575
-   },
-   "connectors": [
-    {
-     "standard": "CCS2",
-     "maxPowerKw": 22,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
-    }
-   ],
-   "address": "คลองต้นไทร, คลองสาน, กรุงเทพมหานคร",
-   "openingHours": "24 Hr",
-   "notes": "Type1: 22 kW, Type2: 22 kW, CCS2: CLOSED",
-   "sourceIds": [
-    {
-     "source": "bma-arcgis",
-     "id": "124"
-    }
-   ]
-  },
-  {
-   "id": "ea-0008",
+   "id": "ea-0005",
    "name": "ศูนย์การแพทย์วิชัยยุทธ",
    "network": "EA Anywhere",
    "position": {
@@ -3731,7 +3636,7 @@
    ]
   },
   {
-   "id": "ea-0009",
+   "id": "ea-0006",
    "name": "ริทึ่ม สาทร",
    "network": "EA Anywhere",
    "position": {
@@ -3741,13 +3646,8 @@
    "connectors": [
     {
      "standard": "CCS2",
-     "maxPowerKw": 117,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
+     "maxPowerKw": 118,
+     "count": 2
     }
    ],
    "address": "ยานนาวา, สาทร, กรุงเทพมหานคร",
@@ -3761,7 +3661,7 @@
    ]
   },
   {
-   "id": "ea-0010",
+   "id": "ea-0007",
    "name": "อาคาร อาคเนย์ประกันภัย จำกัด",
    "network": "EA Anywhere",
    "position": {
@@ -3791,7 +3691,7 @@
    ]
   },
   {
-   "id": "ea-0011",
+   "id": "ea-0008",
    "name": "SCB สาขาตลาดพลู",
    "network": "EA Anywhere",
    "position": {
@@ -3802,7 +3702,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 110,
-     "count": 1
+     "count": 2
     },
     {
      "standard": "Type 2",
@@ -3821,7 +3721,7 @@
    ]
   },
   {
-   "id": "ea-0012",
+   "id": "ea-0009",
    "name": "เอ็มไพร์ทาวเวอร์ (อาคารจอดรถชั้น B1)",
    "network": "EA Anywhere",
    "position": {
@@ -3832,7 +3732,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 40,
-     "count": 1
+     "count": 2
     },
     {
      "standard": "Type 2",
@@ -3851,7 +3751,7 @@
    ]
   },
   {
-   "id": "ea-0013",
+   "id": "ea-0010",
    "name": "Condo ศุภาลัยริเวอร์ เพลส (ถ.เจริญนคร)",
    "network": "EA Anywhere",
    "position": {
@@ -3881,32 +3781,7 @@
    ]
   },
   {
-   "id": "ea-0014",
-   "name": "กรมขนส่งทหารบก ขส.ทบ. (ลานเอนกประสงค์)",
-   "network": "EA Anywhere",
-   "position": {
-    "lat": 13.792595,
-    "lng": 100.531156
-   },
-   "connectors": [
-    {
-     "standard": "CCS2",
-     "maxPowerKw": 75,
-     "count": 1
-    }
-   ],
-   "address": "ถนนนครไชยศรี, ดุสิต, กรุงเทพมหานคร",
-   "openingHours": "24 Hr",
-   "notes": "CCS2: 75 kW, CLOSED",
-   "sourceIds": [
-    {
-     "source": "bma-arcgis",
-     "id": "132"
-    }
-   ]
-  },
-  {
-   "id": "ea-0015",
+   "id": "ea-0011",
    "name": "โครนอส ทาวเวอร์ ชั้น จี สเตชั่น1",
    "network": "EA Anywhere",
    "position": {
@@ -3917,11 +3792,6 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 75,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
      "count": 1
     }
    ],
@@ -3936,7 +3806,7 @@
    ]
   },
   {
-   "id": "ea-0016",
+   "id": "ea-0012",
    "name": "คาลเท็กซ์ เพชรพระเทพ",
    "network": "EA Anywhere",
    "position": {
@@ -3947,11 +3817,6 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 103,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
      "count": 1
     }
    ],
@@ -3966,7 +3831,7 @@
    ]
   },
   {
-   "id": "ea-0017",
+   "id": "ea-0013",
    "name": "E-Bus พระราม 3-บุคคโล (Station1)",
    "network": "EA Anywhere",
    "position": {
@@ -3977,7 +3842,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 150,
-     "count": 2
+     "count": 10
     }
    ],
    "address": "บุคคโล, ธนบุรี, กรุงเทพมหานคร",
@@ -3995,7 +3860,7 @@
    ]
   },
   {
-   "id": "ea-0018",
+   "id": "ea-0014",
    "name": "MG 824 จำกัด",
    "network": "EA Anywhere",
    "position": {
@@ -4005,13 +3870,8 @@
    "connectors": [
     {
      "standard": "CCS2",
-     "maxPowerKw": 117,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
+     "maxPowerKw": 118,
+     "count": 2
     }
    ],
    "address": "บางเชือกหนัง, ตลิ่งชัน, กรุงเทพมหานคร",
@@ -4025,7 +3885,7 @@
    ]
   },
   {
-   "id": "ea-0019",
+   "id": "ea-0015",
    "name": "The Bloc (Ratchaphruek)",
    "network": "EA Anywhere",
    "position": {
@@ -4036,12 +3896,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 110,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "ตลิ่งชัน, ตลิ่งชัน, กรุงเทพมหานคร",
@@ -4055,7 +3910,7 @@
    ]
   },
   {
-   "id": "ea-0020",
+   "id": "ea-0016",
    "name": "สำนักงานใหญ่ เอสซีจี",
    "network": "EA Anywhere",
    "position": {
@@ -4066,12 +3921,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 90,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 5,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "บางซื่อ, บางซื่อ, กรุงเทพมหานคร",
@@ -4085,7 +3935,7 @@
    ]
   },
   {
-   "id": "ea-0021",
+   "id": "ea-0017",
    "name": "บิ๊กซี ดาวคะนอง",
    "network": "EA Anywhere",
    "position": {
@@ -4096,12 +3946,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 117,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "บุคคโล, ธนบุรี, กรุงเทพมหานคร",
@@ -4115,7 +3960,7 @@
    ]
   },
   {
-   "id": "ea-0022",
+   "id": "ea-0018",
    "name": "อี-เฟอรี่ องค์การคลังสินค้า (สเตชั่น 1)",
    "network": "EA Anywhere",
    "position": {
@@ -4126,7 +3971,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 150,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "บุคคโล, ธนบุรี, กรุงเทพมหานคร",
@@ -4140,7 +3985,7 @@
    ]
   },
   {
-   "id": "ea-0023",
+   "id": "ea-0019",
    "name": "ปทุมธานีคอนกรีต",
    "network": "EA Anywhere",
    "position": {
@@ -4151,7 +3996,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 90,
-     "count": 1
+     "count": 2
     },
     {
      "standard": "Type 2",
@@ -4170,7 +4015,7 @@
    ]
   },
   {
-   "id": "ea-0024",
+   "id": "ea-0020",
    "name": "อาคาร ซี.พี.ทาวเวอร์ 2 (หน้าศูนย์การค้าฝั่งโลตัส)",
    "network": "EA Anywhere",
    "position": {
@@ -4180,13 +4025,8 @@
    "connectors": [
     {
      "standard": "CCS2",
-     "maxPowerKw": 117,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
+     "maxPowerKw": 118,
+     "count": 2
     }
    ],
    "address": "ดินแดง, ดินแดง, กรุงเทพมหานคร",
@@ -4200,7 +4040,7 @@
    ]
   },
   {
-   "id": "ea-0025",
+   "id": "ea-0021",
    "name": "สวิมคิดส์ (อินทราวาส)",
    "network": "EA Anywhere",
    "position": {
@@ -4211,12 +4051,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 116,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "บางระมาด, ตลิ่งชัน, กรุงเทพมหานคร",
@@ -4230,7 +4065,7 @@
    ]
   },
   {
-   "id": "ea-0026",
+   "id": "ea-0022",
    "name": "E-BUS NEX Express Voice TV (สุทธิสาร)",
    "network": "EA Anywhere",
    "position": {
@@ -4241,7 +4076,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 152,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "สามเสนใน, พญาไท, กรุงเทพมหานคร",
@@ -4255,7 +4090,7 @@
    ]
   },
   {
-   "id": "ea-0027",
+   "id": "ea-0023",
    "name": "เดอะ พาร์ค (สเตชั่น 1)",
    "network": "EA Anywhere",
    "position": {
@@ -4266,12 +4101,12 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 38,
-     "count": 1
+     "count": 4
     },
     {
      "standard": "Type 2",
      "maxPowerKw": 22,
-     "count": 1
+     "count": 3
     }
    ],
    "address": "คลองเตย, คลองเตย, กรุงเทพมหานคร",
@@ -4285,7 +4120,7 @@
    ]
   },
   {
-   "id": "ea-0028",
+   "id": "ea-0024",
    "name": "เมโทร พาร์ค สาทร",
    "network": "EA Anywhere",
    "position": {
@@ -4295,13 +4130,8 @@
    "connectors": [
     {
      "standard": "CCS2",
-     "maxPowerKw": 117,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
+     "maxPowerKw": 118,
+     "count": 2
     }
    ],
    "address": "บางหว้า, ภาษีเจริญ, กรุงเทพมหานคร",
@@ -4315,7 +4145,7 @@
    ]
   },
   {
-   "id": "ea-0029",
+   "id": "ea-0025",
    "name": "ซัสโก้ สาขารัชดาภิเษก (ขาเข้า)",
    "network": "EA Anywhere",
    "position": {
@@ -4345,7 +4175,7 @@
    ]
   },
   {
-   "id": "ea-0030",
+   "id": "ea-0026",
    "name": "โชว์รูมเกียร์ธนบุรี (ตลิ่งชัน)",
    "network": "EA Anywhere",
    "position": {
@@ -4355,13 +4185,8 @@
    "connectors": [
     {
      "standard": "CCS2",
-     "maxPowerKw": 117,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
+     "maxPowerKw": 118,
+     "count": 2
     }
    ],
    "address": "ตลิ่งชัน, ตลิ่งชัน, กรุงเทพมหานคร",
@@ -4375,37 +4200,7 @@
    ]
   },
   {
-   "id": "ea-0031",
-   "name": "ซัสโก้ บางประกอก (สำนักงานใหญ่)",
-   "network": "EA Anywhere",
-   "position": {
-    "lat": 13.685865,
-    "lng": 100.494137
-   },
-   "connectors": [
-    {
-     "standard": "CCS2",
-     "maxPowerKw": 22,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
-    }
-   ],
-   "address": "บางปะกอก, ราษฎร์บูรณะ, กรุงเทพมหานคร",
-   "openingHours": "24 Hr",
-   "notes": "Type2: 22 kW, CLOSED, CCS2: CLOSED",
-   "sourceIds": [
-    {
-     "source": "bma-arcgis",
-     "id": "157"
-    }
-   ]
-  },
-  {
-   "id": "ea-0032",
+   "id": "ea-0027",
    "name": "A.C.T สาขาเกษมราษฏร์ (พระราม4)",
    "network": "EA Anywhere",
    "position": {
@@ -4416,7 +4211,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 90,
-     "count": 1
+     "count": 2
     },
     {
      "standard": "Type 2",
@@ -4435,7 +4230,7 @@
    ]
   },
   {
-   "id": "ea-0033",
+   "id": "ea-0028",
    "name": "ซัสโก้ สาขา วิภาวดี 1",
    "network": "EA Anywhere",
    "position": {
@@ -4446,7 +4241,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 110,
-     "count": 1
+     "count": 2
     },
     {
      "standard": "Type 2",
@@ -4465,7 +4260,7 @@
    ]
   },
   {
-   "id": "ea-0034",
+   "id": "ea-0029",
    "name": "อีบัส กาญจนาภิเษก-พรานนก (สเตชั่น 2)",
    "network": "EA Anywhere",
    "position": {
@@ -4476,7 +4271,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 300,
-     "count": 2
+     "count": 9
     }
    ],
    "address": "บางพรม, ตลิ่งชัน, กรุงเทพมหานคร",
@@ -4494,7 +4289,7 @@
    ]
   },
   {
-   "id": "ea-0035",
+   "id": "ea-0030",
    "name": "เอควา เรสซิเดนซ์ สุขุมวิท 49",
    "network": "EA Anywhere",
    "position": {
@@ -4505,11 +4300,6 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 75,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
      "count": 1
     }
    ],
@@ -4524,37 +4314,7 @@
    ]
   },
   {
-   "id": "ea-0036",
-   "name": "วินนิ่งเซเว่น ฟุตบอล คลับ สาย 1",
-   "network": "EA Anywhere",
-   "position": {
-    "lat": 13.758716,
-    "lng": 100.419926
-   },
-   "connectors": [
-    {
-     "standard": "CCS2",
-     "maxPowerKw": 110,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
-    }
-   ],
-   "address": "บางระมาด, ตลิ่งชัน, กรุงเทพมหานคร",
-   "openingHours": "Off-Peak",
-   "notes": "CCS2: 110 kW, 200A, CLOSED, Type2: 22 kW, CLOSED",
-   "sourceIds": [
-    {
-     "source": "bma-arcgis",
-     "id": "169"
-    }
-   ]
-  },
-  {
-   "id": "ea-0037",
+   "id": "ea-0031",
    "name": "E-BUS ตลิ่งชัน-บรมฯ (Station 1)",
    "network": "EA Anywhere",
    "position": {
@@ -4565,7 +4325,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 300,
-     "count": 2
+     "count": 7
     }
    ],
    "address": "ฉิมพลี, ตลิ่งชัน, กรุงเทพมหานคร",
@@ -4583,7 +4343,7 @@
    ]
   },
   {
-   "id": "ea-0038",
+   "id": "ea-0032",
    "name": "E-BUS ตลิ่งชัน-บรมฯ (Station 3)",
    "network": "EA Anywhere",
    "position": {
@@ -4594,7 +4354,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 180,
-     "count": 2
+     "count": 9
     }
    ],
    "address": "ฉิมพลี, ตลิ่งชัน, กรุงเทพมหานคร",
@@ -4612,7 +4372,7 @@
    ]
   },
   {
-   "id": "ea-0039",
+   "id": "ea-0033",
    "name": "เอสโซ่ เพชรเกษม 39",
    "network": "EA Anywhere",
    "position": {
@@ -4623,11 +4383,6 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 118,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
      "count": 1
     }
    ],
@@ -4642,7 +4397,7 @@
    ]
   },
   {
-   "id": "ea-0040",
+   "id": "ea-0034",
    "name": "E-BUS เคหะธนบุรี (Station2)",
    "network": "EA Anywhere",
    "position": {
@@ -4653,7 +4408,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 360,
-     "count": 1
+     "count": 4
     }
    ],
    "address": "แสมดำ, บางขุนเทียน, กรุงเทพมหานคร",
@@ -4667,7 +4422,7 @@
    ]
   },
   {
-   "id": "ea-0041",
+   "id": "ea-0035",
    "name": "บิ๊กซี-Extra ลาดพร้าว 2",
    "network": "EA Anywhere",
    "position": {
@@ -4678,11 +4433,6 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 59,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
      "count": 1
     }
    ],
@@ -4697,7 +4447,7 @@
    ]
   },
   {
-   "id": "ea-0042",
+   "id": "ea-0036",
    "name": "เราะห์ มาห์ มอลล์",
    "network": "EA Anywhere",
    "position": {
@@ -4707,13 +4457,8 @@
    "connectors": [
     {
      "standard": "CCS2",
-     "maxPowerKw": 117,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
+     "maxPowerKw": 118,
+     "count": 2
     }
    ],
    "address": "สามเสนนอก, ห้วยขวาง, กรุงเทพมหานคร",
@@ -4727,7 +4472,7 @@
    ]
   },
   {
-   "id": "ea-0043",
+   "id": "ea-0037",
    "name": "Mattani (เอกมัย22)",
    "network": "EA Anywhere",
    "position": {
@@ -4737,13 +4482,8 @@
    "connectors": [
     {
      "standard": "CCS2",
-     "maxPowerKw": 117,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
+     "maxPowerKw": 118,
+     "count": 2
     }
    ],
    "address": "คลองตันเหนือ, วัฒนา, กรุงเทพมหานคร",
@@ -4757,37 +4497,7 @@
    ]
   },
   {
-   "id": "ea-0044",
-   "name": "คอนโดโอเรียลเต็ล ทาวเวอร์ (เอกมัยซอย12)",
-   "network": "EA Anywhere",
-   "position": {
-    "lat": 13.730031,
-    "lng": 100.588835
-   },
-   "connectors": [
-    {
-     "standard": "CCS2",
-     "maxPowerKw": 135,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
-    }
-   ],
-   "address": "คลองตันเหนือ, วัฒนา, กรุงเทพมหานคร",
-   "openingHours": "24 Hr",
-   "notes": "CCS2: 135 kW, 200A, CLOSED, Type2: 22 kW",
-   "sourceIds": [
-    {
-     "source": "bma-arcgis",
-     "id": "181"
-    }
-   ]
-  },
-  {
-   "id": "ea-0045",
+   "id": "ea-0038",
    "name": "ซัสโก้ สาขายานนาวา",
    "network": "EA Anywhere",
    "position": {
@@ -4817,7 +4527,7 @@
    ]
   },
   {
-   "id": "ea-0046",
+   "id": "ea-0039",
    "name": "ซัสโก้ สาขา เพชรเกษม (บางแค2)",
    "network": "EA Anywhere",
    "position": {
@@ -4828,7 +4538,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 110,
-     "count": 1
+     "count": 2
     },
     {
      "standard": "Type 2",
@@ -4847,7 +4557,7 @@
    ]
   },
   {
-   "id": "ea-0047",
+   "id": "ea-0040",
    "name": "โรงแรมบ้านสวนรัชดาเรสซิเด้นท์ ซ.ลาดพร้าว64",
    "network": "EA Anywhere",
    "position": {
@@ -4858,12 +4568,12 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 90,
-     "count": 1
+     "count": 2
     },
     {
      "standard": "Type 2",
      "maxPowerKw": 22,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "วังทองหลาง, วังทองหลาง, กรุงเทพมหานคร",
@@ -4877,7 +4587,7 @@
    ]
   },
   {
-   "id": "ea-0048",
+   "id": "ea-0041",
    "name": "The Paseo Park (สาขากาญจนาภิเษก) ST. 2 (ลานจอดด้านหลัง)",
    "network": "EA Anywhere",
    "position": {
@@ -4888,7 +4598,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 97,
-     "count": 1
+     "count": 2
     },
     {
      "standard": "Type 2",
@@ -4907,7 +4617,7 @@
    ]
   },
   {
-   "id": "ea-0049",
+   "id": "ea-0042",
    "name": "อีบัส วงเวียนพระประแดง สเตชั่น 1",
    "network": "EA Anywhere",
    "position": {
@@ -4918,7 +4628,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 300,
-     "count": 3
+     "count": 8
     }
    ],
    "address": "ราษฎร์บูรณะ, ราษฎร์บูรณะ, กรุงเทพมหานคร",
@@ -4940,7 +4650,7 @@
    ]
   },
   {
-   "id": "ea-0050",
+   "id": "ea-0043",
    "name": "The Paseo Park (สาขากาญจนาภิเษก) ST.3",
    "network": "EA Anywhere",
    "position": {
@@ -4951,7 +4661,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 90,
-     "count": 1
+     "count": 2
     },
     {
      "standard": "Type 2",
@@ -4970,67 +4680,7 @@
    ]
   },
   {
-   "id": "ea-0051",
-   "name": "MG พระนคร (กาญจนาภิเษก)",
-   "network": "EA Anywhere",
-   "position": {
-    "lat": 13.737121,
-    "lng": 100.406239
-   },
-   "connectors": [
-    {
-     "standard": "CCS2",
-     "maxPowerKw": 75,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
-    }
-   ],
-   "address": "บางไผ่, บางแค, กรุงเทพมหานคร",
-   "openingHours": "Off-peak",
-   "notes": "CCS2: 75 kW, CLOSED, Type2: CLOSED",
-   "sourceIds": [
-    {
-     "source": "bma-arcgis",
-     "id": "190"
-    }
-   ]
-  },
-  {
-   "id": "ea-0052",
-   "name": "ซัสโก้ กาญจนาภิเษก",
-   "network": "EA Anywhere",
-   "position": {
-    "lat": 13.732931,
-    "lng": 100.406431
-   },
-   "connectors": [
-    {
-     "standard": "CCS2",
-     "maxPowerKw": 22,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
-    }
-   ],
-   "address": "บางแม่นาง, บางใหญ่, นนทบุรี",
-   "openingHours": "24 Hr",
-   "notes": "Type2: 22 kW, CCS2: CLOSED",
-   "sourceIds": [
-    {
-     "source": "bma-arcgis",
-     "id": "191"
-    }
-   ]
-  },
-  {
-   "id": "ea-0053",
+   "id": "ea-0044",
    "name": "A.C.T สาขารัชดาภิเษก",
    "network": "EA Anywhere",
    "position": {
@@ -5041,7 +4691,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 90,
-     "count": 1
+     "count": 2
     },
     {
      "standard": "Type 2",
@@ -5060,7 +4710,7 @@
    ]
   },
   {
-   "id": "ea-0054",
+   "id": "ea-0045",
    "name": "อารดา ทาวน์ อิน ทาวน์ (บ.ทรัพย์สิน อารดา จำกัด)",
    "network": "EA Anywhere",
    "position": {
@@ -5071,7 +4721,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 110,
-     "count": 1
+     "count": 2
     },
     {
      "standard": "Type 2",
@@ -5090,7 +4740,7 @@
    ]
   },
   {
-   "id": "ea-0055",
+   "id": "ea-0046",
    "name": "E-BUS พุทธมณฑลสาย2 (สเตชั่น1)",
    "network": "EA Anywhere",
    "position": {
@@ -5101,7 +4751,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 300,
-     "count": 3
+     "count": 16
     }
    ],
    "address": "บางไผ่, บางแค, กรุงเทพมหานคร",
@@ -5123,32 +4773,7 @@
    ]
   },
   {
-   "id": "ea-0056",
-   "name": "E-BUS พุทธมณฑลสาย2 (สเตชั่น4)",
-   "network": "EA Anywhere",
-   "position": {
-    "lat": 13.732594,
-    "lng": 100.396444
-   },
-   "connectors": [
-    {
-     "standard": "CCS2",
-     "maxPowerKw": 300,
-     "count": 1
-    }
-   ],
-   "address": "บางไผ่, บางแค, กรุงเทพมหานคร",
-   "openingHours": "Off-peak",
-   "notes": "CCS2: 300 kW, 200A, CLOSED",
-   "sourceIds": [
-    {
-     "source": "bma-arcgis",
-     "id": "196"
-    }
-   ]
-  },
-  {
-   "id": "ea-0057",
+   "id": "ea-0047",
    "name": "ศูนย์การค้า Habito Mall สุขุมวิท77",
    "network": "EA Anywhere",
    "position": {
@@ -5159,12 +4784,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 110,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 5,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "พระโขนงเหนือ, วัฒนา, กรุงเทพมหานคร",
@@ -5178,7 +4798,7 @@
    ]
   },
   {
-   "id": "ea-0058",
+   "id": "ea-0048",
    "name": "บิ๊กซี เอ็กซ์ตร้า อ่อนนุช",
    "network": "EA Anywhere",
    "position": {
@@ -5189,11 +4809,6 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 110,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
      "count": 1
     }
    ],
@@ -5208,7 +4823,7 @@
    ]
   },
   {
-   "id": "ea-0059",
+   "id": "ea-0049",
    "name": "พงษ์ตระกูล เพอเฟ็ค แลนด์ ซอยพุทธบูชา 39",
    "network": "EA Anywhere",
    "position": {
@@ -5219,12 +4834,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 110,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "บางมด, ทุ่งครุ, กรุงเทพมหานคร",
@@ -5238,7 +4848,7 @@
    ]
   },
   {
-   "id": "ea-0060",
+   "id": "ea-0050",
    "name": "Caltex งามวงศ์วาน",
    "network": "EA Anywhere",
    "position": {
@@ -5249,12 +4859,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 117,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "ทุ่งสองห้อง, หลักสี่, กรุงเทพมหานคร",
@@ -5268,37 +4873,7 @@
    ]
   },
   {
-   "id": "ea-0061",
-   "name": "44 การ์เด้นท์เพลส",
-   "network": "EA Anywhere",
-   "position": {
-    "lat": 13.64823,
-    "lng": 100.487915
-   },
-   "connectors": [
-    {
-     "standard": "CCS2",
-     "maxPowerKw": 22,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
-    }
-   ],
-   "address": "ทุ่งครุ, ทุ่งครุ, กรุงเทพมหานคร",
-   "openingHours": "24 Hr",
-   "notes": "CCS2: CLOSED, Type2: 2x 22 kW",
-   "sourceIds": [
-    {
-     "source": "bma-arcgis",
-     "id": "204"
-    }
-   ]
-  },
-  {
-   "id": "ea-0062",
+   "id": "ea-0051",
    "name": "E-BUS ตลิ่งชัน (สเตชั่น 1)",
    "network": "EA Anywhere",
    "position": {
@@ -5309,7 +4884,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 360,
-     "count": 2
+     "count": 13
     }
    ],
    "address": "ศาลาธรรมสพน์, ทวีวัฒนา, กรุงเทพมหานคร",
@@ -5327,7 +4902,7 @@
    ]
   },
   {
-   "id": "ea-0063",
+   "id": "ea-0052",
    "name": "เดอะ เอ็กซ์เพลส มอลล์ (ถ.กาญจนาภิเษก)",
    "network": "EA Anywhere",
    "position": {
@@ -5339,11 +4914,6 @@
      "standard": "CCS2",
      "maxPowerKw": 118,
      "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 2
     }
    ],
    "address": "บางแค, บางแค, กรุงเทพมหานคร",
@@ -5357,7 +4927,7 @@
    ]
   },
   {
-   "id": "ea-0064",
+   "id": "ea-0053",
    "name": "เดอะฟิล (สุขุมวิท 54)",
    "network": "EA Anywhere",
    "position": {
@@ -5387,7 +4957,7 @@
    ]
   },
   {
-   "id": "ea-0065",
+   "id": "ea-0054",
    "name": "E-BUS พุทธบูชา",
    "network": "EA Anywhere",
    "position": {
@@ -5398,7 +4968,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 360,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "บางมด, ทุ่งครุ, กรุงเทพมหานคร",
@@ -5412,7 +4982,7 @@
    ]
   },
   {
-   "id": "ea-0066",
+   "id": "ea-0055",
    "name": "7-11 พุทธบูชา36",
    "network": "EA Anywhere",
    "position": {
@@ -5422,12 +4992,7 @@
    "connectors": [
     {
      "standard": "CCS2",
-     "maxPowerKw": 117,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
+     "maxPowerKw": 118,
      "count": 2
     }
    ],
@@ -5442,37 +5007,7 @@
    ]
   },
   {
-   "id": "ea-0067",
-   "name": "ซัสโก้ สาขาปากท่อ กม.6",
-   "network": "EA Anywhere",
-   "position": {
-    "lat": 13.659461,
-    "lng": 100.433719
-   },
-   "connectors": [
-    {
-     "standard": "CCS2",
-     "maxPowerKw": 75,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
-    }
-   ],
-   "address": "แสมดำ, บางขุนเทียน, กรุงเทพมหานคร",
-   "openingHours": "Off-peak",
-   "notes": "CCS2: 75 kW, CLOSED, Type2: CLOSED",
-   "sourceIds": [
-    {
-     "source": "bma-arcgis",
-     "id": "211"
-    }
-   ]
-  },
-  {
-   "id": "ea-0068",
+   "id": "ea-0056",
    "name": "ออมนิ บิสซิเนส มอลล์ (ลาดพร้าว116)",
    "network": "EA Anywhere",
    "position": {
@@ -5483,12 +5018,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 110,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "วังทองหลาง, วังทองหลาง, กรุงเทพมหานคร",
@@ -5502,7 +5032,7 @@
    ]
   },
   {
-   "id": "ea-0069",
+   "id": "ea-0057",
    "name": "พงษ์ตระกูล เพอเฟ็ค แลนด์ ซอยพุทธบูชา36",
    "network": "EA Anywhere",
    "position": {
@@ -5513,7 +5043,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 110,
-     "count": 1
+     "count": 2
     },
     {
      "standard": "Type 2",
@@ -5532,7 +5062,7 @@
    ]
   },
   {
-   "id": "ea-0070",
+   "id": "ea-0058",
    "name": "7-11 พัฒนาการ 38 กลางซอย",
    "network": "EA Anywhere",
    "position": {
@@ -5543,12 +5073,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 110,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "สวนหลวง, สวนหลวง, กรุงเทพมหานคร",
@@ -5562,67 +5087,7 @@
    ]
   },
   {
-   "id": "ea-0071",
-   "name": "ซัสโก้ สาขาเอกชัย",
-   "network": "EA Anywhere",
-   "position": {
-    "lat": 13.66693,
-    "lng": 100.41336
-   },
-   "connectors": [
-    {
-     "standard": "CCS2",
-     "maxPowerKw": 110,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
-    }
-   ],
-   "address": "บางบอน, บางบอน, กรุงเทพมหานคร",
-   "openingHours": "24 Hr",
-   "notes": "Type2: 22 kW, CCS2: 110 kW, 200A, CLOSED",
-   "sourceIds": [
-    {
-     "source": "bma-arcgis",
-     "id": "217"
-    }
-   ]
-  },
-  {
-   "id": "ea-0072",
-   "name": "MG เซอร์วิส เซ็นเตอร์ อ่อนนุช",
-   "network": "EA Anywhere",
-   "position": {
-    "lat": 13.708782,
-    "lng": 100.620698
-   },
-   "connectors": [
-    {
-     "standard": "CCS2",
-     "maxPowerKw": 30,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
-    }
-   ],
-   "address": "สวนหลวง, สวนหลวง, กรุงเทพมหานคร",
-   "openingHours": "Off-peak",
-   "notes": "CCS2: 30 kW, CLOSED, Type2: CLOSED",
-   "sourceIds": [
-    {
-     "source": "bma-arcgis",
-     "id": "218"
-    }
-   ]
-  },
-  {
-   "id": "ea-0073",
+   "id": "ea-0059",
    "name": "A.C.T สาขาบางบอน",
    "network": "EA Anywhere",
    "position": {
@@ -5633,11 +5098,6 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 90,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 5,
      "count": 1
     }
    ],
@@ -5652,7 +5112,7 @@
    ]
   },
   {
-   "id": "ea-0074",
+   "id": "ea-0060",
    "name": "โรงแรม วาบัวร์ แอสโซเทล ( ลาดพร้าว 130 )",
    "network": "EA Anywhere",
    "position": {
@@ -5663,11 +5123,6 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 58,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
      "count": 1
     }
    ],
@@ -5682,37 +5137,7 @@
    ]
   },
   {
-   "id": "ea-0075",
-   "name": "เดอะคริสตัล เอกมัย-รามอินทรา",
-   "network": "EA Anywhere",
-   "position": {
-    "lat": 13.811493,
-    "lng": 100.619834
-   },
-   "connectors": [
-    {
-     "standard": "CCS2",
-     "maxPowerKw": 22,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
-    }
-   ],
-   "address": "ลาดพร้าว, ลาดพร้าว, กรุงเทพมหานคร",
-   "openingHours": "Peak",
-   "notes": "CCS2: CLOSED, Type2: 2x 22 kW",
-   "sourceIds": [
-    {
-     "source": "bma-arcgis",
-     "id": "221"
-    }
-   ]
-  },
-  {
-   "id": "ea-0076",
+   "id": "ea-0061",
    "name": "ซัสโก้ สาขา ประชาอุทิศ 1",
    "network": "EA Anywhere",
    "position": {
@@ -5723,7 +5148,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 110,
-     "count": 1
+     "count": 2
     },
     {
      "standard": "Type 2",
@@ -5742,7 +5167,7 @@
    ]
   },
   {
-   "id": "ea-0077",
+   "id": "ea-0062",
    "name": "บริษัท Eastern Group (ซอยโยธินพัฒนา 3 แยก2)",
    "network": "EA Anywhere",
    "position": {
@@ -5753,7 +5178,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 110,
-     "count": 1
+     "count": 2
     },
     {
      "standard": "Type 2",
@@ -5772,7 +5197,7 @@
    ]
   },
   {
-   "id": "ea-0078",
+   "id": "ea-0063",
    "name": "E-BUS เคหะธนบุรี (Station1)",
    "network": "EA Anywhere",
    "position": {
@@ -5783,7 +5208,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 360,
-     "count": 1
+     "count": 6
     }
    ],
    "address": "แสมดำ, บางขุนเทียน, กรุงเทพมหานคร",
@@ -5797,37 +5222,7 @@
    ]
   },
   {
-   "id": "ea-0079",
-   "name": "ตลาด สุขรุ่งเรือง มาร์เก็ต",
-   "network": "EA Anywhere",
-   "position": {
-    "lat": 13.621166,
-    "lng": 100.488735
-   },
-   "connectors": [
-    {
-     "standard": "CCS2",
-     "maxPowerKw": 75,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
-    }
-   ],
-   "address": "ทุ่งครุ, ทุ่งครุ, กรุงเทพมหานคร",
-   "openingHours": "24 Hr",
-   "notes": "Type2: 22 kW, CCS2: 75 kW, CLOSED",
-   "sourceIds": [
-    {
-     "source": "bma-arcgis",
-     "id": "225"
-    }
-   ]
-  },
-  {
-   "id": "ea-0080",
+   "id": "ea-0064",
    "name": "E-BUS NEX Express Bitec Bangna",
    "network": "EA Anywhere",
    "position": {
@@ -5838,7 +5233,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 150,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "บางนา, บางนา, กรุงเทพมหานคร",
@@ -5852,7 +5247,7 @@
    ]
   },
   {
-   "id": "ea-0081",
+   "id": "ea-0065",
    "name": "MG วีมิโอ (สาขา สวนหลวง)",
    "network": "EA Anywhere",
    "position": {
@@ -5862,13 +5257,8 @@
    "connectors": [
     {
      "standard": "CCS2",
-     "maxPowerKw": 117,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
+     "maxPowerKw": 118,
+     "count": 2
     }
    ],
    "address": "สวนหลวง, สวนหลวง, กรุงเทพมหานคร",
@@ -5882,7 +5272,7 @@
    ]
   },
   {
-   "id": "ea-0082",
+   "id": "ea-0066",
    "name": "เกตุวานิช อุตสาหกรรม",
    "network": "EA Anywhere",
    "position": {
@@ -5893,7 +5283,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 90,
-     "count": 1
+     "count": 2
     },
     {
      "standard": "Type 2",
@@ -5912,7 +5302,7 @@
    ]
   },
   {
-   "id": "ea-0083",
+   "id": "ea-0067",
    "name": "7-11 ลาซาล ซ.16",
    "network": "EA Anywhere",
    "position": {
@@ -5923,11 +5313,6 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 118,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
      "count": 1
     }
    ],
@@ -5942,7 +5327,7 @@
    ]
   },
   {
-   "id": "ea-0084",
+   "id": "ea-0068",
    "name": "E-BUS แสมดำ (Station1)",
    "network": "EA Anywhere",
    "position": {
@@ -5953,7 +5338,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 150,
-     "count": 1
+     "count": 3
     }
    ],
    "address": "แสมดำ, บางขุนเทียน, กรุงเทพมหานคร",
@@ -5967,7 +5352,7 @@
    ]
   },
   {
-   "id": "ea-0085",
+   "id": "ea-0069",
    "name": "E-BUS แสมดำ (Station2)",
    "network": "EA Anywhere",
    "position": {
@@ -5978,7 +5363,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 150,
-     "count": 1
+     "count": 7
     }
    ],
    "address": "แสมดำ, บางขุนเทียน, กรุงเทพมหานคร",
@@ -5992,37 +5377,7 @@
    ]
   },
   {
-   "id": "ea-0086",
-   "name": "โชว์รูม อัศวยนต์ สาขานวมินทร์",
-   "network": "EA Anywhere",
-   "position": {
-    "lat": 13.818259,
-    "lng": 100.637113
-   },
-   "connectors": [
-    {
-     "standard": "CCS2",
-     "maxPowerKw": 110,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
-    }
-   ],
-   "address": "คลองกุ่ม, บึงกุ่ม, กรุงเทพมหานคร",
-   "openingHours": "24 Hr",
-   "notes": "Type1: 22 kW, CCS2: 110 kW, 200A, CLOSED, Type2: CLOSED",
-   "sourceIds": [
-    {
-     "source": "bma-arcgis",
-     "id": "234"
-    }
-   ]
-  },
-  {
-   "id": "ea-0087",
+   "id": "ea-0070",
    "name": "แฮปปี้ฮับ สปอร์ต แอนด์ รีครีเอชั่น (ถนนสุคนธสวัสดิ์)",
    "network": "EA Anywhere",
    "position": {
@@ -6033,11 +5388,6 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 59,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
      "count": 1
     }
    ],
@@ -6052,32 +5402,7 @@
    ]
   },
   {
-   "id": "ea-0088",
-   "name": "กองมณฑลทหารบกที่ 11",
-   "network": "EA Anywhere",
-   "position": {
-    "lat": 13.893123,
-    "lng": 100.556832
-   },
-   "connectors": [
-    {
-     "standard": "CCS2",
-     "maxPowerKw": 135,
-     "count": 1
-    }
-   ],
-   "address": "ทุ่งสองห้อง, หลักสี่, กรุงเทพมหานคร",
-   "openingHours": "24 Hr",
-   "notes": "CCS2: 135 kW, 200A, CLOSED,",
-   "sourceIds": [
-    {
-     "source": "bma-arcgis",
-     "id": "236"
-    }
-   ]
-  },
-  {
-   "id": "ea-0089",
+   "id": "ea-0071",
    "name": "7-11 ประดิษฐ์มนูธรรม 27",
    "network": "EA Anywhere",
    "position": {
@@ -6088,11 +5413,6 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 118,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
      "count": 1
     }
    ],
@@ -6107,7 +5427,7 @@
    ]
   },
   {
-   "id": "ea-0090",
+   "id": "ea-0072",
    "name": "สถานบันบัณฑิตพัฒนบริหารศาสตร์ (ม.นิด้า)",
    "network": "EA Anywhere",
    "position": {
@@ -6123,7 +5443,7 @@
     {
      "standard": "Type 2",
      "maxPowerKw": 22,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "คลองจั่น, บางกะปิ, กรุงเทพมหานคร",
@@ -6137,7 +5457,7 @@
    ]
   },
   {
-   "id": "ea-0091",
+   "id": "ea-0073",
    "name": "SCB สาขาถนนนวมินทร์",
    "network": "EA Anywhere",
    "position": {
@@ -6147,8 +5467,8 @@
    "connectors": [
     {
      "standard": "CCS2",
-     "maxPowerKw": 117,
-     "count": 1
+     "maxPowerKw": 118,
+     "count": 2
     },
     {
      "standard": "Type 2",
@@ -6167,7 +5487,7 @@
    ]
   },
   {
-   "id": "ea-0092",
+   "id": "ea-0074",
    "name": "บิ๊กซี มัยลาภ",
    "network": "EA Anywhere",
    "position": {
@@ -6178,7 +5498,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 40,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "ท่าแร้ง, บางเขน, กรุงเทพมหานคร",
@@ -6192,7 +5512,7 @@
    ]
   },
   {
-   "id": "ea-0093",
+   "id": "ea-0075",
    "name": "อาคารหลักสี่พลาซ่า (ไอที หลักสี่)",
    "network": "EA Anywhere",
    "position": {
@@ -6203,11 +5523,6 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 51,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
      "count": 1
     }
    ],
@@ -6222,7 +5537,7 @@
    ]
   },
   {
-   "id": "ea-0094",
+   "id": "ea-0076",
    "name": "คาร์ลอฟท์ ออโต้ อิมพอร์ต",
    "network": "EA Anywhere",
    "position": {
@@ -6233,11 +5548,6 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 75,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
      "count": 1
     }
    ],
@@ -6252,7 +5562,7 @@
    ]
   },
   {
-   "id": "ea-0095",
+   "id": "ea-0077",
    "name": "The Park กรุงเทพกรีฑา",
    "network": "EA Anywhere",
    "position": {
@@ -6263,12 +5573,12 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 75,
-     "count": 1
+     "count": 2
     },
     {
      "standard": "Type 2",
      "maxPowerKw": 22,
-     "count": 1
+     "count": 3
     }
    ],
    "address": "หัวหมาก, บางกะปิ, กรุงเทพมหานคร",
@@ -6282,7 +5592,7 @@
    ]
   },
   {
-   "id": "ea-0096",
+   "id": "ea-0078",
    "name": "ซีคอนสแควร์ (ศรีนครินทร์)",
    "network": "EA Anywhere",
    "position": {
@@ -6312,37 +5622,7 @@
    ]
   },
   {
-   "id": "ea-0097",
-   "name": "เบสท์ เอ็นเนอร์ยี่ พลัส สาขา 19 (รามอินทรา กม.3)",
-   "network": "EA Anywhere",
-   "position": {
-    "lat": 13.862064,
-    "lng": 100.619509
-   },
-   "connectors": [
-    {
-     "standard": "CCS2",
-     "maxPowerKw": 150,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
-    }
-   ],
-   "address": "อนุสาวรีย์, บางเขน, กรุงเทพมหานคร",
-   "openingHours": "24 Hr",
-   "notes": "Type2: 22 kW, CCS2: 150 kW, 200A, CLOSED",
-   "sourceIds": [
-    {
-     "source": "bma-arcgis",
-     "id": "248"
-    }
-   ]
-  },
-  {
-   "id": "ea-0098",
+   "id": "ea-0079",
    "name": "บริสโซ่ บางนา",
    "network": "EA Anywhere",
    "position": {
@@ -6353,11 +5633,6 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 58,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
      "count": 1
     }
    ],
@@ -6372,7 +5647,7 @@
    ]
   },
   {
-   "id": "ea-0099",
+   "id": "ea-0080",
    "name": "7-11 พระปิ่น 5 (ซอยรางโพธิ์)",
    "network": "EA Anywhere",
    "position": {
@@ -6383,12 +5658,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 117,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "บางบอน, บางบอน, กรุงเทพมหานคร",
@@ -6402,7 +5672,7 @@
    ]
   },
   {
-   "id": "ea-0100",
+   "id": "ea-0081",
    "name": "ศูนย์การค้า EASE PARK รามอินทรา",
    "network": "EA Anywhere",
    "position": {
@@ -6432,7 +5702,7 @@
    ]
   },
   {
-   "id": "ea-0101",
+   "id": "ea-0082",
    "name": "ศิลา ฟิวเจอร์ จำกัด",
    "network": "EA Anywhere",
    "position": {
@@ -6442,13 +5712,8 @@
    "connectors": [
     {
      "standard": "CCS2",
-     "maxPowerKw": 117,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
+     "maxPowerKw": 118,
+     "count": 2
     }
    ],
    "address": "ท่าแร้ง, บางเขน, กรุงเทพมหานคร",
@@ -6462,7 +5727,7 @@
    ]
   },
   {
-   "id": "ea-0102",
+   "id": "ea-0083",
    "name": "SCB สาขา รามอินทรา กม. 4.5",
    "network": "EA Anywhere",
    "position": {
@@ -6473,7 +5738,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 110,
-     "count": 1
+     "count": 2
     },
     {
      "standard": "Type 2",
@@ -6492,7 +5757,7 @@
    ]
   },
   {
-   "id": "ea-0103",
+   "id": "ea-0084",
    "name": "The Paseo Town (สาขารามคำแหง) ST.2",
    "network": "EA Anywhere",
    "position": {
@@ -6503,7 +5768,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 75,
-     "count": 1
+     "count": 2
     },
     {
      "standard": "Type 2",
@@ -6522,37 +5787,7 @@
    ]
   },
   {
-   "id": "ea-0104",
-   "name": "ปั๊มน้ำมัน ส. เจริญพร บริการ จำกัด",
-   "network": "EA Anywhere",
-   "position": {
-    "lat": 13.873995,
-    "lng": 100.621308
-   },
-   "connectors": [
-    {
-     "standard": "CCS2",
-     "maxPowerKw": 110,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
-    }
-   ],
-   "address": "อนุสาวรีย์, บางเขน, กรุงเทพมหานคร",
-   "openingHours": "24 Hr",
-   "notes": "Type1: 22 kW, CCS2: 110 kW, 200A, CLOSED, Type2: CLOSED",
-   "sourceIds": [
-    {
-     "source": "bma-arcgis",
-     "id": "255"
-    }
-   ]
-  },
-  {
-   "id": "ea-0105",
+   "id": "ea-0085",
    "name": "ร้านอาหาร chocolate ville ถ.ประเสริฐมนูกิจ",
    "network": "EA Anywhere",
    "position": {
@@ -6563,11 +5798,6 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 90,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
      "count": 1
     }
    ],
@@ -6582,7 +5812,7 @@
    ]
   },
   {
-   "id": "ea-0106",
+   "id": "ea-0086",
    "name": "คาลเท็กซ์ ไทรทองรุ่งเรือง บางบอน 5",
    "network": "EA Anywhere",
    "position": {
@@ -6593,12 +5823,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 110,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "บางบอน, บางบอน, กรุงเทพมหานคร",
@@ -6612,7 +5837,7 @@
    ]
   },
   {
-   "id": "ea-0107",
+   "id": "ea-0087",
    "name": "Index Living Mall สาขาบางนา",
    "network": "EA Anywhere",
    "position": {
@@ -6622,13 +5847,13 @@
    "connectors": [
     {
      "standard": "CCS2",
-     "maxPowerKw": 117,
-     "count": 1
+     "maxPowerKw": 118,
+     "count": 2
     },
     {
      "standard": "Type 2",
      "maxPowerKw": 22,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "บางนา, บางนา, กรุงเทพมหานคร",
@@ -6642,7 +5867,7 @@
    ]
   },
   {
-   "id": "ea-0108",
+   "id": "ea-0088",
    "name": "เพลินนารี่ มอลล์ วัชรพล",
    "network": "EA Anywhere",
    "position": {
@@ -6658,7 +5883,7 @@
     {
      "standard": "Type 2",
      "maxPowerKw": 22,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "ท่าแร้ง, บางเขน, กรุงเทพมหานคร",
@@ -6672,7 +5897,7 @@
    ]
   },
   {
-   "id": "ea-0109",
+   "id": "ea-0089",
    "name": "E-BUS บึงกุ่ม (สเตชั่น3)",
    "network": "EA Anywhere",
    "position": {
@@ -6683,7 +5908,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 150,
-     "count": 2
+     "count": 9
     }
    ],
    "address": "คันนายาว, คันนายาว, กรุงเทพมหานคร",
@@ -6701,7 +5926,7 @@
    ]
   },
   {
-   "id": "ea-0110",
+   "id": "ea-0090",
    "name": "E-BUS บึงกุ่ม (สเตชั่น1)",
    "network": "EA Anywhere",
    "position": {
@@ -6726,7 +5951,7 @@
    ]
   },
   {
-   "id": "ea-0111",
+   "id": "ea-0091",
    "name": "The Steel (บางบอน 5)",
    "network": "EA Anywhere",
    "position": {
@@ -6756,7 +5981,7 @@
    ]
   },
   {
-   "id": "ea-0112",
+   "id": "ea-0092",
    "name": "บิ๊กซี คู้บอน",
    "network": "EA Anywhere",
    "position": {
@@ -6767,12 +5992,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 117,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "คันนายาว, คันนายาว, กรุงเทพมหานคร",
@@ -6786,7 +6006,7 @@
    ]
   },
   {
-   "id": "ea-0113",
+   "id": "ea-0093",
    "name": "SCB สาขา เสรีไทย (สวนสยาม)",
    "network": "EA Anywhere",
    "position": {
@@ -6796,8 +6016,8 @@
    "connectors": [
     {
      "standard": "CCS2",
-     "maxPowerKw": 117,
-     "count": 1
+     "maxPowerKw": 118,
+     "count": 2
     },
     {
      "standard": "Type 2",
@@ -6816,32 +6036,7 @@
    ]
   },
   {
-   "id": "ea-0114",
-   "name": "หน่วยบัญชาการป้องกันภัยทางอากาศกองทัพบก (นปอ.)",
-   "network": "EA Anywhere",
-   "position": {
-    "lat": 13.942247,
-    "lng": 100.578536
-   },
-   "connectors": [
-    {
-     "standard": "CCS2",
-     "maxPowerKw": 115,
-     "count": 1
-    }
-   ],
-   "address": "สีกัน, ดอนเมือง, กรุงเทพมหานคร",
-   "openingHours": "24 Hr",
-   "notes": "CCS2: 115 kW, 200A, CLOSED,",
-   "sourceIds": [
-    {
-     "source": "bma-arcgis",
-     "id": "269"
-    }
-   ]
-  },
-  {
-   "id": "ea-0115",
+   "id": "ea-0094",
    "name": "อี-บัส ราม 2 (Station 1)",
    "network": "EA Anywhere",
    "position": {
@@ -6852,7 +6047,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 300,
-     "count": 2
+     "count": 13
     }
    ],
    "address": "บางจาก, พระโขนง, กรุงเทพมหานคร",
@@ -6870,7 +6065,7 @@
    ]
   },
   {
-   "id": "ea-0116",
+   "id": "ea-0095",
    "name": "K-space Mini Mall ถ.สุขาภิบาล2",
    "network": "EA Anywhere",
    "position": {
@@ -6881,11 +6076,6 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 118,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
      "count": 1
     }
    ],
@@ -6900,7 +6090,7 @@
    ]
   },
   {
-   "id": "ea-0117",
+   "id": "ea-0096",
    "name": "7-11 ถนนพัฒนาชนบท 3 จุด2",
    "network": "EA Anywhere",
    "position": {
@@ -6911,12 +6101,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 117,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "คลองสองต้นนุ่น, ลาดกระบัง, กรุงเทพมหานคร",
@@ -6930,7 +6115,7 @@
    ]
   },
   {
-   "id": "ea-0118",
+   "id": "ea-0097",
    "name": "7-11 รามคำแหง 170",
    "network": "EA Anywhere",
    "position": {
@@ -6941,11 +6126,6 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 118,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
      "count": 1
     }
    ],
@@ -6960,37 +6140,7 @@
    ]
   },
   {
-   "id": "ea-0119",
-   "name": "ESSO พหลโยธิน กม.25",
-   "network": "EA Anywhere",
-   "position": {
-    "lat": 13.931871,
-    "lng": 100.625974
-   },
-   "connectors": [
-    {
-     "standard": "CCS2",
-     "maxPowerKw": 117,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
-    }
-   ],
-   "address": "สายไหม, สายไหม, กรุงเทพมหานคร",
-   "openingHours": "Off-peak",
-   "notes": "CCS2: 117 kW, 200A, CLOSED, Type2: CLOSED",
-   "sourceIds": [
-    {
-     "source": "bma-arcgis",
-     "id": "277"
-    }
-   ]
-  },
-  {
-   "id": "ea-0120",
+   "id": "ea-0098",
    "name": "ซัสโก้ สาขา สุขาภิบาล 3/2",
    "network": "EA Anywhere",
    "position": {
@@ -7001,12 +6151,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 116,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "มีนบุรี, มีนบุรี, กรุงเทพมหานคร",
@@ -7020,7 +6165,7 @@
    ]
   },
   {
-   "id": "ea-0121",
+   "id": "ea-0099",
    "name": "ตลาดเอซี พลาซ่า สายไหม",
    "network": "EA Anywhere",
    "position": {
@@ -7031,11 +6176,6 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 117,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
      "count": 1
     }
    ],
@@ -7050,7 +6190,7 @@
    ]
   },
   {
-   "id": "ea-0122",
+   "id": "ea-0100",
    "name": "ปั๊มน้ำมัน รวยเป๋าตุง จำกัด",
    "network": "EA Anywhere",
    "position": {
@@ -7060,13 +6200,8 @@
    "connectors": [
     {
      "standard": "CCS2",
-     "maxPowerKw": 117,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
+     "maxPowerKw": 118,
+     "count": 2
     }
    ],
    "address": "สีกัน, ดอนเมือง, กรุงเทพมหานคร",
@@ -7080,7 +6215,7 @@
    ]
   },
   {
-   "id": "ea-0123",
+   "id": "ea-0101",
    "name": "The Paseo Mall (สาขาลาดกระบัง) ST.1",
    "network": "EA Anywhere",
    "position": {
@@ -7096,7 +6231,7 @@
     {
      "standard": "Type 2",
      "maxPowerKw": 22,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "ลาดกระบัง, ลาดกระบัง, กรุงเทพมหานคร",
@@ -7110,7 +6245,7 @@
    ]
   },
   {
-   "id": "ea-0124",
+   "id": "ea-0102",
    "name": "บริษัท วีอาร์ ออโต้ สปา จำกัด",
    "network": "EA Anywhere",
    "position": {
@@ -7121,7 +6256,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 110,
-     "count": 1
+     "count": 2
     },
     {
      "standard": "Type 2",
@@ -7140,7 +6275,7 @@
    ]
   },
   {
-   "id": "ea-0125",
+   "id": "ea-0103",
    "name": "บิ๊กซี สุขาภิบาล3",
    "network": "EA Anywhere",
    "position": {
@@ -7151,12 +6286,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 110,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "มีนบุรี, มีนบุรี, กรุงเทพมหานคร",
@@ -7170,7 +6300,7 @@
    ]
   },
   {
-   "id": "ea-0126",
+   "id": "ea-0104",
    "name": "MG รุ่งเจริญ สาขา ลาดกระบัง",
    "network": "EA Anywhere",
    "position": {
@@ -7181,11 +6311,6 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 118,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
      "count": 1
     }
    ],
@@ -7200,37 +6325,7 @@
    ]
   },
   {
-   "id": "ea-0127",
-   "name": "เบสท์ เอ็นเนอร์ยี่ พลัส สาขา 20 (ลาดกระบัง)",
-   "network": "EA Anywhere",
-   "position": {
-    "lat": 13.722308,
-    "lng": 100.735811
-   },
-   "connectors": [
-    {
-     "standard": "CCS2",
-     "maxPowerKw": 110,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
-    }
-   ],
-   "address": "ลาดกระบัง, ลาดกระบัง, กรุงเทพมหานคร",
-   "openingHours": "24 Hr",
-   "notes": "Type2: 22 kW, CCS2: 110 kW, 200A, CLOSED",
-   "sourceIds": [
-    {
-     "source": "bma-arcgis",
-     "id": "286"
-    }
-   ]
-  },
-  {
-   "id": "ea-0128",
+   "id": "ea-0105",
    "name": "บิ๊กซี ร่มเกล้า",
    "network": "EA Anywhere",
    "position": {
@@ -7241,12 +6336,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 117,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "มีนบุรี, มีนบุรี, กรุงเทพมหานคร",
@@ -7260,7 +6350,7 @@
    ]
   },
   {
-   "id": "ea-0129",
+   "id": "ea-0106",
    "name": "บิ๊กซี หทัยราษฎร์",
    "network": "EA Anywhere",
    "position": {
@@ -7270,13 +6360,8 @@
    "connectors": [
     {
      "standard": "CCS2",
-     "maxPowerKw": 117,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
+     "maxPowerKw": 118,
+     "count": 2
     }
    ],
    "address": "บางชัน, คลองสามวา, กรุงเทพมหานคร",
@@ -7290,7 +6375,7 @@
    ]
   },
   {
-   "id": "ea-0130",
+   "id": "ea-0107",
    "name": "7-11 ร่มเกล้า23",
    "network": "EA Anywhere",
    "position": {
@@ -7301,12 +6386,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 117,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "คลองสามประเวศ, ลาดกระบัง, กรุงเทพมหานคร",
@@ -7320,37 +6400,7 @@
    ]
   },
   {
-   "id": "ea-0131",
-   "name": "บริษัท 909 มหาคุณ จำกัด",
-   "network": "EA Anywhere",
-   "position": {
-    "lat": 13.721812,
-    "lng": 100.761461
-   },
-   "connectors": [
-    {
-     "standard": "CCS2",
-     "maxPowerKw": 90,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
-    }
-   ],
-   "address": "ลาดกระบัง, ลาดกระบัง, กรุงเทพมหานคร",
-   "openingHours": "24 Hr",
-   "notes": "Type1: 22 kW, Type2: 22 kW, CCS2: 90 kW, 200A, CLOSED",
-   "sourceIds": [
-    {
-     "source": "bma-arcgis",
-     "id": "292"
-    }
-   ]
-  },
-  {
-   "id": "ea-0132",
+   "id": "ea-0108",
    "name": "คาลเท็กซ์ เจ้าคุณ ออยล์ เจ้าคุณทหาร",
    "network": "EA Anywhere",
    "position": {
@@ -7361,12 +6411,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 110,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "คลองสามประเวศ, ลาดกระบัง, กรุงเทพมหานคร",
@@ -7380,7 +6425,7 @@
    ]
   },
   {
-   "id": "ea-0133",
+   "id": "ea-0109",
    "name": "หจก. พีอาร์กรุ๊ป 1998",
    "network": "EA Anywhere",
    "position": {
@@ -7391,7 +6436,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 58,
-     "count": 1
+     "count": 2
     },
     {
      "standard": "Type 2",
@@ -7410,7 +6455,7 @@
    ]
   },
   {
-   "id": "ea-0134",
+   "id": "ea-0110",
    "name": "MG กรุงเทพ (สาขาสุวินทวงศ์)",
    "network": "EA Anywhere",
    "position": {
@@ -7421,12 +6466,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 117,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "โคกแฝด, หนองจอก, กรุงเทพมหานคร",
@@ -7440,7 +6480,7 @@
    ]
   },
   {
-   "id": "ea-0135",
+   "id": "ea-0111",
    "name": "SUSCO สาขาทับยาว",
    "network": "EA Anywhere",
    "position": {
@@ -7451,12 +6491,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 75,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "ทับยาว, ลาดกระบัง, กรุงเทพมหานคร",
@@ -7470,7 +6505,7 @@
    ]
   },
   {
-   "id": "ea-0136",
+   "id": "ea-0112",
    "name": "E-BUS มีนบุรี (Station 1)",
    "network": "EA Anywhere",
    "position": {
@@ -7481,7 +6516,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 150,
-     "count": 2
+     "count": 8
     }
    ],
    "address": "ลำผักชี, หนองจอก, กรุงเทพมหานคร",
@@ -7499,7 +6534,7 @@
    ]
   },
   {
-   "id": "ea-0137",
+   "id": "ea-0113",
    "name": "บิ๊กซี หนองจอก",
    "network": "EA Anywhere",
    "position": {
@@ -7510,12 +6545,7 @@
     {
      "standard": "CCS2",
      "maxPowerKw": 110,
-     "count": 1
-    },
-    {
-     "standard": "Type 2",
-     "maxPowerKw": 22,
-     "count": 1
+     "count": 2
     }
    ],
    "address": "กระทุ่มราย, หนองจอก, กรุงเทพมหานคร",
