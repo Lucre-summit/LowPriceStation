@@ -26,7 +26,7 @@
     "web": "expo start --web",
     "typecheck": "tsc --noEmit",
     "validate:data": "node scripts/validate-data.mjs",
-    "test:unit": "node --import tsx --test src/domain/*.test.ts"
+    "test:unit": "node --import tsx --test src/*/*.test.ts"
   },
   "private": true
 }

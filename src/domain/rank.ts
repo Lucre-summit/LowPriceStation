@@ -1,3 +1,4 @@
+import { estimateArrival } from "./eta";
 import { distanceKm } from "./geo";
 import { energyToAddKwh, priceForConnector, type PriceForConnector } from "./price";
 import { UNATTRIBUTED, type LatLng, type NetworkTariff, type Station, type TariffsDocument, type VehicleProfile } from "./types";
@@ -8,6 +9,8 @@ export const STALE_AFTER_DAYS = 90;
 export interface RankedStation {
   station: Station;
   distanceKm: number;
+  /** When the driver is expected to reach this station, which is what decides its time-of-use window. */
+  arrival: Date;
   /** The cheapest compatible connector, or null when nothing prices this station. */
   price: PriceForConnector | null;
   /** When the network's rate was last checked by hand, or null when the network has no tariff. */
@@ -17,9 +20,9 @@ export interface RankedStation {
 
 export interface RankOptions {
   origin: LatLng;
-  /** When the driver expects to arrive, which decides the time-of-use window. */
-  arrival: Date;
-  /** Today's date; separate from arrival so staleness is judged by when the app is used. */
+  /** When the driver sets off; each station's arrival follows from its own distance. */
+  departure: Date;
+  /** Today's date; separate from departure so staleness is judged by when the app is used. */
   now?: Date;
   radiusKm: number;
   minPowerKw: number;
@@ -57,6 +60,8 @@ function cheaperLeft(a: RankedStation, b: RankedStation): boolean {
 
 /**
  * The stations a driver can actually use, within radius, filtered and ordered.
+ * Each station is priced at the time the driver would reach it, so a station that falls on the
+ * far side of a time-of-use boundary is priced for that arrival, not for the moment of departure.
  * Stations with no price never outrank a known price, and are never given a guessed number.
  */
 export function rankStations(
@@ -82,11 +87,12 @@ export function rankStations(
     );
     if (usable.length === 0) continue;
 
+    const arrival = estimateArrival(options.departure, distance);
     const tariff = tariffByNetwork[station.network];
     let best: PriceForConnector | null = null;
     if (tariff) {
       for (const connector of usable) {
-        const priced = priceForConnector(connector, tariff, options.arrival, energyKwh);
+        const priced = priceForConnector(connector, tariff, arrival, energyKwh);
         if (priced && (best == null || beats(priced, best))) best = priced;
       }
     }
@@ -95,6 +101,7 @@ export function rankStations(
     ranked.push({
       station,
       distanceKm: distance,
+      arrival,
       price: best,
       checkedAt,
       stalePrice: checkedAt != null && daysBetween(checkedAt, now) > STALE_AFTER_DAYS,

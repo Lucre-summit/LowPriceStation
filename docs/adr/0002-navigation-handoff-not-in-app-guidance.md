@@ -8,4 +8,4 @@ The station screen's navigation button opens the platform map app at the station
 
 ## Consequences
 
-Any travel time used for ranking or for arrival-time tariffs must come from a separate, deliberately small routing call, not from the navigation experience itself.
+Any travel time used for ranking or for arrival-time tariffs comes from a separate, deliberately small routing call rather than from the navigation experience itself. Until that call is wired to a provider, v1 estimates travel time per station from straight-line distance at a fixed average speed, behind a seam that takes the speed as a parameter; the only thing the estimate decides is which time-of-use window a station falls into, and it is replaced — not supplemented — when the routing call lands.

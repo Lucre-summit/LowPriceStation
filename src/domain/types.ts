@@ -91,6 +91,9 @@ export interface VehicleProfile {
 
 export const UNATTRIBUTED = "unattributed";
 
+/** The two standards Thailand adopted nationally: Type 2 for AC and CCS2 for DC. */
+export const NATIONAL_STANDARDS: ConnectorStandard[] = ["CCS2", "Type 2"];
+
 export const DEFAULT_VEHICLE: VehicleProfile = {
   connectorStandard: "CCS2",
   batteryKwh: 30,

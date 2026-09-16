@@ -45,7 +45,7 @@ export function buildTariffs(): TariffsDocument {
   return { version: 1, updatedAt: "2026-09-15", networks: [peaVolta, elex] };
 }
 
-function station(
+export function makeStation(
   id: string,
   network: string,
   lat: number,
@@ -69,11 +69,11 @@ export const bangNa = { lat: 13.6685, lng: 100.6045 };
 
 export function buildStations(): Station[] {
   return [
-    station("pea-120kw", "PEA VOLTA", 13.6702, 100.6081, [{ standard: "CCS2", maxPowerKw: 120, count: 2 }]),
-    station("elex-150kw", "EleX by EGAT", 13.6799, 100.6222, [{ standard: "CCS2", maxPowerKw: 150, count: 1 }]),
-    station("pluz-100kw", "EV Station PluZ", 13.6651, 100.5991, [{ standard: "CCS2", maxPowerKw: 100, count: 4 }]),
-    station("pea-25kw", "PEA VOLTA", 13.6689, 100.6052, [{ standard: "CCS2", maxPowerKw: 25, count: 1 }]),
-    station("pea-ac-only", "PEA VOLTA", 13.6681, 100.6050, [{ standard: "Type 2", maxPowerKw: 22, count: 1 }]),
-    station("pea-far", "PEA VOLTA", 14.0790, 100.6045, [{ standard: "CCS2", maxPowerKw: 25, count: 1 }]),
+    makeStation("pea-120kw", "PEA VOLTA", 13.6702, 100.6081, [{ standard: "CCS2", maxPowerKw: 120, count: 2 }]),
+    makeStation("elex-150kw", "EleX by EGAT", 13.6799, 100.6222, [{ standard: "CCS2", maxPowerKw: 150, count: 1 }]),
+    makeStation("pluz-100kw", "EV Station PluZ", 13.6651, 100.5991, [{ standard: "CCS2", maxPowerKw: 100, count: 4 }]),
+    makeStation("pea-25kw", "PEA VOLTA", 13.6689, 100.6052, [{ standard: "CCS2", maxPowerKw: 25, count: 1 }]),
+    makeStation("pea-ac-only", "PEA VOLTA", 13.6681, 100.6050, [{ standard: "Type 2", maxPowerKw: 22, count: 1 }]),
+    makeStation("pea-far", "PEA VOLTA", 14.0790, 100.6045, [{ standard: "CCS2", maxPowerKw: 25, count: 1 }]),
   ];
 }

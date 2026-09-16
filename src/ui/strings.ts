@@ -1,0 +1,53 @@
+// Every user-visible string of the app, in one place, Thai-first.
+// Splitting them out keeps components free of literals and gives a future second language
+// a single file to work against.
+export const strings = {
+  listTitle: "สถานีชาร์จใกล้ฉัน",
+  rankedByCostPrefix: "จัดอันดับตามที่จ่ายจริง · ",
+  areaFallbackSuffix: " · ใช้พื้นที่กรุงเทพฯ แทนตำแหน่งจริง",
+  cacheSuffix: " · ข้อมูลจากแคช",
+  retry: "ลองอีกครั้ง",
+  locating: "กำลังหาสถานีใกล้คุณ…",
+  noMatches: "ไม่พบสถานีที่ตรงเงื่อนไข — ลองขยายรัศมีหรือลดกำลังไฟขั้นต่ำ",
+  loadFailed: "โหลดข้อมูลไม่สำเร็จ",
+  countSuffix: " สถานี",
+
+  sortCheapest: "ถูกสุด",
+  sortNearest: "ใกล้สุด",
+  radiusSuffix: " กม.",
+  anyPower: "ทุกกำลังไฟ",
+  minPowerPrefix: "≥ ",
+  minPowerSuffix: " kW",
+  allNetworks: "ทุกเครือข่าย",
+
+  energyToAdd: "พลังงานที่ต้องเติม",
+  energyPlaceholder: "ตามโปรไฟล์รถ",
+  energyUnit: "kWh",
+  useProfileValues: "ใช้ค่าโปรไฟล์รถ",
+  profileButtonPrefix: "โปรไฟล์รถ: ",
+  edit: "แก้ไข",
+
+  unknownPrice: "ไม่ทราบราคา",
+  arrivalPrefix: "ถึง ~",
+  staleWarning: "ราคาอาจไม่เป็นปัจจุบัน",
+  costPrefix: "≈ ",
+  costSuffix: " ฿",
+  unitPerKwh: "หน่วย",
+  unitPerHour: "ชม.",
+  unitPerMinute: "นาที",
+  metreSuffix: " ม.",
+  kilometreSuffix: " กม.",
+
+  profileTitle: "โปรไฟล์รถ",
+  profileHint: "ใช้กรองหัวชาร์จที่ใช้ได้กับรถคุณ และคำนวณพลังงานที่ต้องเติมต่อหนึ่งเซสชัน",
+  connectorSection: "หัวชาร์จ",
+  batteryLabel: "ความจุแบตเตอรี่",
+  socFromLabel: "เริ่มชาร์จที่",
+  socToLabel: "ชาร์จถึง",
+  batteryUnit: "kWh",
+  percentUnit: "%",
+  save: "บันทึก",
+  cancel: "ยกเลิก",
+  profileFootnote: "ค่าที่ไม่สมเหตุสมผลจะถูกแทนด้วยค่าเริ่มต้น",
+  defaultProfileNote: "CCS2 · 30 kWh · 20→80%",
+} as const;
