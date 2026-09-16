@@ -60,6 +60,13 @@ export interface IdleFee {
   graceMinutes: number;
 }
 
+/** Links to a network's own app, recorded only where someone verified them. */
+export interface NetworkAppLinks {
+  android?: string | null;
+  ios?: string | null;
+  web?: string | null;
+}
+
 export interface NetworkTariff {
   network: string;
   /** Null when the network publishes no effective date; treat checkedAt as when the rate was observed. */
@@ -70,6 +77,8 @@ export interface NetworkTariff {
   evidence: "primary" | "secondary";
   peakWindow: PeakWindow | null;
   idleFee: IdleFee | null;
+  /** Optional: most Thai networks publish no app link, and the app then searches the store instead. */
+  appLinks?: NetworkAppLinks | null;
   rates: Rate[];
   siteOverrides: unknown[];
 }

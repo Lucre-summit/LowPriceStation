@@ -5,10 +5,12 @@ import * as Location from "expo-location";
 
 import { loadDocuments, type Documents } from "./src/data/documents";
 import { loadProfile, saveProfile } from "./src/data/profile";
+import { energyToAddKwh } from "./src/domain/price";
 import { networkNames, rankStations } from "./src/domain/rank";
-import { DEFAULT_VEHICLE, type LatLng, type VehicleProfile } from "./src/domain/types";
+import { DEFAULT_VEHICLE, type LatLng, type NetworkTariff, type VehicleProfile } from "./src/domain/types";
 import { Controls } from "./src/ui/Controls";
 import { ProfileScreen } from "./src/ui/ProfileScreen";
+import { StationDetailScreen } from "./src/ui/StationDetailScreen";
 import { StationRow } from "./src/ui/StationRow";
 import { formatEnergy } from "./src/ui/format";
 import { strings } from "./src/ui/strings";
@@ -25,6 +27,7 @@ export default function App() {
   const [refreshing, setRefreshing] = useState(false);
   const [profile, setProfile] = useState<VehicleProfile>(DEFAULT_VEHICLE);
   const [editingProfile, setEditingProfile] = useState(false);
+  const [selectedStationId, setSelectedStationId] = useState<string | null>(null);
 
   const [sort, setSort] = useState<SortOrder>("cheapest");
   const [radiusKm, setRadiusKm] = useState(10);
@@ -64,6 +67,12 @@ export default function App() {
   }, [load]);
 
   const networks = useMemo(() => networkNames(documents?.stations.stations ?? []), [documents]);
+  const energyKwh = energyToAddKwh(profile, energyOverrideKwh);
+  const tariffByNetwork = useMemo(() => {
+    const index: Record<string, NetworkTariff | undefined> = {};
+    for (const tariff of documents?.tariffs.networks ?? []) index[tariff.network] = tariff;
+    return index;
+  }, [documents]);
 
   const ranked = useMemo(() => {
     if (!documents || !origin) return [];
@@ -86,6 +95,8 @@ export default function App() {
     void saveProfile(next);
   }, []);
 
+  const selected = ranked.find((entry) => entry.station.id === selectedStationId) ?? null;
+
   if (editingProfile) {
     return (
       <View style={styles.screen}>
@@ -94,6 +105,20 @@ export default function App() {
           profile={profile}
           onSave={persistProfile}
           onCancel={() => setEditingProfile(false)}
+        />
+      </View>
+    );
+  }
+
+  if (selected) {
+    return (
+      <View style={styles.screen}>
+        <StatusBar style="dark" />
+        <StationDetailScreen
+          entry={selected}
+          tariff={tariffByNetwork[selected.station.network] ?? null}
+          energyKwh={energyKwh}
+          onBack={() => setSelectedStationId(null)}
         />
       </View>
     );
@@ -125,7 +150,9 @@ export default function App() {
         <FlatList
           data={ranked}
           keyExtractor={(item) => item.station.id}
-          renderItem={({ item }) => <StationRow item={item} />}
+          renderItem={({ item }) => (
+            <StationRow item={item} onPress={() => setSelectedStationId(item.station.id)} />
+          )}
           ListHeaderComponent={
             <Controls
               sort={sort}

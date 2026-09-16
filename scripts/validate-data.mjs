@@ -23,6 +23,7 @@ const errors = [];
 const at = (where, message) => errors.push(`${where}: ${message}`);
 
 const isStr = (v) => typeof v === "string" && v.trim() !== "";
+const isHttpUrl = (v) => typeof v === "string" && /^https?:\/\//.test(v);
 const isNum = (v) => typeof v === "number" && Number.isFinite(v);
 const isInt = (v) => Number.isInteger(v);
 const inRange = (v, [lo, hi]) => isNum(v) && v >= lo && v <= hi;
@@ -141,7 +142,7 @@ function checkTariffs(doc, label) {
       at(nw, "effectiveFrom must be YYYY-MM-DD, or null when the network publishes no date");
     }
     if (!isStr(net?.checkedAt) || !DATE.test(net.checkedAt)) at(nw, "checkedAt must be YYYY-MM-DD");
-    if (!isStr(net?.sourceUrl) || !/^https?:\/\//.test(net.sourceUrl)) at(nw, "sourceUrl must be an http(s) URL");
+    if (!isHttpUrl(net?.sourceUrl)) at(nw, "sourceUrl must be an http(s) URL");
     if (!EVIDENCE.includes(net?.evidence)) at(nw, `evidence must be one of ${EVIDENCE.join(", ")}`);
 
     if (net?.peakWindow != null) {
@@ -164,6 +165,19 @@ function checkTariffs(doc, label) {
       }
     }
     if (!Array.isArray(net?.siteOverrides)) at(nw, "siteOverrides must be an array (empty is fine)");
+    if (net?.appLinks != null) {
+      const links = net.appLinks;
+      if (typeof links !== "object" || Array.isArray(links)) {
+        at(`${nw}.appLinks`, "appLinks must be an object when present");
+      } else {
+        for (const [key, value] of Object.entries(links)) {
+          if (!["android", "ios", "web"].includes(key)) at(`${nw}.appLinks`, `unknown platform "${key}"`);
+          else if (value !== null && value !== undefined && !isHttpUrl(value)) {
+            at(`${nw}.appLinks.${key}`, `link "${String(value)}" is not an http(s) URL`);
+          }
+        }
+      }
+    }
     checkRates(net, nw);
   });
   return seen;

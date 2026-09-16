@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from "react-native";
+import { Pressable, StyleSheet, Text, View } from "react-native";
 
 import type { RankedStation } from "../domain/rank";
 import { formatClock, formatDistanceKm, formatSessionCost, formatUnitPrice } from "./format";
@@ -6,10 +6,10 @@ import { strings } from "./strings";
 import { colors, radius, spacing } from "./theme";
 
 /** One station: what it costs this driver, when they would get there, and how much to trust the price. */
-export function StationRow({ item }: { item: RankedStation }) {
+export function StationRow({ item, onPress }: { item: RankedStation; onPress: () => void }) {
   const cost = formatSessionCost(item.price?.sessionCostThb ?? null);
   return (
-    <View style={styles.row}>
+    <Pressable onPress={onPress} style={styles.row}>
       <View style={styles.head}>
         <Text style={styles.name} numberOfLines={1}>
           {item.station.name}
@@ -23,7 +23,7 @@ export function StationRow({ item }: { item: RankedStation }) {
         <Text style={item.price ? styles.unit : styles.unitUnknown}>{formatUnitPrice(item.price)}</Text>
         {item.stalePrice ? <Text style={styles.stale}>{strings.staleWarning}</Text> : null}
       </View>
-    </View>
+    </Pressable>
   );
 }
 

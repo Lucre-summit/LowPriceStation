@@ -25,6 +25,7 @@
    "evidence": "secondary",
    "peakWindow": { "days": ["mon", "tue", "wed", "thu", "fri"], "start": "09:00", "end": "22:00" },
    "idleFee": { "unit": "minute", "priceThb": 10, "graceMinutes": 3 },
+   "appLinks": { "android": "https://play.google.com/store/apps/details?id=com.pttor.evstationpluz" },
    "rates": [
     { "connectorStandard": "CCS2", "minPowerKw": 0, "maxPowerKw": 180, "unit": "kWh", "flatThb": null, "onPeakThb": 7.4, "offPeakThb": 6.1 },
     { "connectorStandard": "CCS2", "minPowerKw": 180, "maxPowerKw": 240, "unit": "kWh", "flatThb": null, "onPeakThb": 7.7, "offPeakThb": 6.4 },
@@ -53,6 +54,10 @@
    "evidence": "secondary",
    "peakWindow": null,
    "idleFee": null,
+   "appLinks": {
+    "android": "https://play.google.com/store/apps/details?id=th.mea.evcharger",
+    "web": "https://ev.mea.or.th/"
+   },
    "rates": [
     { "connectorStandard": "CCS2", "minPowerKw": 0, "maxPowerKw": 250, "unit": "kWh", "flatThb": 7.5, "onPeakThb": null, "offPeakThb": null }
    ],

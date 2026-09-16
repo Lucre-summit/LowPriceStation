@@ -29,3 +29,53 @@ export function formatClock(time: Date): string {
 export function formatEnergy(kwh: number): string {
   return Number.isInteger(kwh) ? String(kwh) : kwh.toFixed(1);
 }
+
+const THAI_MONTHS = [
+  "ม.ค.",
+  "ก.พ.",
+  "มี.ค.",
+  "เม.ย.",
+  "พ.ค.",
+  "มิ.ย.",
+  "ก.ค.",
+  "ส.ค.",
+  "ก.ย.",
+  "ต.ค.",
+  "พ.ย.",
+  "ธ.ค.",
+];
+
+const DAY_LABELS: Record<string, string> = {
+  mon: "จ.",
+  tue: "อ.",
+  wed: "พ.",
+  thu: "พฤ.",
+  fri: "ศ.",
+  sat: "ส.",
+  sun: "อา.",
+};
+
+const DAY_ORDER = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
+const WEEKDAY_ORDER = DAY_ORDER.slice(0, 5);
+const WEEKEND_ORDER = DAY_ORDER.slice(5);
+
+/**
+ * The days a time-of-use window runs on, read from the tariff rather than assumed, so a window
+ * that runs on weekends is never shown as a weekday one.
+ */
+export function formatPeakDays(days: string[]): string {
+  const known = DAY_ORDER.filter((day) => days.includes(day));
+  if (known.length === 0) return strings.flatAllDay;
+  if (known.length === DAY_ORDER.length) return strings.everyDay;
+  if (WEEKDAY_ORDER.every((day) => known.includes(day))) return strings.weekdays;
+  if (WEEKEND_ORDER.every((day) => known.includes(day))) return strings.weekend;
+  return known.map((day) => DAY_LABELS[day]).join(", ");
+}
+
+/** A checked date is shown as a Thai short date, or as-is when it does not parse. */
+export function formatThaiDate(iso: string | null): string {
+  if (!iso) return strings.dateUnknown;
+  const parsed = new Date(`${iso}T00:00:00`);
+  if (Number.isNaN(parsed.getTime())) return iso;
+  return `${parsed.getDate()} ${THAI_MONTHS[parsed.getMonth()]} ${parsed.getFullYear() + 543}`;
+}
