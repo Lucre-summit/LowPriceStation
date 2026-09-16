@@ -98,6 +98,7 @@ export function StationDetailScreen({
       <Text style={styles.meta}>
         {`${entry.station.network} · ${formatDistanceKm(entry.distanceKm)} · ${strings.arrivalLabel} ${formatClock(entry.arrival)}`}
       </Text>
+      <Text style={styles.estimateNote}>{strings.arrivalIsEstimate}</Text>
 
       <View style={styles.costCard}>
         <Text style={headline.emphasized ? styles.cost : styles.costUnknown}>{headline.text}</Text>
@@ -172,6 +173,7 @@ const styles = StyleSheet.create({
   topRow: { flexDirection: "row", justifyContent: "space-between", alignItems: "center" },
   name: { fontSize: 24, fontWeight: "700", color: colors.text },
   meta: { fontSize: 13, color: colors.muted },
+  estimateNote: { fontSize: 12, color: colors.faint },
   costCard: {
     backgroundColor: colors.surface,
     borderRadius: radius.card,

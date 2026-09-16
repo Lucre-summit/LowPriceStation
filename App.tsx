@@ -13,7 +13,7 @@ import { Controls } from "./src/ui/Controls";
 import { ProfileScreen } from "./src/ui/ProfileScreen";
 import { StationDetailScreen } from "./src/ui/StationDetailScreen";
 import { StationRow } from "./src/ui/StationRow";
-import { formatEnergy, formatUnmatchedFavorites } from "./src/ui/format";
+import { formatEnergy, formatFetchedAt, formatUnmatchedFavorites } from "./src/ui/format";
 import { strings } from "./src/ui/strings";
 import { listOptionsFor } from "./src/ui/listOptions";
 import { colors, spacing } from "./src/ui/theme";
@@ -44,7 +44,7 @@ export default function App() {
     try {
       setDocuments(await loadDocuments());
     } catch (cause) {
-      setError(cause instanceof Error ? cause.message : "โหลดข้อมูลไม่สำเร็จ");
+      setError(cause instanceof Error ? cause.message : strings.loadFailed);
     }
   }, []);
 
@@ -158,6 +158,8 @@ export default function App() {
         ? formatUnmatchedFavorites(unmatchedFavorites)
         : strings.favoritesEmpty;
 
+  const errorCause = error && error !== strings.loadFailed ? error : null;
+
   return (
     <View style={styles.screen}>
       <StatusBar style="dark" />
@@ -167,12 +169,13 @@ export default function App() {
           ? strings.favoritesOrderNote
           : `${strings.rankedByCostPrefix}${profile.connectorStandard}`}
         {areaFallback ? strings.areaFallbackSuffix : ""}
-        {documents?.fromCache ? strings.cacheSuffix : ""}
+        {documents?.fromCache ? `${strings.cacheSuffix} · ${formatFetchedAt(documents.fetchedAt)}` : ""}
       </Text>
 
       {error ? (
         <View style={styles.center}>
-          <Text style={styles.error}>{error}</Text>
+          <Text style={styles.error}>{strings.loadFailed}</Text>
+          {errorCause ? <Text style={styles.errorDetail}>{errorCause}</Text> : null}
           <Pressable style={styles.button} onPress={onRefresh}>
             <Text style={styles.buttonText}>{strings.retry}</Text>
           </Pressable>
@@ -234,6 +237,7 @@ const styles = StyleSheet.create({
   center: { flex: 1, alignItems: "center", justifyContent: "center", gap: spacing.md },
   hint: { fontSize: 14, color: colors.muted, textAlign: "center" },
   error: { fontSize: 14, color: colors.danger, textAlign: "center" },
+  errorDetail: { fontSize: 12, color: colors.faint, textAlign: "center" },
   button: { backgroundColor: colors.chipSelected, paddingHorizontal: spacing.lg, paddingVertical: spacing.sm, borderRadius: 8 },
   buttonText: { color: colors.chipSelectedText, fontWeight: "600" },
 });

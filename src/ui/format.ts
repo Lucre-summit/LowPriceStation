@@ -102,10 +102,23 @@ export function formatPeakDays(days: string[]): string {
   return known.map((day) => DAY_LABELS[day]).join(", ");
 }
 
+/** A Thai short date, with the Buddhist-era year Thai readers expect. */
+function thaiShortDate(date: Date): string {
+  return `${date.getDate()} ${THAI_MONTHS[date.getMonth()]} ${date.getFullYear() + 543}`;
+}
+
 /** A checked date is shown as a Thai short date, or as-is when it does not parse. */
 export function formatThaiDate(iso: string | null): string {
   if (!iso) return strings.dateUnknown;
   const parsed = new Date(`${iso}T00:00:00`);
   if (Number.isNaN(parsed.getTime())) return iso;
-  return `${parsed.getDate()} ${THAI_MONTHS[parsed.getMonth()]} ${parsed.getFullYear() + 543}`;
+  return thaiShortDate(parsed);
+}
+
+/** When the price data on screen was last pulled from the network. */
+export function formatFetchedAt(iso: string | null): string {
+  if (!iso) return strings.fetchedAtUnknown;
+  const parsed = new Date(iso);
+  if (Number.isNaN(parsed.getTime())) return strings.fetchedAtUnknown;
+  return `${strings.fetchedAtPrefix}${thaiShortDate(parsed)} ${formatClock(parsed)}`;
 }

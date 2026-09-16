@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { formatPeakDays, formatThaiDate } from "./format";
+import { formatFetchedAt, formatPeakDays, formatThaiDate } from "./format";
 
 test("the common Thai windows read as a range", () => {
   assert.equal(formatPeakDays(["mon", "tue", "wed", "thu", "fri"]), "จ.–ศ.");
@@ -32,4 +32,15 @@ test("a checked date is shown as a Thai short date", () => {
 test("an unusable date says it is unknown rather than showing a broken value", () => {
   assert.equal(formatThaiDate(null), "ไม่ระบุวันที่ตรวจ");
   assert.equal(formatThaiDate("not-a-date"), "not-a-date");
+});
+
+test("a fetch time is shown as a Thai date and a clock time", () => {
+  // Built from a local moment, so the expectation holds wherever the tests run.
+  const fetchedAt = new Date(2026, 8, 16, 12, 47).toISOString();
+  assert.equal(formatFetchedAt(fetchedAt), "ดึงล่าสุด 16 ก.ย. 2569 12:47");
+});
+
+test("a fetch time that does not parse says so rather than showing rubbish", () => {
+  assert.equal(formatFetchedAt(null), "ไม่ทราบเวลาที่ดึงข้อมูล");
+  assert.equal(formatFetchedAt("whenever"), "ไม่ทราบเวลาที่ดึงข้อมูล");
 });
