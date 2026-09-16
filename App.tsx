@@ -163,7 +163,9 @@ export default function App() {
       <StatusBar style="dark" />
       <Text style={styles.title}>{strings.listTitle}</Text>
       <Text style={styles.subtitle}>
-        {`${strings.rankedByCostPrefix}${profile.connectorStandard}`}
+        {mode === "favorites"
+          ? strings.favoritesOrderNote
+          : `${strings.rankedByCostPrefix}${profile.connectorStandard}`}
         {areaFallback ? strings.areaFallbackSuffix : ""}
         {documents?.fromCache ? strings.cacheSuffix : ""}
       </Text>
