@@ -27,7 +27,8 @@
         {
           "locationWhenInUsePermission": "ใช้ตำแหน่งของคุณเพื่อจัดอันดับสถานีชาร์จที่ใกล้และถูกที่สุด"
         }
-      ]
+      ],
+      "@maplibre/maplibre-react-native"
     ],
     "web": {
       "favicon": "./assets/favicon.png"

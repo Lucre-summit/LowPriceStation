@@ -13,13 +13,17 @@ import { Controls } from "./src/ui/Controls";
 import { ProfileScreen } from "./src/ui/ProfileScreen";
 import { StationDetailScreen } from "./src/ui/StationDetailScreen";
 import { StationRow } from "./src/ui/StationRow";
+import { StationMap } from "./src/ui/map/StationMap";
 import { formatEnergy, formatFetchedAt, formatUnmatchedFavorites } from "./src/ui/format";
 import { strings } from "./src/ui/strings";
 import { listOptionsFor } from "./src/ui/listOptions";
 import { colors, spacing } from "./src/ui/theme";
-import type { ListMode, SortOrder } from "./src/ui/types";
+import type { ListMode, SortOrder, ViewMode } from "./src/ui/types";
 
 const BANGKOK_CENTER: LatLng = { lat: 13.7563, lng: 100.5018 };
+
+/** How long the app waits for a position before falling back to the area centre. */
+const LOCATION_TIMEOUT_MS = 8000;
 
 export default function App() {
   const [documents, setDocuments] = useState<Documents | null>(null);
@@ -32,6 +36,7 @@ export default function App() {
   const [selectedEntry, setSelectedEntry] = useState<RankedStation | null>(null);
   const [favorites, setFavorites] = useState<FavoriteRecord[]>([]);
   const [mode, setMode] = useState<ListMode>("nearby");
+  const [view, setView] = useState<ViewMode>("list");
 
   const [sort, setSort] = useState<SortOrder>("cheapest");
   const [radiusKm, setRadiusKm] = useState(10);
@@ -56,8 +61,22 @@ export default function App() {
         setOrigin(BANGKOK_CENTER);
         return;
       }
-      const fix = await Location.getCurrentPositionAsync({});
-      setOrigin({ lat: fix.coords.latitude, lng: fix.coords.longitude });
+      // Show the city centre if no fix has arrived in a few seconds, so a slow GPS never leaves
+      // the driver on a spinner — but keep listening: a late fix replaces it and clears the notice.
+      const useArea = () => {
+        setAreaFallback(true);
+        setOrigin((current) => current ?? BANGKOK_CENTER);
+      };
+      const fallbackTimer = setTimeout(useArea, LOCATION_TIMEOUT_MS);
+      try {
+        const fix = await Location.getCurrentPositionAsync({});
+        clearTimeout(fallbackTimer);
+        setAreaFallback(false);
+        setOrigin({ lat: fix.coords.latitude, lng: fix.coords.longitude });
+      } catch {
+        clearTimeout(fallbackTimer);
+        useArea();
+      }
     };
     void locate();
     void load();
@@ -186,44 +205,50 @@ export default function App() {
           <Text style={styles.hint}>{strings.locating}</Text>
         </View>
       ) : (
-        <FlatList
-          data={ranked}
-          keyExtractor={(item) => item.station.id}
-          renderItem={({ item }) => (
-            <StationRow
-              item={item}
-              isFavorite={favoriteIds.has(item.station.id)}
-              onPress={() => setSelectedEntry(item)}
-              onToggleFavorite={() => toggleFavoriteStation(item.station.id)}
+        <>
+          <Controls
+            mode={mode}
+            onMode={setMode}
+            view={view}
+            onView={setView}
+            favoriteCount={favorites.length}
+            sort={sort}
+            onSort={setSort}
+            radiusKm={radiusKm}
+            onRadius={setRadiusKm}
+            minPowerKw={minPowerKw}
+            onMinPower={setMinPowerKw}
+            networks={networks}
+            network={network}
+            onNetwork={setNetwork}
+            energyOverrideKwh={energyOverrideKwh}
+            onEnergyOverride={setEnergyOverrideKwh}
+            profileLabel={profileLabel}
+            onEditProfile={() => setEditingProfile(true)}
+            resultCount={ranked.length}
+            unmatchedFavorites={unmatchedFavorites}
+          />
+          {view === "map" ? (
+            <StationMap entries={ranked} origin={origin} onSelect={setSelectedEntry} />
+          ) : (
+            <FlatList
+              data={ranked}
+              keyExtractor={(item) => item.station.id}
+              renderItem={({ item }) => (
+                <StationRow
+                  item={item}
+                  isFavorite={favoriteIds.has(item.station.id)}
+                  onPress={() => setSelectedEntry(item)}
+                  onToggleFavorite={() => toggleFavoriteStation(item.station.id)}
+                />
+              )}
+              refreshing={refreshing}
+              onRefresh={onRefresh}
+              contentContainerStyle={styles.list}
+              ListEmptyComponent={<Text style={styles.hint}>{emptyMessage}</Text>}
             />
           )}
-          ListHeaderComponent={
-            <Controls
-              mode={mode}
-              onMode={setMode}
-              favoriteCount={favorites.length}
-              sort={sort}
-              onSort={setSort}
-              radiusKm={radiusKm}
-              onRadius={setRadiusKm}
-              minPowerKw={minPowerKw}
-              onMinPower={setMinPowerKw}
-              networks={networks}
-              network={network}
-              onNetwork={setNetwork}
-              energyOverrideKwh={energyOverrideKwh}
-              onEnergyOverride={setEnergyOverrideKwh}
-              profileLabel={profileLabel}
-              onEditProfile={() => setEditingProfile(true)}
-              resultCount={ranked.length}
-              unmatchedFavorites={unmatchedFavorites}
-            />
-          }
-          refreshing={refreshing}
-          onRefresh={onRefresh}
-          contentContainerStyle={styles.list}
-          ListEmptyComponent={<Text style={styles.hint}>{emptyMessage}</Text>}
-        />
+        </>
       )}
     </View>
   );

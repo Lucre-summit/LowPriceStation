@@ -5,7 +5,7 @@ import { Chip } from "./Chip";
 import { formatUnmatchedFavorites } from "./format";
 import { strings } from "./strings";
 import { colors, radius, spacing } from "./theme";
-import type { ListMode, SortOrder } from "./types";
+import type { ListMode, SortOrder, ViewMode } from "./types";
 
 const RADII = [5, 10, 25];
 const POWERS = [0, 50, 100];
@@ -13,6 +13,8 @@ const POWERS = [0, 50, 100];
 export interface ControlsProps {
   mode: ListMode;
   onMode: (mode: ListMode) => void;
+  view: ViewMode;
+  onView: (view: ViewMode) => void;
   favoriteCount: number;
   sort: SortOrder;
   onSort: (sort: SortOrder) => void;
@@ -56,6 +58,11 @@ export function Controls(props: ControlsProps) {
           onPress={() => props.onMode(showingFavorites ? "nearby" : "favorites")}
         />
         <Text style={styles.count}>{`${props.resultCount}${strings.countSuffix}`}</Text>
+      </View>
+
+      <View style={styles.line}>
+        <Chip label={strings.viewList} selected={props.view === "list"} onPress={() => props.onView("list")} />
+        <Chip label={strings.viewMap} selected={props.view === "map"} onPress={() => props.onView("map")} />
       </View>
 
       {showingFavorites ? (

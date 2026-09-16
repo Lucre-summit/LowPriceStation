@@ -60,6 +60,8 @@ export const strings = {
   favoriteAdd: "บันทึกเป็นรายการโปรด",
   favoriteRemove: "เอาออกจากรายการโปรด",
   favoritesOrderNote: "เรียงตามระยะทาง · ใช้โปรไฟล์รถปัจจุบัน",
+  viewList: "รายการ",
+  viewMap: "แผนที่",
   unmatchedFavoritesPrefix: "มี ",
   unmatchedFavoritesSuffix: " รายการในรายการโปรดที่ไม่พบในข้อมูลปัจจุบัน",
   connectorMismatch: "หัวจ่ายไม่ตรงกับรถคุณ",
