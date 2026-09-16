@@ -169,7 +169,7 @@ export default function App() {
           ? strings.favoritesOrderNote
           : `${strings.rankedByCostPrefix}${profile.connectorStandard}`}
         {areaFallback ? strings.areaFallbackSuffix : ""}
-        {documents?.fromCache ? `${strings.cacheSuffix} · ${formatFetchedAt(documents.fetchedAt)}` : ""}
+        {documents ? `${documents.fromCache ? strings.cacheSuffix : ""} · ${formatFetchedAt(documents.fetchedAt)}` : ""}
       </Text>
 
       {error ? (
