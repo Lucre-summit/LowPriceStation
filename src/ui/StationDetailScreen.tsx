@@ -72,6 +72,9 @@ export function StationDetailScreen({
   onBack,
 }: StationDetailScreenProps) {
   const headline = formatStationHeadline(entry);
+  const detail = entry.compatible
+    ? `${formatUnitPrice(entry.price)} · ${strings.energyUsedPrefix}${energyKwh} kWh`
+    : entry.station.connectors.map(formatConnector).join(" · ");
   const idleFee = describeIdleFee(tariff);
   const band = entry.price
     ? `${entry.price.rate.minPowerKw}–${entry.price.rate.maxPowerKw} kW`
@@ -98,9 +101,7 @@ export function StationDetailScreen({
 
       <View style={styles.costCard}>
         <Text style={headline.emphasized ? styles.cost : styles.costUnknown}>{headline.text}</Text>
-        <Text style={styles.costDetail}>
-          {`${formatUnitPrice(entry.price)} · ${strings.energyUsedPrefix}${energyKwh} kWh`}
-        </Text>
+        <Text style={styles.costDetail}>{detail}</Text>
         {idleFee ? <Text style={styles.idleWarning}>{`${strings.idleFeeLabel}: ${idleFee}`}</Text> : null}
       </View>
 
