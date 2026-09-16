@@ -183,10 +183,33 @@ function checkTariffs(doc, label) {
   return seen;
 }
 
-const [stationsPath, tariffsPath] = process.argv.slice(2);
+const [stationsPath, tariffsPath, sourcesPath] = process.argv.slice(2);
 const defaultPath = (name) => fileURLToPath(new URL(`../data/${name}`, import.meta.url));
 const stationsDoc = load(stationsPath ?? defaultPath("stations.th.json"), "stations");
 const tariffsDoc = load(tariffsPath ?? defaultPath("tariffs.th.json"), "tariffs");
+const sourcesDoc = load(sourcesPath ?? defaultPath("sources.th.json"), "sources");
+
+const recordedSources = new Set();
+if (sourcesDoc) {
+  checkHeader(sourcesDoc, "sources");
+  if (!Array.isArray(sourcesDoc.sources) || sourcesDoc.sources.length === 0) {
+    at("sources", "sources must be a non-empty array");
+  } else {
+    sourcesDoc.sources.forEach((source, i) => {
+      const where = `sources.sources[${i}]${isStr(source?.id) ? ` (${source.id})` : ""}`;
+      if (!isStr(source?.id)) at(where, "missing id");
+      else if (recordedSources.has(source.id)) at(where, "duplicate id");
+      else recordedSources.add(source.id);
+      if (!isStr(source?.publisher)) at(where, "missing publisher");
+      if (!isHttpUrl(source?.url)) at(where, "url must be an http(s) URL");
+      if (source?.publishedAt !== null && !isStr(source?.publishedAt)) {
+        at(where, "publishedAt must be a string or null");
+      }
+      if (!isStr(source?.checkedAt) || !DATE.test(source.checkedAt)) at(where, "checkedAt must be YYYY-MM-DD");
+      if (!isStr(source?.covers)) at(where, "covers must say what the source provides");
+    });
+  }
+}
 
 let stationNetworks = new Set();
 if (stationsDoc) {
@@ -206,6 +229,18 @@ for (const doc of [stationsDoc, tariffsDoc]) {
     .filter((n) => n && n !== UNATTRIBUTED && !tariffNetworks.has(n));
   for (const network of new Set(priced)) {
     at("cross-check", `stations reference network "${network}" that has no tariff entry, so it can never be ranked`);
+  }
+}
+
+if (sourcesDoc && stationsDoc) {
+  const cited = new Set((stationsDoc.stations ?? []).flatMap((station) => (station?.sourceIds ?? []).map((s) => s?.source)));
+  for (const source of cited) {
+    if (!recordedSources.has(source)) {
+      at("cross-check", `stations cite source "${source}", which data/sources.th.json does not record`);
+    }
+  }
+  for (const source of recordedSources) {
+    if (!cited.has(source)) at("cross-check", `data/sources.th.json records "${source}", which no station cites`);
   }
 }
 

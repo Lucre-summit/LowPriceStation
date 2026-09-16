@@ -1,0 +1,22 @@
+{
+ "version": 1,
+ "updatedAt": "2026-09-16",
+ "sources": [
+  {
+   "id": "pea-xlsx",
+   "publisher": "PEA VOLTA",
+   "url": "https://www.pea.co.th/sites/default/files/images/volta/PEA_VOLTA_May_2024.xlsx",
+   "publishedAt": "2024-05",
+   "checkedAt": "2026-09-16",
+   "covers": "PEA VOLTA's published station file: every station it lists, nationwide, with coordinates, power bands and connector counts. Rows marked replace supersede an earlier row for the same site rather than adding one."
+  },
+  {
+   "id": "bma-arcgis",
+   "publisher": "Bangkok Metropolitan Administration",
+   "url": "https://bmagis.bangkok.go.th/arcgis/rest/services/riskbkk/RISK_ADMIN_DCEVBMA_ChargingStation/FeatureServer/0",
+   "publishedAt": null,
+   "checkedAt": "2026-09-16",
+   "covers": "DC charging sites inside Bangkok for EV Station PluZ, EleX by EGAT, MEA EV and EA Anywhere, with a per-site connector description. Connectors the layer marks CLOSED are not imported."
+  }
+ ]
+}

@@ -20,6 +20,7 @@ import json
 import math
 import re
 import unicodedata
+from datetime import date
 from pathlib import Path
 
 import openpyxl
@@ -31,8 +32,10 @@ OUT = ROOT / "data" / "stations.th.json"
 PEA_XLSX = RAW / "PEA_VOLTA_May_2024.xlsx"
 BMA_JSON = RAW / "bma_arcgis_dcevbmA_chargingstation.json"
 
-METRO_PROVINCES = {"กทม.", "นนทบุรี", "ปทุมธานี", "สมุทรปราการ", "สมุทรสาคร", "นครปฐม"}
 BANDS = [25, 50, 120, 300, 360]
+
+# The PEA sheet marks a corrected row with this word in place of its ลำดับ.
+REPLACEMENT = re.compile(r"^replace$", re.IGNORECASE)
 
 # ArcGIS PROVIDER values that belong to a network in scope. Anything else is counted and skipped.
 PROVIDER_TO_NETWORK = {
@@ -64,65 +67,110 @@ def in_thailand(lat, lng):
     return isinstance(lat, float) and isinstance(lng, float) and 5.6 < lat < 20.5 and 97.3 < lng < 105.7
 
 
+def pea_connectors(counts, type2, ccs2, chademo):
+    """Connector groups for one PEA row, carrying the highest band it lists.
+
+    A row that lists several bands cannot split them across connectors, and PEA prices higher
+    bands higher, so the highest is used and the row is noted: this never overstates cheapness.
+    """
+    present = [kw for kw in BANDS if counts.get(kw, 0) > 0]
+    top = max(present) if present else 50
+    connectors = []
+    for standard, count in (("CCS2", ccs2), ("CHAdeMO", chademo), ("Type 2", type2)):
+        if count:
+            connectors.append(
+                {"standard": standard, "maxPowerKw": 22 if standard == "Type 2" else top, "count": count}
+            )
+    return connectors, present
+
+
 def pea_stations():
+    # PEA publishes its whole network in one file, so it is imported nationwide: a driver outside
+    # Bangkok still gets real stations and real PEA prices. The ArcGIS layer below is Bangkok-only.
     workbook = openpyxl.load_workbook(PEA_XLSX, data_only=True)
     sheet = workbook["PEA VOLTA 409 (เปิดแล้ว)"]
     header = list(next(sheet.iter_rows(min_row=4, max_row=4, values_only=True)))
     column = {name: index for index, name in enumerate(header) if name}
-    rows = list(sheet.iter_rows(min_row=5, max_row=415, values_only=True))
 
     stations, skipped = [], collections.Counter()
-    for row in rows:
+    for sheet_row, row in enumerate(sheet.iter_rows(min_row=5, max_row=415, values_only=True), start=5):
         if row[0] is None:
             continue
-        province = clean(row[column["จังหวัด"]])
-        if province not in METRO_PROVINCES:
-            skipped["outside metro"] += 1
-            continue
+        sequence = str(row[0]).strip()
+        name = clean(row[column["ชื่อสถานี PEA ภาษาไทย"]]) or "PEA VOLTA station"
+
         try:
-            lat = float(row[column["ละติดจูด"]])
-            lng = float(row[column["ลองติดจูด"]])
+            position = {
+                "lat": round(float(row[column["ละติดจูด"]]), 6),
+                "lng": round(float(row[column["ลองติดจูด"]]), 6),
+            }
         except (TypeError, ValueError):
             skipped["no coordinates"] += 1
             continue
-        if not in_thailand(lat, lng):
+        if not in_thailand(position["lat"], position["lng"]):
             skipped["coordinates outside Thailand"] += 1
             continue
 
-        present = [kw for kw in BANDS if int(row[column[f"{kw}kW"]] or 0) > 0]
+        province = clean(row[column["จังหวัด"]])
+        if province and re.search(r"\d", province):
+            # One row carries an office code (กฟก.2) in the province column; keep the district only.
+            province = None
+
+        counts = {kw: int(row[column[f"{kw}kW"]] or 0) for kw in BANDS}
+        type2 = int(row[column["AC Type 2"]] or 0)
         ccs2 = int(row[column["CCS2"]] or 0)
         chademo = int(row[column["CHAdeMO"]] or 0)
-        type2 = int(row[column["AC Type 2"]] or 0)
         if ccs2 == 0 and chademo == 0:
             skipped["no DC connector"] += 1
             continue
 
-        top = max(present) if present else 50
-        connectors = []
-        for standard, count in (("CCS2", ccs2), ("CHAdeMO", chademo), ("Type 2", type2)):
-            if count:
-                connectors.append(
-                    {"standard": standard, "maxPowerKw": 22 if standard == "Type 2" else top, "count": count}
-                )
-
+        connectors, present = pea_connectors(counts, type2, ccs2, chademo)
         notes = None
         if len(present) > 1:
             bands_text = ", ".join(f"{kw} kW" for kw in present)
             notes = f"PEA file lists several power bands here ({bands_text}); the highest is carried on the connector"
 
+        if REPLACEMENT.match(sequence):
+            # The sheet marks a corrected row with the word "replace" instead of a ลำดับ: it
+            # supersedes the earlier row for the same site rather than adding a station.
+            target = next(
+                (
+                    kept
+                    for kept in stations
+                    if kept["key"] == re.sub(r"\s*#\d+\s*$", "", name).strip()
+                    or metres_between(kept["position"], position) <= 50
+                ),
+                None,
+            )
+            if target is not None:
+                target["connectors"] = connectors
+                target["position"] = position
+                target["notes"] = " ".join(
+                    filter(None, [target["notes"], f"row {sheet_row} marked replace supersedes row {target['sourceIds'][0]['id']}"])
+                )
+                skipped["rows marked replace (superseding an earlier row)"] += 1
+                continue
+            notes = " ".join(filter(None, [notes, f"row {sheet_row} is marked replace with no earlier row to supersede"]))
+
         stations.append(
             {
                 "id": None,  # derived from the site itself once duplicates are merged
-                "name": clean(row[column["ชื่อสถานี PEA ภาษาไทย"]]) or "PEA VOLTA station",
+                "key": re.sub(r"\s*#\d+\s*$", "", name).strip(),
+                "name": name,
                 "network": "PEA VOLTA",
-                "position": {"lat": round(lat, 6), "lng": round(lng, 6)},
+                "position": position,
                 "connectors": connectors,
                 "address": ", ".join(part for part in (clean(row[column["อำเภอ"]]), province) if part) or None,
                 "openingHours": None,
                 "notes": notes,
-                "sourceIds": [{"source": "pea-xlsx", "id": str(row[0])}],
+                "sourceIds": [
+                    {"source": "pea-xlsx", "id": sequence if not REPLACEMENT.match(sequence) else f"row-{sheet_row}"}
+                ],
             }
         )
+
+    for station in stations:
+        station.pop("key", None)
     return stations, skipped
 
 
@@ -291,7 +339,7 @@ def main():
 
     per_network = collections.Counter(station["network"] for station in stations)
     with_ccs2 = sum(1 for station in stations if any(c["standard"] == "CCS2" for c in station["connectors"]))
-    document = {"version": 1, "updatedAt": "2026-09-15", "stations": stations}
+    document = {"version": 1, "updatedAt": date.today().isoformat(), "stations": stations}
     OUT.write_text(json.dumps(document, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
     print(f"wrote {OUT.relative_to(ROOT)} with {len(stations)} stations ({with_ccs2} with CCS2)")

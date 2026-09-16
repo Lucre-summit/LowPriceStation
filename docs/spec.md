@@ -56,7 +56,7 @@ An app that lists DC charging stations near the driver, ranked by the estimated 
 - **Station identity**: our own stable station id, with all source ids retained; records merge when they share a network and sit within 50 m of each other, and conflicting merges are resolved by hand.
 - **Favorites**: device-local only, keyed so a future sync can adopt them without migration.
 - **Navigation**: handoff to the platform map app, per ADR-0002; no in-app turn-by-turn.
-- **Coverage**: DC (CCS2) only, Bangkok metropolitan area first, across PEA VOLTA, EV Station PluZ, EleX by EGAT, MEA EV and EA Anywhere.
+- **Coverage**: DC (CCS2) only, across PEA VOLTA, EV Station PluZ, EleX by EGAT, MEA EV and EA Anywhere. PEA's national station file is imported in full, so its stations are nationwide; the other four networks are seeded from Bangkok's open charging-station layer. Coverage grows province by province through the tracker's coverage lane.
 - **Curation**: owned by the maintainer, refreshed monthly and on price announcements; a record whose `checked_at` is older than 90 days is shown as possibly out of date.
 - **No backend**: no accounts, no server-side user data, no analytics, no push notifications in v1.
 
@@ -72,7 +72,7 @@ Seams are proposed, not settled: confirm them before implementation, since addin
 
 ## Out of Scope
 
-AC charging; live occupied/free availability (no public source exists); starting or paying for a charge (no cross-network roaming exists in Thailand); push notifications and price-drop alerts; accounts, sync and multi-device favorites; analytics and crash telemetry; coverage outside Bangkok metropolitan area; paid EV data feeds (TomTom EV Search, HERE EV Charge Points); in-app turn-by-turn navigation; crowdsourced price reports; multiple vehicles per driver.
+AC charging; live occupied/free availability (no public source exists); starting or paying for a charge (no cross-network roaming exists in Thailand); push notifications and price-drop alerts; accounts, sync and multi-device favorites; analytics and crash telemetry; stations of the four Bangkok-seeded networks outside the metropolitan area, which the coverage lane adds province by province; paid EV data feeds (TomTom EV Search, HERE EV Charge Points); in-app turn-by-turn navigation; crowdsourced price reports; multiple vehicles per driver.
 
 ## Further Notes
 
