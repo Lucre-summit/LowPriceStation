@@ -1,4 +1,6 @@
 import type { PriceForConnector } from "../domain/price";
+import type { RankedStation } from "../domain/rank";
+import type { Connector } from "../domain/types";
 import { strings } from "./strings";
 
 export function formatDistanceKm(km: number): string {
@@ -24,6 +26,28 @@ export function formatUnitPrice(price: PriceForConnector | null): string {
 
 export function formatClock(time: Date): string {
   return `${String(time.getHours()).padStart(2, "0")}:${String(time.getMinutes()).padStart(2, "0")}`;
+}
+
+export function formatConnector(connector: Connector): string {
+  return `${connector.standard} · ${connector.maxPowerKw} kW × ${connector.count}`;
+}
+
+export interface StationHeadline {
+  text: string;
+  /** True when the headline is a real cost rather than an explanation of what is missing. */
+  emphasized: boolean;
+}
+
+/** What a driver sees first about a station: its cost, or why there is no cost to show. */
+export function formatStationHeadline(entry: RankedStation): StationHeadline {
+  if (!entry.compatible) return { text: strings.connectorMismatch, emphasized: false };
+  const cost = formatSessionCost(entry.price?.sessionCostThb ?? null);
+  return cost ? { text: cost, emphasized: true } : { text: strings.unknownPrice, emphasized: false };
+}
+
+/** The one sentence used wherever a saved station no longer matches the loaded data. */
+export function formatUnmatchedFavorites(count: number): string {
+  return `${strings.unmatchedFavoritesPrefix}${count}${strings.unmatchedFavoritesSuffix}`;
 }
 
 export function formatEnergy(kwh: number): string {

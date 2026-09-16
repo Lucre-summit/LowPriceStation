@@ -13,6 +13,8 @@ export interface RankedStation {
   arrival: Date;
   /** The cheapest compatible connector, or null when nothing prices this station. */
   price: PriceForConnector | null;
+  /** False when no connector here fits the car, which only a saved station is listed for. */
+  compatible: boolean;
   /** When the network's rate was last checked by hand, or null when the network has no tariff. */
   checkedAt: string | null;
   stalePrice: boolean;
@@ -29,6 +31,12 @@ export interface RankOptions {
   network: string | null;
   sort: "cheapest" | "nearest";
   energyOverrideKwh?: number | null;
+  /**
+   * Whether a station with no connector for this car may still be listed. Discovery says no —
+   * a driver should never be sent to a plug they cannot use — but a station the driver saved
+   * themselves is shown either way, because silently dropping it looks like lost data.
+   */
+  requireCompatibleConnector?: boolean;
 }
 
 function daysBetween(fromIso: string, to: Date): number {
@@ -85,7 +93,7 @@ export function rankStations(
       (connector) =>
         connector.standard === profile.connectorStandard && connector.maxPowerKw >= options.minPowerKw,
     );
-    if (usable.length === 0) continue;
+    if (usable.length === 0 && options.requireCompatibleConnector !== false) continue;
 
     const arrival = estimateArrival(options.departure, distance);
     const tariff = tariffByNetwork[station.network];
@@ -103,6 +111,7 @@ export function rankStations(
       distanceKm: distance,
       arrival,
       price: best,
+      compatible: usable.length > 0,
       checkedAt,
       stalePrice: checkedAt != null && daysBetween(checkedAt, now) > STALE_AFTER_DAYS,
     });

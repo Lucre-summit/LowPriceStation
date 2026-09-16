@@ -69,3 +69,13 @@ _Avoid_: charge, top-up, fill
 **Session cost**:
 What a session actually costs the driver: energy delivered priced by the tariff, plus any time-based components and the idle fee.
 _Avoid_: total price, charge cost
+
+### The driver's own data
+
+**Favorite**:
+A station the driver has saved on their own device, together with the moment they saved it. Favorites need no account, and a saved station is listed even when it lies outside the current search.
+_Avoid_: bookmark, saved station, ถูกใจ
+
+**Vehicle profile**:
+The car a driver charges: its connector standard, battery capacity, and the state-of-charge range they charge within. It decides which connectors are usable and how much energy a session needs.
+_Avoid_: car settings, vehicle config

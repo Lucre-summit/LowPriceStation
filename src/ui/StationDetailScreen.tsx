@@ -2,12 +2,15 @@ import { Linking, Platform, Pressable, ScrollView, StyleSheet, Text, View } from
 
 import { networkAppCandidates, navigationCandidates, platformFor } from "../domain/handoff";
 import type { RankedStation } from "../domain/rank";
-import type { Connector, NetworkTariff } from "../domain/types";
+import type { NetworkTariff } from "../domain/types";
+import { FavoriteButton } from "./FavoriteButton";
 import {
   formatClock,
+  formatConnector,
   formatDistanceKm,
   formatPeakDays,
   formatSessionCost,
+  formatStationHeadline,
   formatThaiDate,
   formatUnitPrice,
 } from "./format";
@@ -18,14 +21,12 @@ export interface StationDetailScreenProps {
   entry: RankedStation;
   tariff: NetworkTariff | null;
   energyKwh: number;
+  isFavorite: boolean;
+  onToggleFavorite: () => void;
   onBack: () => void;
 }
 
 const currentPlatform = platformFor(Platform.OS);
-
-function describeConnector(connector: Connector): string {
-  return `${connector.standard} · ${connector.maxPowerKw} kW × ${connector.count}`;
-}
 
 /** Hands over to the first form the device can actually take, rather than failing silently. */
 async function openFirstAvailable(urls: string[]): Promise<void> {
@@ -62,8 +63,15 @@ function Field({ label, value }: { label: string; value: string }) {
 }
 
 /** Everything a driver needs before choosing this station, and the two ways out of the app. */
-export function StationDetailScreen({ entry, tariff, energyKwh, onBack }: StationDetailScreenProps) {
-  const cost = formatSessionCost(entry.price?.sessionCostThb ?? null);
+export function StationDetailScreen({
+  entry,
+  tariff,
+  energyKwh,
+  isFavorite,
+  onToggleFavorite,
+  onBack,
+}: StationDetailScreenProps) {
+  const headline = formatStationHeadline(entry);
   const idleFee = describeIdleFee(tariff);
   const band = entry.price
     ? `${entry.price.rate.minPowerKw}–${entry.price.rate.maxPowerKw} kW`
@@ -76,9 +84,12 @@ export function StationDetailScreen({ entry, tariff, energyKwh, onBack }: Statio
 
   return (
     <ScrollView style={styles.screen} contentContainerStyle={styles.content}>
-      <Pressable onPress={onBack} style={styles.backButton}>
-        <Text style={styles.backText}>{strings.back}</Text>
-      </Pressable>
+      <View style={styles.topRow}>
+        <Pressable onPress={onBack} style={styles.backButton}>
+          <Text style={styles.backText}>{strings.back}</Text>
+        </Pressable>
+        <FavoriteButton isFavorite={isFavorite} onToggle={onToggleFavorite} />
+      </View>
 
       <Text style={styles.name}>{entry.station.name}</Text>
       <Text style={styles.meta}>
@@ -86,7 +97,7 @@ export function StationDetailScreen({ entry, tariff, energyKwh, onBack }: Statio
       </Text>
 
       <View style={styles.costCard}>
-        <Text style={cost ? styles.cost : styles.costUnknown}>{cost ?? strings.unknownPrice}</Text>
+        <Text style={headline.emphasized ? styles.cost : styles.costUnknown}>{headline.text}</Text>
         <Text style={styles.costDetail}>
           {`${formatUnitPrice(entry.price)} · ${strings.energyUsedPrefix}${energyKwh} kWh`}
         </Text>
@@ -98,7 +109,7 @@ export function StationDetailScreen({ entry, tariff, energyKwh, onBack }: Statio
         <View style={styles.card}>
           <Field label={strings.powerBandLabel} value={band} />
           <Field label={strings.windowLabel} value={describeWindow(tariff)} />
-          {!entry.price ? <Text style={styles.notice}>{strings.noTariffNotice}</Text> : null}
+          {entry.compatible && !entry.price ? <Text style={styles.notice}>{strings.noTariffNotice}</Text> : null}
         </View>
       ) : (
         <Text style={styles.notice}>{strings.noTariffNotice}</Text>
@@ -125,7 +136,7 @@ export function StationDetailScreen({ entry, tariff, energyKwh, onBack }: Statio
       <View style={styles.card}>
         {entry.station.connectors.map((connector) => (
           <Text key={connector.standard} style={styles.connector}>
-            {describeConnector(connector)}
+            {formatConnector(connector)}
           </Text>
         ))}
         <Field label={strings.openingHoursLabel} value={entry.station.openingHours ?? strings.openingHoursUnknown} />
@@ -157,6 +168,7 @@ const styles = StyleSheet.create({
   content: { gap: spacing.sm, paddingBottom: spacing.xl },
   backButton: { paddingVertical: spacing.sm },
   backText: { fontSize: 15, color: colors.accent, fontWeight: "600" },
+  topRow: { flexDirection: "row", justifyContent: "space-between", alignItems: "center" },
   name: { fontSize: 24, fontWeight: "700", color: colors.text },
   meta: { fontSize: 13, color: colors.muted },
   costCard: {

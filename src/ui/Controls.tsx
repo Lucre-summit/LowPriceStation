@@ -2,14 +2,18 @@ import { useState } from "react";
 import { Pressable, ScrollView, StyleSheet, Text, TextInput, View } from "react-native";
 
 import { Chip } from "./Chip";
+import { formatUnmatchedFavorites } from "./format";
 import { strings } from "./strings";
 import { colors, radius, spacing } from "./theme";
-import type { SortOrder } from "./types";
+import type { ListMode, SortOrder } from "./types";
 
 const RADII = [5, 10, 25];
 const POWERS = [0, 50, 100];
 
 export interface ControlsProps {
+  mode: ListMode;
+  onMode: (mode: ListMode) => void;
+  favoriteCount: number;
   sort: SortOrder;
   onSort: (sort: SortOrder) => void;
   radiusKm: number;
@@ -24,6 +28,7 @@ export interface ControlsProps {
   profileLabel: string;
   onEditProfile: () => void;
   resultCount: number;
+  unmatchedFavorites: number;
 }
 
 /** Sorting, the filters that decide which stations are eligible, and the session energy override. */
@@ -38,48 +43,66 @@ export function Controls(props: ControlsProps) {
     props.onEnergyOverride(text.trim() === "" || !Number.isFinite(value) || value <= 0 ? null : value);
   };
 
+  const showingFavorites = props.mode === "favorites";
+
   return (
     <View style={styles.panel}>
       <View style={styles.line}>
-        <Chip label={strings.sortCheapest} selected={props.sort === "cheapest"} onPress={() => props.onSort("cheapest")} />
-        <Chip label={strings.sortNearest} selected={props.sort === "nearest"} onPress={() => props.onSort("nearest")} />
+        <Chip label={strings.sortCheapest} selected={props.mode === "nearby" && props.sort === "cheapest"} onPress={() => { props.onMode("nearby"); props.onSort("cheapest"); }} />
+        <Chip label={strings.sortNearest} selected={props.mode === "nearby" && props.sort === "nearest"} onPress={() => { props.onMode("nearby"); props.onSort("nearest"); }} />
+        <Chip
+          label={`${strings.favoritesOnly} (${props.favoriteCount})`}
+          selected={showingFavorites}
+          onPress={() => props.onMode(showingFavorites ? "nearby" : "favorites")}
+        />
         <Text style={styles.count}>{`${props.resultCount}${strings.countSuffix}`}</Text>
       </View>
 
-      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.scrollLine}>
-        {RADII.map((km) => (
-          <Chip
-            key={km}
-            label={`${km}${strings.radiusSuffix}`}
-            selected={props.radiusKm === km}
-            onPress={() => props.onRadius(km)}
-          />
-        ))}
-        {POWERS.map((kw) => (
-          <Chip
-            key={kw}
-            label={kw === 0 ? strings.anyPower : `${strings.minPowerPrefix}${kw}${strings.minPowerSuffix}`}
-            selected={props.minPowerKw === kw}
-            onPress={() => props.onMinPower(kw)}
-          />
-        ))}
-      </ScrollView>
+      {showingFavorites ? (
+        <>
+          <Text style={styles.favoritesNote}>{strings.favoritesOrderNote}</Text>
+          {props.unmatchedFavorites > 0 && props.resultCount > 0 ? (
+            <Text style={styles.favoritesWarning}>{formatUnmatchedFavorites(props.unmatchedFavorites)}</Text>
+          ) : null}
+        </>
+      ) : (
+        <>
+          <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.scrollLine}>
+            {RADII.map((km) => (
+              <Chip
+                key={km}
+                label={`${km}${strings.radiusSuffix}`}
+                selected={props.radiusKm === km}
+                onPress={() => props.onRadius(km)}
+              />
+            ))}
+            {POWERS.map((kw) => (
+              <Chip
+                key={kw}
+                label={kw === 0 ? strings.anyPower : `${strings.minPowerPrefix}${kw}${strings.minPowerSuffix}`}
+                selected={props.minPowerKw === kw}
+                onPress={() => props.onMinPower(kw)}
+              />
+            ))}
+          </ScrollView>
 
-      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.scrollLine}>
-        <Chip
-          label={strings.allNetworks}
-          selected={props.network === null}
-          onPress={() => props.onNetwork(null)}
-        />
-        {props.networks.map((network) => (
-          <Chip
-            key={network}
-            label={network}
-            selected={props.network === network}
-            onPress={() => props.onNetwork(network)}
-          />
-        ))}
-      </ScrollView>
+          <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.scrollLine}>
+            <Chip
+              label={strings.allNetworks}
+              selected={props.network === null}
+              onPress={() => props.onNetwork(null)}
+            />
+            {props.networks.map((network) => (
+              <Chip
+                key={network}
+                label={network}
+                selected={props.network === network}
+                onPress={() => props.onNetwork(network)}
+              />
+            ))}
+          </ScrollView>
+        </>
+      )}
 
       <View style={styles.line}>
         <Text style={styles.overrideLabel}>{strings.energyToAdd}</Text>
@@ -117,6 +140,8 @@ const styles = StyleSheet.create({
   line: { flexDirection: "row", alignItems: "center", gap: spacing.sm },
   scrollLine: { flexDirection: "row", gap: spacing.sm, paddingRight: spacing.md },
   count: { marginLeft: "auto", fontSize: 13, color: colors.muted },
+  favoritesNote: { fontSize: 12, color: colors.muted },
+  favoritesWarning: { fontSize: 12, color: colors.warn },
   overrideLabel: { fontSize: 13, color: colors.muted },
   overrideInput: {
     flex: 1,

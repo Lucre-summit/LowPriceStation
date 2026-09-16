@@ -1,26 +1,44 @@
 import { Pressable, StyleSheet, Text, View } from "react-native";
 
 import type { RankedStation } from "../domain/rank";
-import { formatClock, formatDistanceKm, formatSessionCost, formatUnitPrice } from "./format";
+import { FavoriteButton } from "./FavoriteButton";
+import {
+  formatClock,
+  formatConnector,
+  formatDistanceKm,
+  formatStationHeadline,
+  formatUnitPrice,
+} from "./format";
 import { strings } from "./strings";
 import { colors, radius, spacing } from "./theme";
 
+interface StationRowProps {
+  item: RankedStation;
+  isFavorite: boolean;
+  onPress: () => void;
+  onToggleFavorite: () => void;
+}
+
 /** One station: what it costs this driver, when they would get there, and how much to trust the price. */
-export function StationRow({ item, onPress }: { item: RankedStation; onPress: () => void }) {
-  const cost = formatSessionCost(item.price?.sessionCostThb ?? null);
+export function StationRow({ item, isFavorite, onPress, onToggleFavorite }: StationRowProps) {
+  const headline = formatStationHeadline(item);
+  const detail = item.compatible
+    ? formatUnitPrice(item.price)
+    : item.station.connectors.map(formatConnector).join(" · ");
   return (
     <Pressable onPress={onPress} style={styles.row}>
       <View style={styles.head}>
         <Text style={styles.name} numberOfLines={1}>
           {item.station.name}
         </Text>
-        <Text style={cost ? styles.cost : styles.costUnknown}>{cost ?? strings.unknownPrice}</Text>
+        <Text style={headline.emphasized ? styles.cost : styles.costFaint}>{headline.text}</Text>
+        <FavoriteButton isFavorite={isFavorite} onToggle={onToggleFavorite} size={20} />
       </View>
       <Text style={styles.meta}>
         {`${item.station.network} · ${formatDistanceKm(item.distanceKm)} · ${strings.arrivalPrefix}${formatClock(item.arrival)}`}
       </Text>
       <View style={styles.foot}>
-        <Text style={item.price ? styles.unit : styles.unitUnknown}>{formatUnitPrice(item.price)}</Text>
+        <Text style={item.price ? styles.unit : styles.unitUnknown}>{detail}</Text>
         {item.stalePrice ? <Text style={styles.stale}>{strings.staleWarning}</Text> : null}
       </View>
     </Pressable>
@@ -32,7 +50,7 @@ const styles = StyleSheet.create({
   head: { flexDirection: "row", justifyContent: "space-between", gap: spacing.sm, alignItems: "center" },
   name: { flex: 1, fontSize: 16, fontWeight: "600", color: colors.text },
   cost: { fontSize: 17, fontWeight: "700", color: colors.accent },
-  costUnknown: { fontSize: 14, color: colors.warn },
+  costFaint: { fontSize: 13, color: colors.warn },
   meta: { fontSize: 13, color: colors.muted },
   foot: { flexDirection: "row", justifyContent: "space-between", alignItems: "center", gap: spacing.sm },
   unit: { fontSize: 14, fontWeight: "600", color: colors.text },

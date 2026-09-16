@@ -54,6 +54,23 @@ test("a rate checked more than 90 days ago is flagged stale", () => {
   assert.equal(ranked.find((r) => r.station.id === "pluz-100kw")?.checkedAt, null);
 });
 
+test("a listed station says whether it fits the car", () => {
+  const ranked = rankStations(buildStations(), buildTariffs(), DEFAULT_VEHICLE, base);
+  assert.ok(ranked.every((entry) => entry.compatible));
+});
+
+test("a saved station whose connector does not fit the car is listed only when asked for", () => {
+  const asked = rankStations(buildStations(), buildTariffs(), DEFAULT_VEHICLE, {
+    ...base,
+    requireCompatibleConnector: false,
+  });
+  const acOnly = asked.find((entry) => entry.station.id === "pea-ac-only");
+  assert.ok(acOnly, "the Type 2 only station is listed");
+  assert.equal(acOnly.price, null);
+  assert.equal(acOnly.compatible, false);
+  assert.equal(asked.filter((entry) => entry.compatible).length, 4);
+});
+
 test("an on-peak arrival makes the peak price apply", () => {
   const morning = rankStations(buildStations(), buildTariffs(), DEFAULT_VEHICLE, {
     ...base,

@@ -112,7 +112,7 @@ def pea_stations():
 
         stations.append(
             {
-                "id": f"pea-volta-{int(row[0]):04d}",
+                "id": None,  # derived from the site itself once duplicates are merged
                 "name": clean(row[column["ชื่อสถานี PEA ภาษาไทย"]]) or "PEA VOLTA station",
                 "network": "PEA VOLTA",
                 "position": {"lat": round(lat, 6), "lng": round(lng, 6)},
@@ -214,7 +214,7 @@ def bma_stations():
         object_id = attributes.get("OBJECTID") or attributes.get("FID") or attributes.get("GLOBALID")
         stations.append(
             {
-                "id": None,  # numbered after merging
+                "id": None,  # derived from the site itself once duplicates are merged
                 "name": clean(attributes.get("NAME_T")) or clean(attributes.get("NAME_E")) or f"{network} station",
                 "network": network,
                 "position": {"lat": round(float(lat), 6), "lng": round(float(lng), 6)},
@@ -235,21 +235,29 @@ def metres_between(a, b):
 
 
 def merge_duplicates(stations):
-    """Same network and within 50 m is one station; source ids and connector counts are unioned."""
-    merged, merges = [], 0
+    """Same network and within 50 m is one station; source ids and connector counts are unioned.
+
+    The id is ours and comes from the site itself — the anchor member's coordinates, quantised
+    to about ten metres — so it survives a publisher renumbering its sheet, and a saved favorite
+    keeps pointing at the same place. Source record numbers stay in sourceIds for traceability.
+    """
+    merged, merges, cluster_positions = [], 0, []
     for station in stations:
-        twin = next(
+        twin_index = next(
             (
-                kept
-                for kept in merged
+                index
+                for index, kept in enumerate(merged)
                 if kept["network"] == station["network"] and metres_between(kept["position"], station["position"]) <= 50
             ),
             None,
         )
-        if twin is None:
+        if twin_index is None:
             merged.append(station)
+            cluster_positions.append([station["position"]])
             continue
         merges += 1
+        cluster_positions[twin_index].append(station["position"])
+        twin = merged[twin_index]
         twin["sourceIds"].extend(station["sourceIds"])
         for connector in station["connectors"]:
             existing = next((c for c in twin["connectors"] if c["standard"] == connector["standard"]), None)
@@ -260,12 +268,19 @@ def merge_duplicates(stations):
                 existing["maxPowerKw"] = max(existing["maxPowerKw"], connector["maxPowerKw"])
         if station["notes"] and station["notes"] not in (twin["notes"] or ""):
             twin["notes"] = "; ".join(filter(None, [twin["notes"], station["notes"]]))
-    for network, slug in NETWORK_SLUG.items():
-        counter = 0
-        for station in merged:
-            if station["network"] == network:
-                counter += 1
-                station["id"] = f"{slug}-{counter:04d}"
+
+    for station, positions in zip(merged, cluster_positions):
+        # The member that sorts first by source is the anchor: quantised to ~10 m it gives an id
+        # that a later duplicate row for the same site cannot move, and that a saved favorite
+        # keeps pointing at. Source record numbers stay in sourceIds for traceability.
+        anchor = min(
+            zip(station["sourceIds"], positions),
+            key=lambda pair: (pair[0]["source"], str(pair[0]["id"])),
+        )[1]
+        lat = round(anchor["lat"], 4)
+        lng = round(anchor["lng"], 4)
+        station["position"] = {"lat": lat, "lng": lng}
+        station["id"] = f"{NETWORK_SLUG[station['network']]}-{lat:.4f}-{lng:.4f}"
     return merged, merges
 
 

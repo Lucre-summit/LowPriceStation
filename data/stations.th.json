@@ -3,12 +3,12 @@
  "updatedAt": "2026-09-15",
  "stations": [
   {
-   "id": "pea-volta-0001",
+   "id": "pea-volta-13.8504-100.5586",
    "name": "PEA VOLTA สำนักงานใหญ่",
    "network": "PEA VOLTA",
    "position": {
-    "lat": 13.850428,
-    "lng": 100.558578
+    "lat": 13.8504,
+    "lng": 100.5586
    },
    "connectors": [
     {
@@ -46,12 +46,12 @@
    ]
   },
   {
-   "id": "pea-volta-0002",
+   "id": "pea-volta-14.0453-100.6162",
    "name": "PEA VOLTA รังสิต",
    "network": "PEA VOLTA",
    "position": {
-    "lat": 14.045281,
-    "lng": 100.616188
+    "lat": 14.0453,
+    "lng": 100.6162
    },
    "connectors": [
     {
@@ -76,12 +76,12 @@
    ]
   },
   {
-   "id": "pea-volta-0003",
+   "id": "pea-volta-13.8034-100.1887",
    "name": "PEA VOLTA นครชัยศรี",
    "network": "PEA VOLTA",
    "position": {
-    "lat": 13.803429,
-    "lng": 100.188705
+    "lat": 13.8034,
+    "lng": 100.1887
    },
    "connectors": [
     {
@@ -111,12 +111,12 @@
    ]
   },
   {
-   "id": "pea-volta-0004",
+   "id": "pea-volta-13.5433-100.2648",
    "name": "PEA VOLTA สมุทรสาคร",
    "network": "PEA VOLTA",
    "position": {
-    "lat": 13.543326,
-    "lng": 100.26477
+    "lat": 13.5433,
+    "lng": 100.2648
    },
    "connectors": [
     {
@@ -146,12 +146,12 @@
    ]
   },
   {
-   "id": "pea-volta-0005",
+   "id": "pea-volta-13.8045-100.0232",
    "name": "PEA VOLTA บางจาก เมืองนครปฐม (เพชรเกษม กม. 61 ขาเข้า)",
    "network": "PEA VOLTA",
    "position": {
-    "lat": 13.804488,
-    "lng": 100.023228
+    "lat": 13.8045,
+    "lng": 100.0232
    },
    "connectors": [
     {
@@ -181,12 +181,12 @@
    ]
   },
   {
-   "id": "pea-volta-0006",
+   "id": "pea-volta-13.4521-100.0843",
    "name": "PEA VOLTA บางจาก นาโคก (ขาออก)",
    "network": "PEA VOLTA",
    "position": {
-    "lat": 13.452056,
-    "lng": 100.084284
+    "lat": 13.4521,
+    "lng": 100.0843
    },
    "connectors": [
     {
@@ -216,12 +216,12 @@
    ]
   },
   {
-   "id": "pea-volta-0007",
+   "id": "pea-volta-13.7851-100.2726",
    "name": "PEA VOLTA บางจาก สามพราน",
    "network": "PEA VOLTA",
    "position": {
-    "lat": 13.785147,
-    "lng": 100.272556
+    "lat": 13.7851,
+    "lng": 100.2726
    },
    "connectors": [
     {
@@ -251,12 +251,12 @@
    ]
   },
   {
-   "id": "pea-volta-0008",
+   "id": "pea-volta-13.9913-100.5817",
    "name": "PEA VOLTA ปทุมธานี 2",
    "network": "PEA VOLTA",
    "position": {
-    "lat": 13.991345,
-    "lng": 100.581678
+    "lat": 13.9913,
+    "lng": 100.5817
    },
    "connectors": [
     {
@@ -276,12 +276,12 @@
    ]
   },
   {
-   "id": "pea-volta-0009",
+   "id": "pea-volta-13.9979-100.6738",
    "name": "PEA VOLTA ธัญบุรี",
    "network": "PEA VOLTA",
    "position": {
-    "lat": 13.997938,
-    "lng": 100.673836
+    "lat": 13.9979,
+    "lng": 100.6738
    },
    "connectors": [
     {
@@ -301,12 +301,12 @@
    ]
   },
   {
-   "id": "pea-volta-0010",
+   "id": "pea-volta-13.8237-100.0689",
    "name": "PEA VOLTA นครปฐม",
    "network": "PEA VOLTA",
    "position": {
-    "lat": 13.823657,
-    "lng": 100.068922
+    "lat": 13.8237,
+    "lng": 100.0689
    },
    "connectors": [
     {
@@ -326,12 +326,12 @@
    ]
   },
   {
-   "id": "pea-volta-0011",
+   "id": "pea-volta-14.0058-100.1725",
    "name": "PEA VOLTA บางเลน",
    "network": "PEA VOLTA",
    "position": {
-    "lat": 14.005841,
-    "lng": 100.172547
+    "lat": 14.0058,
+    "lng": 100.1725
    },
    "connectors": [
     {
@@ -351,12 +351,12 @@
    ]
   },
   {
-   "id": "pea-volta-0012",
+   "id": "pea-volta-13.9916-100.5510",
    "name": "PEA VOLTA บางจาก เมืองปทุมธานี",
    "network": "PEA VOLTA",
    "position": {
-    "lat": 13.991613,
-    "lng": 100.55101
+    "lat": 13.9916,
+    "lng": 100.551
    },
    "connectors": [
     {
@@ -386,12 +386,12 @@
    ]
   },
   {
-   "id": "pea-volta-0013",
+   "id": "pea-volta-14.0116-100.2118",
    "name": "PEA VOLTA บางจาก บางเลน",
    "network": "PEA VOLTA",
    "position": {
-    "lat": 14.01161,
-    "lng": 100.21178
+    "lat": 14.0116,
+    "lng": 100.2118
    },
    "connectors": [
     {
@@ -421,12 +421,12 @@
    ]
   },
   {
-   "id": "pea-volta-0014",
+   "id": "pea-volta-14.0395-100.5256",
    "name": "PEA VOLTA บางจาก สามโคก",
    "network": "PEA VOLTA",
    "position": {
-    "lat": 14.039536,
-    "lng": 100.525593
+    "lat": 14.0395,
+    "lng": 100.5256
    },
    "connectors": [
     {
@@ -456,12 +456,12 @@
    ]
   },
   {
-   "id": "pea-volta-0015",
+   "id": "pea-volta-13.7053-100.3074",
    "name": "PEA VOLTA บางจาก กระทุ่มแบน",
    "network": "PEA VOLTA",
    "position": {
-    "lat": 13.705331,
-    "lng": 100.307371
+    "lat": 13.7053,
+    "lng": 100.3074
    },
    "connectors": [
     {
@@ -491,12 +491,12 @@
    ]
   },
   {
-   "id": "pea-volta-0016",
+   "id": "pea-volta-13.4670-100.1046",
    "name": "PEA VOLTA บางจาก เมืองสมุทรสาคร",
    "network": "PEA VOLTA",
    "position": {
-    "lat": 13.466987,
-    "lng": 100.104638
+    "lat": 13.467,
+    "lng": 100.1046
    },
    "connectors": [
     {
@@ -526,12 +526,12 @@
    ]
   },
   {
-   "id": "pea-volta-0017",
+   "id": "pea-volta-13.9346-100.7450",
    "name": "PEA VOLTA บางจาก ลำลูกกา",
    "network": "PEA VOLTA",
    "position": {
-    "lat": 13.934561,
-    "lng": 100.74495
+    "lat": 13.9346,
+    "lng": 100.745
    },
    "connectors": [
     {
@@ -561,12 +561,12 @@
    ]
   },
   {
-   "id": "pea-volta-0018",
+   "id": "pea-volta-13.5594-100.3142",
    "name": "PEA VOLTA โคกขาม",
    "network": "PEA VOLTA",
    "position": {
-    "lat": 13.55939,
-    "lng": 100.31421
+    "lat": 13.5594,
+    "lng": 100.3142
    },
    "connectors": [
     {
@@ -586,12 +586,12 @@
    ]
   },
   {
-   "id": "pea-volta-0019",
+   "id": "pea-volta-14.0224-100.5274",
    "name": "PEA VOLTA ปทุมธานี",
    "network": "PEA VOLTA",
    "position": {
-    "lat": 14.022386,
-    "lng": 100.527413
+    "lat": 14.0224,
+    "lng": 100.5274
    },
    "connectors": [
     {
@@ -611,12 +611,12 @@
    ]
   },
   {
-   "id": "pea-volta-0020",
+   "id": "pea-volta-13.7235-100.2979",
    "name": "PEA VOLTA อ้อมน้อย",
    "network": "PEA VOLTA",
    "position": {
-    "lat": 13.72346,
-    "lng": 100.29793
+    "lat": 13.7235,
+    "lng": 100.2979
    },
    "connectors": [
     {
@@ -636,12 +636,12 @@
    ]
   },
   {
-   "id": "pea-volta-0021",
+   "id": "pea-volta-14.0670-100.7072",
    "name": "PEA VOLTA คลองหลวง",
    "network": "PEA VOLTA",
    "position": {
-    "lat": 14.06699,
-    "lng": 100.707177
+    "lat": 14.067,
+    "lng": 100.7072
    },
    "connectors": [
     {
@@ -661,12 +661,12 @@
    ]
   },
   {
-   "id": "pea-volta-0022",
+   "id": "pea-volta-13.7431-100.2127",
    "name": "PEA VOLTA สามพราน",
    "network": "PEA VOLTA",
    "position": {
-    "lat": 13.74307,
-    "lng": 100.212721
+    "lat": 13.7431,
+    "lng": 100.2127
    },
    "connectors": [
     {
@@ -686,12 +686,12 @@
    ]
   },
   {
-   "id": "pea-volta-0023",
+   "id": "pea-volta-13.7574-100.5148",
    "name": "PEA VOLTA สศช.",
    "network": "PEA VOLTA",
    "position": {
-    "lat": 13.757351,
-    "lng": 100.514778
+    "lat": 13.7574,
+    "lng": 100.5148
    },
    "connectors": [
     {
@@ -711,7 +711,7 @@
    ]
   },
   {
-   "id": "pea-volta-0024",
+   "id": "pea-volta-14.0005-100.6130",
    "name": "PEA VOLTA บางจาก คลองหลวง",
    "network": "PEA VOLTA",
    "position": {
@@ -736,12 +736,12 @@
    ]
   },
   {
-   "id": "pea-volta-0025",
+   "id": "pea-volta-13.7052-100.3170",
    "name": "PEA VOLTA คาลเท็กซ์ กระทุ่มแบน",
    "network": "PEA VOLTA",
    "position": {
-    "lat": 13.705175,
-    "lng": 100.317018
+    "lat": 13.7052,
+    "lng": 100.317
    },
    "connectors": [
     {
@@ -761,12 +761,12 @@
    ]
   },
   {
-   "id": "pea-volta-0026",
+   "id": "pea-volta-13.5394-100.2300",
    "name": "PEA VOLTA บางจาก เมืองสมุทรสาคร 2 (บางกระเจ้า)",
    "network": "PEA VOLTA",
    "position": {
-    "lat": 13.539376,
-    "lng": 100.230024
+    "lat": 13.5394,
+    "lng": 100.23
    },
    "connectors": [
     {
@@ -786,12 +786,12 @@
    ]
   },
   {
-   "id": "pea-volta-0027",
+   "id": "pea-volta-13.7592-100.3017",
    "name": "PEA VOLTA บางจาก สามพราน 2 (บางกระทึก)",
    "network": "PEA VOLTA",
    "position": {
-    "lat": 13.759246,
-    "lng": 100.301677
+    "lat": 13.7592,
+    "lng": 100.3017
    },
    "connectors": [
     {
@@ -811,12 +811,12 @@
    ]
   },
   {
-   "id": "pluz-0001",
+   "id": "pluz-13.6253-100.3943",
    "name": "ปตท พระราม 2 (ขาออก)",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.62534,
-    "lng": 100.394307
+    "lat": 13.6253,
+    "lng": 100.3943
    },
    "connectors": [
     {
@@ -841,12 +841,12 @@
    ]
   },
   {
-   "id": "pluz-0002",
+   "id": "pluz-13.7983-100.6134",
    "name": "ปตท เอกมัย-รามอินทรา",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.798286,
-    "lng": 100.613438
+    "lat": 13.7983,
+    "lng": 100.6134
    },
    "connectors": [
     {
@@ -871,12 +871,12 @@
    ]
   },
   {
-   "id": "pluz-0003",
+   "id": "pluz-13.7836-100.4153",
    "name": "ปตท บรมราชชนนี (ขาเข้า)",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.783562,
-    "lng": 100.415335
+    "lat": 13.7836,
+    "lng": 100.4153
    },
    "connectors": [
     {
@@ -901,12 +901,12 @@
    ]
   },
   {
-   "id": "pluz-0004",
+   "id": "pluz-13.8208-100.6433",
    "name": "ปตท นวลจันทร์",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.82083,
-    "lng": 100.643254
+    "lat": 13.8208,
+    "lng": 100.6433
    },
    "connectors": [
     {
@@ -931,12 +931,12 @@
    ]
   },
   {
-   "id": "pluz-0005",
+   "id": "pluz-13.8416-100.6179",
    "name": "ปตท มัยลาภ",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.841563,
-    "lng": 100.617943
+    "lat": 13.8416,
+    "lng": 100.6179
    },
    "connectors": [
     {
@@ -961,12 +961,12 @@
    ]
   },
   {
-   "id": "pluz-0006",
+   "id": "pluz-13.8219-100.5908",
    "name": "ปตท ลาดพร้าว-วังหิน",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.821897,
-    "lng": 100.590825
+    "lat": 13.8219,
+    "lng": 100.5908
    },
    "connectors": [
     {
@@ -991,12 +991,12 @@
    ]
   },
   {
-   "id": "pluz-0007",
+   "id": "pluz-13.6205-100.4923",
    "name": "ปตท ทุ่งครุ",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.620463,
-    "lng": 100.492274
+    "lat": 13.6205,
+    "lng": 100.4923
    },
    "connectors": [
     {
@@ -1021,12 +1021,12 @@
    ]
   },
   {
-   "id": "pluz-0008",
+   "id": "pluz-13.7716-100.6045",
    "name": "ปตท แยกประชาอุทิศ-ลาดพร้าว",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.771578,
-    "lng": 100.604518
+    "lat": 13.7716,
+    "lng": 100.6045
    },
    "connectors": [
     {
@@ -1051,12 +1051,12 @@
    ]
   },
   {
-   "id": "pluz-0009",
+   "id": "pluz-13.7739-100.4072",
    "name": "ปตท วงแหวนกาญจนาภิเษก-ตลิ่งชัน",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.773852,
-    "lng": 100.407223
+    "lat": 13.7739,
+    "lng": 100.4072
    },
    "connectors": [
     {
@@ -1076,7 +1076,7 @@
    ]
   },
   {
-   "id": "pluz-0010",
+   "id": "pluz-13.7251-100.6579",
    "name": "ปตท พัฒนาการ (ขาออก)",
    "network": "EV Station PluZ",
    "position": {
@@ -1101,12 +1101,12 @@
    ]
   },
   {
-   "id": "pluz-0011",
+   "id": "pluz-13.9337-100.6261",
    "name": "ปตท พหลโยธิน กม.25",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.933744,
-    "lng": 100.626143
+    "lat": 13.9337,
+    "lng": 100.6261
    },
    "connectors": [
     {
@@ -1131,12 +1131,12 @@
    ]
   },
   {
-   "id": "pluz-0012",
+   "id": "pluz-13.8036-100.5480",
    "name": "ปตท กำแพงเพชร 2",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.803582,
-    "lng": 100.547996
+    "lat": 13.8036,
+    "lng": 100.548
    },
    "connectors": [
     {
@@ -1156,12 +1156,12 @@
    ]
   },
   {
-   "id": "pluz-0013",
+   "id": "pluz-13.7794-100.5561",
    "name": "ปตท วิภาวดี (เดิม-สวัสดิการ ร.1 รอ.)",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.77939,
-    "lng": 100.55613
+    "lat": 13.7794,
+    "lng": 100.5561
    },
    "connectors": [
     {
@@ -1186,12 +1186,12 @@
    ]
   },
   {
-   "id": "pluz-0014",
+   "id": "pluz-13.8787-100.6306",
    "name": "ปตท เทพรักษ์",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.878698,
-    "lng": 100.63063
+    "lat": 13.8787,
+    "lng": 100.6306
    },
    "connectors": [
     {
@@ -1216,12 +1216,12 @@
    ]
   },
   {
-   "id": "pluz-0015",
+   "id": "pluz-13.8194-100.7339",
    "name": "ปตท มีนบุรี",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.819436,
-    "lng": 100.733949
+    "lat": 13.8194,
+    "lng": 100.7339
    },
    "connectors": [
     {
@@ -1246,12 +1246,12 @@
    ]
   },
   {
-   "id": "pluz-0016",
+   "id": "pluz-13.7620-100.4445",
    "name": "ปตท ราชพฤกษ์ 1",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.761986,
-    "lng": 100.444455
+    "lat": 13.762,
+    "lng": 100.4445
    },
    "connectors": [
     {
@@ -1276,12 +1276,12 @@
    ]
   },
   {
-   "id": "pluz-0017",
+   "id": "pluz-13.6720-100.4051",
    "name": "ปตท กาญจนาภิเษก-บางบอน",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.672026,
-    "lng": 100.405144
+    "lat": 13.672,
+    "lng": 100.4051
    },
    "connectors": [
     {
@@ -1306,12 +1306,12 @@
    ]
   },
   {
-   "id": "pluz-0018",
+   "id": "pluz-13.6834-100.4991",
    "name": "ปตท ราษฎร์บูรณะ ขาออก",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.683377,
-    "lng": 100.499078
+    "lat": 13.6834,
+    "lng": 100.4991
    },
    "connectors": [
     {
@@ -1336,12 +1336,12 @@
    ]
   },
   {
-   "id": "pluz-0019",
+   "id": "pluz-13.6864-100.6031",
    "name": "ปตท สำนักงานปลัดกระทรวงกลาโหม(บางนาขาออก)",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.686431,
-    "lng": 100.603068
+    "lat": 13.6864,
+    "lng": 100.6031
    },
    "connectors": [
     {
@@ -1361,12 +1361,12 @@
    ]
   },
   {
-   "id": "pluz-0020",
+   "id": "pluz-13.6863-100.6017",
    "name": "ปตท สวัสดิการสำนักงานปลัดกระทรวงกลาโหม(บางนาขาเข้า)",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.686255,
-    "lng": 100.601724
+    "lat": 13.6863,
+    "lng": 100.6017
    },
    "connectors": [
     {
@@ -1386,12 +1386,12 @@
    ]
   },
   {
-   "id": "pluz-0021",
+   "id": "pluz-13.7346-100.5249",
    "name": "ปตท สามย่าน",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.734604,
-    "lng": 100.524868
+    "lat": 13.7346,
+    "lng": 100.5249
    },
    "connectors": [
     {
@@ -1411,12 +1411,12 @@
    ]
   },
   {
-   "id": "pluz-0022",
+   "id": "pluz-13.6755-100.5948",
    "name": "ปตท สรรพาวุธ-บางนา",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.675492,
-    "lng": 100.59483
+    "lat": 13.6755,
+    "lng": 100.5948
    },
    "connectors": [
     {
@@ -1441,12 +1441,12 @@
    ]
   },
   {
-   "id": "pluz-0023",
+   "id": "pluz-13.7207-100.7926",
    "name": "ปตท บจ.เจียง-อัศวรรณ หนองคาย สุวรรณภูมิ",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.720671,
-    "lng": 100.792571
+    "lat": 13.7207,
+    "lng": 100.7926
    },
    "connectors": [
     {
@@ -1471,12 +1471,12 @@
    ]
   },
   {
-   "id": "pluz-0024",
+   "id": "pluz-13.8448-100.6330",
    "name": "คาเฟ่ อเมซอน แพลนเน็ต คอม รามอินทรา 34",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.844833,
-    "lng": 100.632963
+    "lat": 13.8448,
+    "lng": 100.633
    },
    "connectors": [
     {
@@ -1501,12 +1501,12 @@
    ]
   },
   {
-   "id": "pluz-0025",
+   "id": "pluz-13.7810-100.4240",
    "name": "ปตท สิริเจริญวัฒนา",
    "network": "EV Station PluZ",
    "position": {
     "lat": 13.781,
-    "lng": 100.424002
+    "lng": 100.424
    },
    "connectors": [
     {
@@ -1526,12 +1526,12 @@
    ]
   },
   {
-   "id": "pluz-0026",
+   "id": "pluz-13.7143-100.4408",
    "name": "ปตท ช.สามเศียร",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.714264,
-    "lng": 100.440796
+    "lat": 13.7143,
+    "lng": 100.4408
    },
    "connectors": [
     {
@@ -1551,12 +1551,12 @@
    ]
   },
   {
-   "id": "pluz-0027",
+   "id": "pluz-13.6714-100.4067",
    "name": "ปตท ภาวดี กาญจนาภิเษก",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.67138,
-    "lng": 100.40666
+    "lat": 13.6714,
+    "lng": 100.4067
    },
    "connectors": [
     {
@@ -1576,12 +1576,12 @@
    ]
   },
   {
-   "id": "pluz-0028",
+   "id": "pluz-13.8157-100.7618",
    "name": "ปตท เอ็น.จี.วี. กม.5",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.815707,
-    "lng": 100.761791
+    "lat": 13.8157,
+    "lng": 100.7618
    },
    "connectors": [
     {
@@ -1601,12 +1601,12 @@
    ]
   },
   {
-   "id": "pluz-0029",
+   "id": "pluz-13.8022-100.7217",
    "name": "ปตท เอเชียมีนบุรี",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.80223,
-    "lng": 100.72171
+    "lat": 13.8022,
+    "lng": 100.7217
    },
    "connectors": [
     {
@@ -1626,12 +1626,12 @@
    ]
   },
   {
-   "id": "pluz-0030",
+   "id": "pluz-13.6661-100.6474",
    "name": "เบนซ์ บีเคเค กรุ๊ป",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.666057,
-    "lng": 100.647434
+    "lat": 13.6661,
+    "lng": 100.6474
    },
    "connectors": [
     {
@@ -1656,12 +1656,12 @@
    ]
   },
   {
-   "id": "pluz-0031",
+   "id": "pluz-13.7377-100.6379",
    "name": "เบนซ์ ทีทีซี มอเตอร์",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.737686,
-    "lng": 100.63789
+    "lat": 13.7377,
+    "lng": 100.6379
    },
    "connectors": [
     {
@@ -1686,12 +1686,12 @@
    ]
   },
   {
-   "id": "pluz-0032",
+   "id": "pluz-13.7366-100.3643",
    "name": "โลตัส โก เฟลช ศิริเกษม พุทธมณฑลสาย 3",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.736629,
-    "lng": 100.364264
+    "lat": 13.7366,
+    "lng": 100.3643
    },
    "connectors": [
     {
@@ -1716,12 +1716,12 @@
    ]
   },
   {
-   "id": "pluz-0033",
+   "id": "pluz-13.7795-100.4748",
    "name": "เดอะ เซนส์ ปิ่นเกล้า",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.779535,
-    "lng": 100.47475
+    "lat": 13.7795,
+    "lng": 100.4748
    },
    "connectors": [
     {
@@ -1746,12 +1746,12 @@
    ]
   },
   {
-   "id": "pluz-0034",
+   "id": "pluz-13.6791-100.3833",
    "name": "เดอะ ทรี บางบอน",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.679149,
-    "lng": 100.383267
+    "lat": 13.6791,
+    "lng": 100.3833
    },
    "connectors": [
     {
@@ -1776,12 +1776,12 @@
    ]
   },
   {
-   "id": "pluz-0035",
+   "id": "pluz-13.6636-100.6182",
    "name": "ดาดฟ้า ลาซาล",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.663585,
-    "lng": 100.618166
+    "lat": 13.6636,
+    "lng": 100.6182
    },
    "connectors": [
     {
@@ -1801,12 +1801,12 @@
    ]
   },
   {
-   "id": "pluz-0036",
+   "id": "pluz-13.9208-100.6007",
    "name": "อมารี สนามบินดอนเมือง กรุงเทพ",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.920788,
-    "lng": 100.600708
+    "lat": 13.9208,
+    "lng": 100.6007
    },
    "connectors": [
     {
@@ -1831,12 +1831,12 @@
    ]
   },
   {
-   "id": "pluz-0037",
+   "id": "pluz-13.8058-100.6247",
    "name": "สเตจ ฟายด์ เดอะ เรียล ยู",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.805839,
-    "lng": 100.62472
+    "lat": 13.8058,
+    "lng": 100.6247
    },
    "connectors": [
     {
@@ -1861,12 +1861,12 @@
    ]
   },
   {
-   "id": "pluz-0038",
+   "id": "pluz-13.6430-100.3673",
    "name": "ปตท แอลพีจี บจก.เคเอสเอ็ม ออโต้แก๊ส",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.64302,
-    "lng": 100.36732
+    "lat": 13.643,
+    "lng": 100.3673
    },
    "connectors": [
     {
@@ -1891,12 +1891,12 @@
    ]
   },
   {
-   "id": "pluz-0039",
+   "id": "pluz-13.6819-100.4745",
    "name": "โรงพยาบาลบางปะกอก 9 อินเตอร์เนชั่นแนล",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.681924,
-    "lng": 100.474525
+    "lat": 13.6819,
+    "lng": 100.4745
    },
    "connectors": [
     {
@@ -1916,12 +1916,12 @@
    ]
   },
   {
-   "id": "pluz-0040",
+   "id": "pluz-13.8197-100.5756",
    "name": "เบอร์เกอร์ คิง รัชดา ไดร์ฟทรู",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.81967,
-    "lng": 100.575597
+    "lat": 13.8197,
+    "lng": 100.5756
    },
    "connectors": [
     {
@@ -1946,12 +1946,12 @@
    ]
   },
   {
-   "id": "pluz-0041",
+   "id": "pluz-13.6888-100.5160",
    "name": "เบนซ์ พระราม 3",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.688846,
-    "lng": 100.515975
+    "lat": 13.6888,
+    "lng": 100.516
    },
    "connectors": [
     {
@@ -1976,12 +1976,12 @@
    ]
   },
   {
-   "id": "pluz-0042",
+   "id": "pluz-13.6623-100.6203",
    "name": "ปตท ลาซาล",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.66225,
-    "lng": 100.620308
+    "lat": 13.6623,
+    "lng": 100.6203
    },
    "connectors": [
     {
@@ -2001,12 +2001,12 @@
    ]
   },
   {
-   "id": "pluz-0043",
+   "id": "pluz-13.7016-100.6887",
    "name": "ปตท บจ.พีเอ็ม (ประเวศ)",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.70162,
-    "lng": 100.688689
+    "lat": 13.7016,
+    "lng": 100.6887
    },
    "connectors": [
     {
@@ -2031,12 +2031,12 @@
    ]
   },
   {
-   "id": "pluz-0044",
+   "id": "pluz-13.7503-100.6863",
    "name": "ปตท บจ.ดีเยี่ยม อินโนเวชั่น",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.750262,
-    "lng": 100.68633
+    "lat": 13.7503,
+    "lng": 100.6863
    },
    "connectors": [
     {
@@ -2056,12 +2056,12 @@
    ]
   },
   {
-   "id": "pluz-0045",
+   "id": "pluz-13.8865-100.5834",
    "name": "ปตท บจ.ส.รุ่งวิภา",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.886453,
-    "lng": 100.583386
+    "lat": 13.8865,
+    "lng": 100.5834
    },
    "connectors": [
     {
@@ -2086,7 +2086,7 @@
    ]
   },
   {
-   "id": "pluz-0046",
+   "id": "pluz-13.9007-100.6412",
    "name": "ปตท บจ.ส.เจริญกิจ เพิ่มสิน",
    "network": "EV Station PluZ",
    "position": {
@@ -2111,12 +2111,12 @@
    ]
   },
   {
-   "id": "pluz-0047",
+   "id": "pluz-13.8004-100.6419",
    "name": "ปตท บจ.อัครายา",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.800363,
-    "lng": 100.641867
+    "lat": 13.8004,
+    "lng": 100.6419
    },
    "connectors": [
     {
@@ -2141,12 +2141,12 @@
    ]
   },
   {
-   "id": "pluz-0048",
+   "id": "pluz-13.8330-100.6782",
    "name": "ปตท บจ.ธีรวรรณชาเล่ต์",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.833029,
-    "lng": 100.678153
+    "lat": 13.833,
+    "lng": 100.6782
    },
    "connectors": [
     {
@@ -2166,12 +2166,12 @@
    ]
   },
   {
-   "id": "pluz-0049",
+   "id": "pluz-13.8918-100.6585",
    "name": "ปตท บจ.เจพีอีลีทออเงิน",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.891825,
-    "lng": 100.658529
+    "lat": 13.8918,
+    "lng": 100.6585
    },
    "connectors": [
     {
@@ -2191,12 +2191,12 @@
    ]
   },
   {
-   "id": "pluz-0050",
+   "id": "pluz-13.8946-100.6595",
    "name": "ปตท บจ.ส.เจริญกิจ สุขาภิบาล 5",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.894609,
-    "lng": 100.659522
+    "lat": 13.8946,
+    "lng": 100.6595
    },
    "connectors": [
     {
@@ -2221,12 +2221,12 @@
    ]
   },
   {
-   "id": "pluz-0051",
+   "id": "pluz-13.7850-100.4582",
    "name": "ปตท บจ.3เอ็นพีพี",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.785001,
-    "lng": 100.458191
+    "lat": 13.785,
+    "lng": 100.4582
    },
    "connectors": [
     {
@@ -2246,12 +2246,12 @@
    ]
   },
   {
-   "id": "pluz-0052",
+   "id": "pluz-13.7922-100.4476",
    "name": "ปตท บจ.เหรียญทองราชพฤกษ์",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.792169,
-    "lng": 100.447612
+    "lat": 13.7922,
+    "lng": 100.4476
    },
    "connectors": [
     {
@@ -2271,12 +2271,12 @@
    ]
   },
   {
-   "id": "pluz-0053",
+   "id": "pluz-13.7929-100.4109",
    "name": "ปตท บจ.เอนเนอร์ยี่ พาร์ค",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.792885,
-    "lng": 100.410862
+    "lat": 13.7929,
+    "lng": 100.4109
    },
    "connectors": [
     {
@@ -2296,12 +2296,12 @@
    ]
   },
   {
-   "id": "pluz-0054",
+   "id": "pluz-13.7636-100.3633",
    "name": "ปตท พุทธมณฑลสาย 3",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.763605,
-    "lng": 100.363335
+    "lat": 13.7636,
+    "lng": 100.3633
    },
    "connectors": [
     {
@@ -2326,12 +2326,12 @@
    ]
   },
   {
-   "id": "pluz-0055",
+   "id": "pluz-13.6676-100.4143",
    "name": "ปตท เอกชัย-บางบอน (ขาออก)",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.667582,
-    "lng": 100.414343
+    "lat": 13.6676,
+    "lng": 100.4143
    },
    "connectors": [
     {
@@ -2351,12 +2351,12 @@
    ]
   },
   {
-   "id": "pluz-0056",
+   "id": "pluz-13.7198-100.3641",
    "name": "ปตท บจ.สินมาไพบูลย์ ปิโตรเลียม",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.719797,
-    "lng": 100.36406
+    "lat": 13.7198,
+    "lng": 100.3641
    },
    "connectors": [
     {
@@ -2381,12 +2381,12 @@
    ]
   },
   {
-   "id": "pluz-0057",
+   "id": "pluz-13.6667-100.4456",
    "name": "ปตท พระราม2 48",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.666699,
-    "lng": 100.445554
+    "lat": 13.6667,
+    "lng": 100.4456
    },
    "connectors": [
     {
@@ -2411,12 +2411,12 @@
    ]
   },
   {
-   "id": "pluz-0058",
+   "id": "pluz-13.6975-100.5137",
    "name": "ปตท เจริญราษฎร์",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.697465,
-    "lng": 100.513684
+    "lat": 13.6975,
+    "lng": 100.5137
    },
    "connectors": [
     {
@@ -2436,12 +2436,12 @@
    ]
   },
   {
-   "id": "pluz-0059",
+   "id": "pluz-13.7124-100.5894",
    "name": "ปตท กล้วยน้ำไท",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.712443,
-    "lng": 100.589391
+    "lat": 13.7124,
+    "lng": 100.5894
    },
    "connectors": [
     {
@@ -2466,12 +2466,12 @@
    ]
   },
   {
-   "id": "pluz-0060",
+   "id": "pluz-13.7858-100.7467",
    "name": "ปตท บจ.เอส.ที. ร่มเกล้า ปิโตรเลียม",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.785813,
-    "lng": 100.746723
+    "lat": 13.7858,
+    "lng": 100.7467
    },
    "connectors": [
     {
@@ -2491,12 +2491,12 @@
    ]
   },
   {
-   "id": "pluz-0061",
+   "id": "pluz-13.8231-100.6302",
    "name": "ปตท บจ.เอ็กซ์เพิร์ท เอนเนอจี",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.823052,
-    "lng": 100.630194
+    "lat": 13.8231,
+    "lng": 100.6302
    },
    "connectors": [
     {
@@ -2516,12 +2516,12 @@
    ]
   },
   {
-   "id": "pluz-0062",
+   "id": "pluz-13.8254-100.5588",
    "name": "ปตท หจก.ศรีเจริญภัณฑ์",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.825373,
-    "lng": 100.558758
+    "lat": 13.8254,
+    "lng": 100.5588
    },
    "connectors": [
     {
@@ -2541,12 +2541,12 @@
    ]
   },
   {
-   "id": "pluz-0063",
+   "id": "pluz-13.7451-100.6036",
    "name": "ปตท รามคำแหง",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.745066,
-    "lng": 100.603649
+    "lat": 13.7451,
+    "lng": 100.6036
    },
    "connectors": [
     {
@@ -2566,12 +2566,12 @@
    ]
   },
   {
-   "id": "pluz-0064",
+   "id": "pluz-13.9210-100.6604",
    "name": "ปตท บจ.ซุปเปอร์โมเดล เอนเนอจี",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.920985,
-    "lng": 100.660421
+    "lat": 13.921,
+    "lng": 100.6604
    },
    "connectors": [
     {
@@ -2591,12 +2591,12 @@
    ]
   },
   {
-   "id": "pluz-0065",
+   "id": "pluz-13.7779-100.6743",
    "name": "ปตท สุขาภิบาล 3",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.777907,
-    "lng": 100.67425
+    "lat": 13.7779,
+    "lng": 100.6743
    },
    "connectors": [
     {
@@ -2616,12 +2616,12 @@
    ]
   },
   {
-   "id": "pluz-0066",
+   "id": "pluz-13.7391-100.6553",
    "name": "สยามบราสเซอรี",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.739149,
-    "lng": 100.655308
+    "lat": 13.7391,
+    "lng": 100.6553
    },
    "connectors": [
     {
@@ -2641,12 +2641,12 @@
    ]
   },
   {
-   "id": "pluz-0067",
+   "id": "pluz-13.7068-100.5217",
    "name": "วนิลา มูน",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.70682,
-    "lng": 100.521714
+    "lat": 13.7068,
+    "lng": 100.5217
    },
    "connectors": [
     {
@@ -2671,12 +2671,12 @@
    ]
   },
   {
-   "id": "pluz-0068",
+   "id": "pluz-13.9278-100.5852",
    "name": "ปตท สรงประภา",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.927804,
-    "lng": 100.585211
+    "lat": 13.9278,
+    "lng": 100.5852
    },
    "connectors": [
     {
@@ -2701,12 +2701,12 @@
    ]
   },
   {
-   "id": "pluz-0069",
+   "id": "pluz-13.8460-100.6027",
    "name": "ปตท ลาดปลาเค้า",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.84596,
-    "lng": 100.602747
+    "lat": 13.846,
+    "lng": 100.6027
    },
    "connectors": [
     {
@@ -2726,12 +2726,12 @@
    ]
   },
   {
-   "id": "pluz-0070",
+   "id": "pluz-13.7316-100.6502",
    "name": "ปตท พัฒนาการ",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.731598,
-    "lng": 100.65024
+    "lat": 13.7316,
+    "lng": 100.6502
    },
    "connectors": [
     {
@@ -2756,12 +2756,12 @@
    ]
   },
   {
-   "id": "pluz-0071",
+   "id": "pluz-13.8471-100.6473",
    "name": "ปตท รามอินทรา กม.6.5",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.847106,
-    "lng": 100.647318
+    "lat": 13.8471,
+    "lng": 100.6473
    },
    "connectors": [
     {
@@ -2786,12 +2786,12 @@
    ]
   },
   {
-   "id": "pluz-0072",
+   "id": "pluz-13.7551-100.7972",
    "name": "ปตท การนิคมอุตสาหกรรมลาดกระบัง",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.755093,
-    "lng": 100.797187
+    "lat": 13.7551,
+    "lng": 100.7972
    },
    "connectors": [
     {
@@ -2816,12 +2816,12 @@
    ]
   },
   {
-   "id": "pluz-0073",
+   "id": "pluz-13.7892-100.5866",
    "name": "ปตท สุทธิสาร",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.789194,
-    "lng": 100.586614
+    "lat": 13.7892,
+    "lng": 100.5866
    },
    "connectors": [
     {
@@ -2841,12 +2841,12 @@
    ]
   },
   {
-   "id": "pluz-0074",
+   "id": "pluz-13.7925-100.4223",
    "name": "ปตท สวนผัก",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.792485,
-    "lng": 100.422257
+    "lat": 13.7925,
+    "lng": 100.4223
    },
    "connectors": [
     {
@@ -2871,12 +2871,12 @@
    ]
   },
   {
-   "id": "pluz-0075",
+   "id": "pluz-13.6791-100.4963",
    "name": "ปตท สุขสวัสดิ์",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.679084,
-    "lng": 100.496255
+    "lat": 13.6791,
+    "lng": 100.4963
    },
    "connectors": [
     {
@@ -2901,12 +2901,12 @@
    ]
   },
   {
-   "id": "pluz-0076",
+   "id": "pluz-13.6557-100.4990",
    "name": "ปตท ประชาอุทิศ 35",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.65571,
-    "lng": 100.49897
+    "lat": 13.6557,
+    "lng": 100.499
    },
    "connectors": [
     {
@@ -2931,12 +2931,12 @@
    ]
   },
   {
-   "id": "pluz-0077",
+   "id": "pluz-13.7881-100.6782",
    "name": "ปตท บจ.พลังไทยเพื่อไทย",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.788125,
-    "lng": 100.678225
+    "lat": 13.7881,
+    "lng": 100.6782
    },
    "connectors": [
     {
@@ -2956,12 +2956,12 @@
    ]
   },
   {
-   "id": "pluz-0078",
+   "id": "pluz-13.8185-100.6843",
    "name": "ปตท บจ.ที.เค.ที คอมเมอร์เชียล",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.818466,
-    "lng": 100.684281
+    "lat": 13.8185,
+    "lng": 100.6843
    },
    "connectors": [
     {
@@ -2986,12 +2986,12 @@
    ]
   },
   {
-   "id": "pluz-0079",
+   "id": "pluz-13.8567-100.6814",
    "name": "ปตท บจ.แสงอารี สเตชั่น (6)",
    "network": "EV Station PluZ",
    "position": {
     "lat": 13.8567,
-    "lng": 100.68144
+    "lng": 100.6814
    },
    "connectors": [
     {
@@ -3016,12 +3016,12 @@
    ]
   },
   {
-   "id": "pluz-0080",
+   "id": "pluz-13.7731-100.6057",
    "name": "เบนซ์ ไพรม์มัส ออโต้เฮาส์",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.773124,
-    "lng": 100.605702
+    "lat": 13.7731,
+    "lng": 100.6057
    },
    "connectors": [
     {
@@ -3046,12 +3046,12 @@
    ]
   },
   {
-   "id": "pluz-0081",
+   "id": "pluz-13.6798-100.6450",
    "name": "ปตท บจก.ปิโตรเลียม (อุดมสุข)ปิโตเลียม",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.679779,
-    "lng": 100.644983
+    "lat": 13.6798,
+    "lng": 100.645
    },
    "connectors": [
     {
@@ -3076,12 +3076,12 @@
    ]
   },
   {
-   "id": "pluz-0082",
+   "id": "pluz-13.7132-100.5821",
    "name": "ปตท บจ.แบร็กซ์ แอนด์ เบน",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.713209,
-    "lng": 100.582095
+    "lat": 13.7132,
+    "lng": 100.5821
    },
    "connectors": [
     {
@@ -3106,12 +3106,12 @@
    ]
   },
   {
-   "id": "pluz-0083",
+   "id": "pluz-13.7492-100.7460",
    "name": "ปตท บจ.สิขรีปิโตรเลียม",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.74917,
-    "lng": 100.745977
+    "lat": 13.7492,
+    "lng": 100.746
    },
    "connectors": [
     {
@@ -3136,12 +3136,12 @@
    ]
   },
   {
-   "id": "pluz-0084",
+   "id": "pluz-13.6797-100.4965",
    "name": "ปตท สุขสวัสดิ์ ขาออก",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.679693,
-    "lng": 100.496506
+    "lat": 13.6797,
+    "lng": 100.4965
    },
    "connectors": [
     {
@@ -3166,12 +3166,12 @@
    ]
   },
   {
-   "id": "pluz-0085",
+   "id": "pluz-13.8702-100.5745",
    "name": "ปตท วิภาวดีรังสิต 62",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.870245,
-    "lng": 100.574524
+    "lat": 13.8702,
+    "lng": 100.5745
    },
    "connectors": [
     {
@@ -3191,12 +3191,12 @@
    ]
   },
   {
-   "id": "pluz-0086",
+   "id": "pluz-13.7160-100.6501",
    "name": "ปตท บจ.อ่อนนุชรุ่งเรือง",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.716018,
-    "lng": 100.650057
+    "lat": 13.716,
+    "lng": 100.6501
    },
    "connectors": [
     {
@@ -3216,12 +3216,12 @@
    ]
   },
   {
-   "id": "pluz-0087",
+   "id": "pluz-13.7067-100.3705",
    "name": "ปตท หนองแขม",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.706658,
-    "lng": 100.370452
+    "lat": 13.7067,
+    "lng": 100.3705
    },
    "connectors": [
     {
@@ -3246,12 +3246,12 @@
    ]
   },
   {
-   "id": "pluz-0088",
+   "id": "pluz-13.7315-100.5205",
    "name": "โรงแรมแกรนด์ เซนเตอร์ พอยต์ สุรวงศ์",
    "network": "EV Station PluZ",
    "position": {
-    "lat": 13.731528,
-    "lng": 100.52047
+    "lat": 13.7315,
+    "lng": 100.5205
    },
    "connectors": [
     {
@@ -3271,12 +3271,12 @@
    ]
   },
   {
-   "id": "elex-0001",
+   "id": "elex-13.7891-100.3423",
    "name": "PT บรมราชชนนี 2",
    "network": "EleX by EGAT",
    "position": {
-    "lat": 13.78906,
-    "lng": 100.342273
+    "lat": 13.7891,
+    "lng": 100.3423
    },
    "connectors": [
     {
@@ -3296,12 +3296,12 @@
    ]
   },
   {
-   "id": "elex-0002",
+   "id": "elex-13.8202-100.5562",
    "name": "กระทรวงพลังงาน",
    "network": "EleX by EGAT",
    "position": {
-    "lat": 13.820229,
-    "lng": 100.556165
+    "lat": 13.8202,
+    "lng": 100.5562
    },
    "connectors": [
     {
@@ -3331,12 +3331,12 @@
    ]
   },
   {
-   "id": "elex-0003",
+   "id": "elex-13.7620-100.5120",
    "name": "ทำเนียบรัฐบาล (สำหรับข้าราชการและผู้มาติดต่อราชการ)",
    "network": "EleX by EGAT",
    "position": {
-    "lat": 13.761954,
-    "lng": 100.511995
+    "lat": 13.762,
+    "lng": 100.512
    },
    "connectors": [
     {
@@ -3366,12 +3366,12 @@
    ]
   },
   {
-   "id": "elex-0004",
+   "id": "elex-13.6653-100.4431",
    "name": "PT ถ.พระราม 2 ขาเข้า กม.5",
    "network": "EleX by EGAT",
    "position": {
-    "lat": 13.665328,
-    "lng": 100.443071
+    "lat": 13.6653,
+    "lng": 100.4431
    },
    "connectors": [
     {
@@ -3391,12 +3391,12 @@
    ]
   },
   {
-   "id": "elex-0005",
+   "id": "elex-13.7295-100.5360",
    "name": "Silom Edge (สีลมเอจ) ชั้น 5",
    "network": "EleX by EGAT",
    "position": {
-    "lat": 13.729547,
-    "lng": 100.536017
+    "lat": 13.7295,
+    "lng": 100.536
    },
    "connectors": [
     {
@@ -3421,12 +3421,12 @@
    ]
   },
   {
-   "id": "elex-0006",
+   "id": "elex-13.7518-100.4426",
    "name": "PT ถ.พระเทพ 1",
    "network": "EleX by EGAT",
    "position": {
-    "lat": 13.751819,
-    "lng": 100.442613
+    "lat": 13.7518,
+    "lng": 100.4426
    },
    "connectors": [
     {
@@ -3446,12 +3446,12 @@
    ]
   },
   {
-   "id": "elex-0007",
+   "id": "elex-13.7546-100.5270",
    "name": "Stay Plus Hotel",
    "network": "EleX by EGAT",
    "position": {
-    "lat": 13.754586,
-    "lng": 100.526973
+    "lat": 13.7546,
+    "lng": 100.527
    },
    "connectors": [
     {
@@ -3471,12 +3471,12 @@
    ]
   },
   {
-   "id": "elex-0008",
+   "id": "elex-13.8260-100.5589",
    "name": "PT ถ.วิภาวดีรังสิต 1 (ซ.32)",
    "network": "EleX by EGAT",
    "position": {
-    "lat": 13.826043,
-    "lng": 100.558889
+    "lat": 13.826,
+    "lng": 100.5589
    },
    "connectors": [
     {
@@ -3496,12 +3496,12 @@
    ]
   },
   {
-   "id": "ea-0001",
+   "id": "ea-13.7426-100.5210",
    "name": "7-11 สีตบุตร",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.742579,
-    "lng": 100.521029
+    "lat": 13.7426,
+    "lng": 100.521
    },
    "connectors": [
     {
@@ -3521,12 +3521,12 @@
    ]
   },
   {
-   "id": "ea-0002",
+   "id": "ea-13.7273-100.5105",
    "name": "แมกโนเลียส์ วอเตอร์ฟรอนซ์ เรสซิเดนซ์",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.727306,
-    "lng": 100.510499
+    "lat": 13.7273,
+    "lng": 100.5105
    },
    "connectors": [
     {
@@ -3551,12 +3551,12 @@
    ]
   },
   {
-   "id": "ea-0003",
+   "id": "ea-13.7905-100.4900",
    "name": "ร้านอาหารครัวในซอย ซ.จรํญสนิทวงค์ 75",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.790473,
-    "lng": 100.490014
+    "lat": 13.7905,
+    "lng": 100.49
    },
    "connectors": [
     {
@@ -3581,12 +3581,12 @@
    ]
   },
   {
-   "id": "ea-0004",
+   "id": "ea-13.7330-100.5304",
    "name": "อาคารจอดรถ จามจุรีสแควร์ ชั้น 7",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.73299,
-    "lng": 100.530401
+    "lat": 13.733,
+    "lng": 100.5304
    },
    "connectors": [
     {
@@ -3611,11 +3611,11 @@
    ]
   },
   {
-   "id": "ea-0005",
+   "id": "ea-13.7804-100.5331",
    "name": "ศูนย์การแพทย์วิชัยยุทธ",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.780432,
+    "lat": 13.7804,
     "lng": 100.5331
    },
    "connectors": [
@@ -3636,12 +3636,12 @@
    ]
   },
   {
-   "id": "ea-0006",
+   "id": "ea-13.7178-100.5168",
    "name": "ริทึ่ม สาทร",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.717813,
-    "lng": 100.516818
+    "lat": 13.7178,
+    "lng": 100.5168
    },
    "connectors": [
     {
@@ -3661,12 +3661,12 @@
    ]
   },
   {
-   "id": "ea-0007",
+   "id": "ea-13.7273-100.5322",
    "name": "อาคาร อาคเนย์ประกันภัย จำกัด",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.727318,
-    "lng": 100.532229
+    "lat": 13.7273,
+    "lng": 100.5322
    },
    "connectors": [
     {
@@ -3691,12 +3691,12 @@
    ]
   },
   {
-   "id": "ea-0008",
+   "id": "ea-13.7206-100.4758",
    "name": "SCB สาขาตลาดพลู",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.720621,
-    "lng": 100.475762
+    "lat": 13.7206,
+    "lng": 100.4758
    },
    "connectors": [
     {
@@ -3721,12 +3721,12 @@
    ]
   },
   {
-   "id": "ea-0009",
+   "id": "ea-13.7205-100.5302",
    "name": "เอ็มไพร์ทาวเวอร์ (อาคารจอดรถชั้น B1)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.720536,
-    "lng": 100.530224
+    "lat": 13.7205,
+    "lng": 100.5302
    },
    "connectors": [
     {
@@ -3751,12 +3751,12 @@
    ]
   },
   {
-   "id": "ea-0010",
+   "id": "ea-13.7106-100.5028",
    "name": "Condo ศุภาลัยริเวอร์ เพลส (ถ.เจริญนคร)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.710567,
-    "lng": 100.502822
+    "lat": 13.7106,
+    "lng": 100.5028
    },
    "connectors": [
     {
@@ -3781,12 +3781,12 @@
    ]
   },
   {
-   "id": "ea-0011",
+   "id": "ea-13.7250-100.5387",
    "name": "โครนอส ทาวเวอร์ ชั้น จี สเตชั่น1",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.725044,
-    "lng": 100.538724
+    "lat": 13.725,
+    "lng": 100.5387
    },
    "connectors": [
     {
@@ -3806,12 +3806,12 @@
    ]
   },
   {
-   "id": "ea-0012",
+   "id": "ea-13.7521-100.4490",
    "name": "คาลเท็กซ์ เพชรพระเทพ",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.752084,
-    "lng": 100.448974
+    "lat": 13.7521,
+    "lng": 100.449
    },
    "connectors": [
     {
@@ -3831,12 +3831,12 @@
    ]
   },
   {
-   "id": "ea-0013",
+   "id": "ea-13.7034-100.4896",
    "name": "E-Bus พระราม 3-บุคคโล (Station1)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.703416,
-    "lng": 100.489631
+    "lat": 13.7034,
+    "lng": 100.4896
    },
    "connectors": [
     {
@@ -3860,12 +3860,12 @@
    ]
   },
   {
-   "id": "ea-0014",
+   "id": "ea-13.7434-100.4471",
    "name": "MG 824 จำกัด",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.743377,
-    "lng": 100.447065
+    "lat": 13.7434,
+    "lng": 100.4471
    },
    "connectors": [
     {
@@ -3885,12 +3885,12 @@
    ]
   },
   {
-   "id": "ea-0015",
+   "id": "ea-13.7684-100.4448",
    "name": "The Bloc (Ratchaphruek)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.768419,
-    "lng": 100.444822
+    "lat": 13.7684,
+    "lng": 100.4448
    },
    "connectors": [
     {
@@ -3910,12 +3910,12 @@
    ]
   },
   {
-   "id": "ea-0016",
+   "id": "ea-13.8037-100.5385",
    "name": "สำนักงานใหญ่ เอสซีจี",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.803691,
-    "lng": 100.538499
+    "lat": 13.8037,
+    "lng": 100.5385
    },
    "connectors": [
     {
@@ -3935,12 +3935,12 @@
    ]
   },
   {
-   "id": "ea-0017",
+   "id": "ea-13.6996-100.4837",
    "name": "บิ๊กซี ดาวคะนอง",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.699646,
-    "lng": 100.483695
+    "lat": 13.6996,
+    "lng": 100.4837
    },
    "connectors": [
     {
@@ -3960,12 +3960,12 @@
    ]
   },
   {
-   "id": "ea-0018",
+   "id": "ea-13.6981-100.4890",
    "name": "อี-เฟอรี่ องค์การคลังสินค้า (สเตชั่น 1)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.698133,
-    "lng": 100.489027
+    "lat": 13.6981,
+    "lng": 100.489
    },
    "connectors": [
     {
@@ -3985,12 +3985,12 @@
    ]
   },
   {
-   "id": "ea-0019",
+   "id": "ea-13.8151-100.5158",
    "name": "ปทุมธานีคอนกรีต",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.815106,
-    "lng": 100.515819
+    "lat": 13.8151,
+    "lng": 100.5158
    },
    "connectors": [
     {
@@ -4015,12 +4015,12 @@
    ]
   },
   {
-   "id": "ea-0020",
+   "id": "ea-13.7585-100.5651",
    "name": "อาคาร ซี.พี.ทาวเวอร์ 2 (หน้าศูนย์การค้าฝั่งโลตัส)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.758519,
-    "lng": 100.565114
+    "lat": 13.7585,
+    "lng": 100.5651
    },
    "connectors": [
     {
@@ -4040,12 +4040,12 @@
    ]
   },
   {
-   "id": "ea-0021",
+   "id": "ea-13.7581-100.4380",
    "name": "สวิมคิดส์ (อินทราวาส)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.758118,
-    "lng": 100.437972
+    "lat": 13.7581,
+    "lng": 100.438
    },
    "connectors": [
     {
@@ -4065,12 +4065,12 @@
    ]
   },
   {
-   "id": "ea-0022",
+   "id": "ea-13.7858-100.5594",
    "name": "E-BUS NEX Express Voice TV (สุทธิสาร)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.785779,
-    "lng": 100.559438
+    "lat": 13.7858,
+    "lng": 100.5594
    },
    "connectors": [
     {
@@ -4090,12 +4090,12 @@
    ]
   },
   {
-   "id": "ea-0023",
+   "id": "ea-13.7211-100.5579",
    "name": "เดอะ พาร์ค (สเตชั่น 1)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.721135,
-    "lng": 100.557874
+    "lat": 13.7211,
+    "lng": 100.5579
    },
    "connectors": [
     {
@@ -4120,12 +4120,12 @@
    ]
   },
   {
-   "id": "ea-0024",
+   "id": "ea-13.7098-100.4506",
    "name": "เมโทร พาร์ค สาทร",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.709785,
-    "lng": 100.450589
+    "lat": 13.7098,
+    "lng": 100.4506
    },
    "connectors": [
     {
@@ -4145,12 +4145,12 @@
    ]
   },
   {
-   "id": "ea-0025",
+   "id": "ea-13.7681-100.5723",
    "name": "ซัสโก้ สาขารัชดาภิเษก (ขาเข้า)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.768085,
-    "lng": 100.572318
+    "lat": 13.7681,
+    "lng": 100.5723
    },
    "connectors": [
     {
@@ -4175,12 +4175,12 @@
    ]
   },
   {
-   "id": "ea-0026",
+   "id": "ea-13.7809-100.4334",
    "name": "โชว์รูมเกียร์ธนบุรี (ตลิ่งชัน)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.780855,
-    "lng": 100.433377
+    "lat": 13.7809,
+    "lng": 100.4334
    },
    "connectors": [
     {
@@ -4200,12 +4200,12 @@
    ]
   },
   {
-   "id": "ea-0027",
+   "id": "ea-13.7183-100.5672",
    "name": "A.C.T สาขาเกษมราษฏร์ (พระราม4)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.718328,
-    "lng": 100.567215
+    "lat": 13.7183,
+    "lng": 100.5672
    },
    "connectors": [
     {
@@ -4230,12 +4230,12 @@
    ]
   },
   {
-   "id": "ea-0028",
+   "id": "ea-13.8029-100.5613",
    "name": "ซัสโก้ สาขา วิภาวดี 1",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.802918,
-    "lng": 100.561303
+    "lat": 13.8029,
+    "lng": 100.5613
    },
    "connectors": [
     {
@@ -4260,12 +4260,12 @@
    ]
   },
   {
-   "id": "ea-0029",
+   "id": "ea-13.7545-100.4238",
    "name": "อีบัส กาญจนาภิเษก-พรานนก (สเตชั่น 2)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.754485,
-    "lng": 100.423756
+    "lat": 13.7545,
+    "lng": 100.4238
    },
    "connectors": [
     {
@@ -4289,12 +4289,12 @@
    ]
   },
   {
-   "id": "ea-0030",
+   "id": "ea-13.7273-100.5753",
    "name": "เอควา เรสซิเดนซ์ สุขุมวิท 49",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.727257,
-    "lng": 100.575307
+    "lat": 13.7273,
+    "lng": 100.5753
    },
    "connectors": [
     {
@@ -4314,12 +4314,12 @@
    ]
   },
   {
-   "id": "ea-0031",
+   "id": "ea-13.7904-100.4256",
    "name": "E-BUS ตลิ่งชัน-บรมฯ (Station 1)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.790353,
-    "lng": 100.425618
+    "lat": 13.7904,
+    "lng": 100.4256
    },
    "connectors": [
     {
@@ -4343,12 +4343,12 @@
    ]
   },
   {
-   "id": "ea-0032",
+   "id": "ea-13.7904-100.4250",
    "name": "E-BUS ตลิ่งชัน-บรมฯ (Station 3)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.790394,
-    "lng": 100.424957
+    "lat": 13.7904,
+    "lng": 100.425
    },
    "connectors": [
     {
@@ -4372,12 +4372,12 @@
    ]
   },
   {
-   "id": "ea-0033",
+   "id": "ea-13.7123-100.4298",
    "name": "เอสโซ่ เพชรเกษม 39",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.712268,
-    "lng": 100.42978
+    "lat": 13.7123,
+    "lng": 100.4298
    },
    "connectors": [
     {
@@ -4397,12 +4397,12 @@
    ]
   },
   {
-   "id": "ea-0034",
+   "id": "ea-13.7997-100.5752",
    "name": "E-BUS เคหะธนบุรี (Station2)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.799653,
-    "lng": 100.575214
+    "lat": 13.7997,
+    "lng": 100.5752
    },
    "connectors": [
     {
@@ -4422,12 +4422,12 @@
    ]
   },
   {
-   "id": "ea-0035",
+   "id": "ea-13.8101-100.5693",
    "name": "บิ๊กซี-Extra ลาดพร้าว 2",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.810139,
-    "lng": 100.569298
+    "lat": 13.8101,
+    "lng": 100.5693
    },
    "connectors": [
     {
@@ -4447,12 +4447,12 @@
    ]
   },
   {
-   "id": "ea-0036",
+   "id": "ea-13.7697-100.5902",
    "name": "เราะห์ มาห์ มอลล์",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.769676,
-    "lng": 100.590188
+    "lat": 13.7697,
+    "lng": 100.5902
    },
    "connectors": [
     {
@@ -4472,12 +4472,12 @@
    ]
   },
   {
-   "id": "ea-0037",
+   "id": "ea-13.7345-100.5902",
    "name": "Mattani (เอกมัย22)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.734521,
-    "lng": 100.590171
+    "lat": 13.7345,
+    "lng": 100.5902
    },
    "connectors": [
     {
@@ -4497,12 +4497,12 @@
    ]
   },
   {
-   "id": "ea-0038",
+   "id": "ea-13.6796-100.5477",
    "name": "ซัสโก้ สาขายานนาวา",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.679603,
-    "lng": 100.547685
+    "lat": 13.6796,
+    "lng": 100.5477
    },
    "connectors": [
     {
@@ -4527,12 +4527,12 @@
    ]
   },
   {
-   "id": "ea-0039",
+   "id": "ea-13.7121-100.4203",
    "name": "ซัสโก้ สาขา เพชรเกษม (บางแค2)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.712083,
-    "lng": 100.42033
+    "lat": 13.7121,
+    "lng": 100.4203
    },
    "connectors": [
     {
@@ -4557,12 +4557,12 @@
    ]
   },
   {
-   "id": "ea-0040",
+   "id": "ea-13.7888-100.5909",
    "name": "โรงแรมบ้านสวนรัชดาเรสซิเด้นท์ ซ.ลาดพร้าว64",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.788803,
-    "lng": 100.590917
+    "lat": 13.7888,
+    "lng": 100.5909
    },
    "connectors": [
     {
@@ -4587,12 +4587,12 @@
    ]
   },
   {
-   "id": "ea-0041",
+   "id": "ea-13.7672-100.4058",
    "name": "The Paseo Park (สาขากาญจนาภิเษก) ST. 2 (ลานจอดด้านหลัง)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.767229,
-    "lng": 100.405767
+    "lat": 13.7672,
+    "lng": 100.4058
    },
    "connectors": [
     {
@@ -4617,12 +4617,12 @@
    ]
   },
   {
-   "id": "ea-0042",
+   "id": "ea-13.6634-100.5152",
    "name": "อีบัส วงเวียนพระประแดง สเตชั่น 1",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.663413,
-    "lng": 100.515179
+    "lat": 13.6634,
+    "lng": 100.5152
    },
    "connectors": [
     {
@@ -4650,12 +4650,12 @@
    ]
   },
   {
-   "id": "ea-0043",
+   "id": "ea-13.7653-100.4054",
    "name": "The Paseo Park (สาขากาญจนาภิเษก) ST.3",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.765287,
-    "lng": 100.405394
+    "lat": 13.7653,
+    "lng": 100.4054
    },
    "connectors": [
     {
@@ -4680,12 +4680,12 @@
    ]
   },
   {
-   "id": "ea-0044",
+   "id": "ea-13.8218-100.5747",
    "name": "A.C.T สาขารัชดาภิเษก",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.821773,
-    "lng": 100.574743
+    "lat": 13.8218,
+    "lng": 100.5747
    },
    "connectors": [
     {
@@ -4710,12 +4710,12 @@
    ]
   },
   {
-   "id": "ea-0045",
+   "id": "ea-13.7657-100.6069",
    "name": "อารดา ทาวน์ อิน ทาวน์ (บ.ทรัพย์สิน อารดา จำกัด)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.765679,
-    "lng": 100.606936
+    "lat": 13.7657,
+    "lng": 100.6069
    },
    "connectors": [
     {
@@ -4740,12 +4740,12 @@
    ]
   },
   {
-   "id": "ea-0046",
+   "id": "ea-13.7319-100.3966",
    "name": "E-BUS พุทธมณฑลสาย2 (สเตชั่น1)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.731885,
-    "lng": 100.396576
+    "lat": 13.7319,
+    "lng": 100.3966
    },
    "connectors": [
     {
@@ -4773,12 +4773,12 @@
    ]
   },
   {
-   "id": "ea-0047",
+   "id": "ea-13.7130-100.6008",
    "name": "ศูนย์การค้า Habito Mall สุขุมวิท77",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.712975,
-    "lng": 100.600755
+    "lat": 13.713,
+    "lng": 100.6008
    },
    "connectors": [
     {
@@ -4798,12 +4798,12 @@
    ]
   },
   {
-   "id": "ea-0048",
+   "id": "ea-13.7099-100.6017",
    "name": "บิ๊กซี เอ็กซ์ตร้า อ่อนนุช",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.709948,
-    "lng": 100.601667
+    "lat": 13.7099,
+    "lng": 100.6017
    },
    "connectors": [
     {
@@ -4823,12 +4823,12 @@
    ]
   },
   {
-   "id": "ea-0049",
+   "id": "ea-13.6504-100.4819",
    "name": "พงษ์ตระกูล เพอเฟ็ค แลนด์ ซอยพุทธบูชา 39",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.650414,
-    "lng": 100.481941
+    "lat": 13.6504,
+    "lng": 100.4819
    },
    "connectors": [
     {
@@ -4848,12 +4848,12 @@
    ]
   },
   {
-   "id": "ea-0050",
+   "id": "ea-13.8544-100.5499",
    "name": "Caltex งามวงศ์วาน",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.854357,
-    "lng": 100.549927
+    "lat": 13.8544,
+    "lng": 100.5499
    },
    "connectors": [
     {
@@ -4873,12 +4873,12 @@
    ]
   },
   {
-   "id": "ea-0051",
+   "id": "ea-13.7813-100.3920",
    "name": "E-BUS ตลิ่งชัน (สเตชั่น 1)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.781252,
-    "lng": 100.392034
+    "lat": 13.7813,
+    "lng": 100.392
    },
    "connectors": [
     {
@@ -4902,12 +4902,12 @@
    ]
   },
   {
-   "id": "ea-0052",
+   "id": "ea-13.6945-100.4081",
    "name": "เดอะ เอ็กซ์เพลส มอลล์ (ถ.กาญจนาภิเษก)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.694502,
-    "lng": 100.408105
+    "lat": 13.6945,
+    "lng": 100.4081
    },
    "connectors": [
     {
@@ -4927,12 +4927,12 @@
    ]
   },
   {
-   "id": "ea-0053",
+   "id": "ea-13.7019-100.6007",
    "name": "เดอะฟิล (สุขุมวิท 54)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.701863,
-    "lng": 100.600705
+    "lat": 13.7019,
+    "lng": 100.6007
    },
    "connectors": [
     {
@@ -4957,12 +4957,12 @@
    ]
   },
   {
-   "id": "ea-0054",
+   "id": "ea-13.6437-100.4791",
    "name": "E-BUS พุทธบูชา",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.643701,
-    "lng": 100.479139
+    "lat": 13.6437,
+    "lng": 100.4791
    },
    "connectors": [
     {
@@ -4982,12 +4982,12 @@
    ]
   },
   {
-   "id": "ea-0055",
+   "id": "ea-13.6429-100.4792",
    "name": "7-11 พุทธบูชา36",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.642927,
-    "lng": 100.479214
+    "lat": 13.6429,
+    "lng": 100.4792
    },
    "connectors": [
     {
@@ -5007,12 +5007,12 @@
    ]
   },
   {
-   "id": "ea-0056",
+   "id": "ea-13.7792-100.6208",
    "name": "ออมนิ บิสซิเนส มอลล์ (ลาดพร้าว116)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.779194,
-    "lng": 100.620841
+    "lat": 13.7792,
+    "lng": 100.6208
    },
    "connectors": [
     {
@@ -5032,12 +5032,12 @@
    ]
   },
   {
-   "id": "ea-0057",
+   "id": "ea-13.6406-100.4781",
    "name": "พงษ์ตระกูล เพอเฟ็ค แลนด์ ซอยพุทธบูชา36",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.640591,
-    "lng": 100.478148
+    "lat": 13.6406,
+    "lng": 100.4781
    },
    "connectors": [
     {
@@ -5062,12 +5062,12 @@
    ]
   },
   {
-   "id": "ea-0058",
+   "id": "ea-13.7316-100.6266",
    "name": "7-11 พัฒนาการ 38 กลางซอย",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.731558,
-    "lng": 100.626596
+    "lat": 13.7316,
+    "lng": 100.6266
    },
    "connectors": [
     {
@@ -5087,12 +5087,12 @@
    ]
   },
   {
-   "id": "ea-0059",
+   "id": "ea-13.6705-100.4068",
    "name": "A.C.T สาขาบางบอน",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.670545,
-    "lng": 100.406773
+    "lat": 13.6705,
+    "lng": 100.4068
    },
    "connectors": [
     {
@@ -5112,12 +5112,12 @@
    ]
   },
   {
-   "id": "ea-0060",
+   "id": "ea-13.7691-100.6317",
    "name": "โรงแรม วาบัวร์ แอสโซเทล ( ลาดพร้าว 130 )",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.769092,
-    "lng": 100.631701
+    "lat": 13.7691,
+    "lng": 100.6317
    },
    "connectors": [
     {
@@ -5137,12 +5137,12 @@
    ]
   },
   {
-   "id": "ea-0061",
+   "id": "ea-13.6250-100.5081",
    "name": "ซัสโก้ สาขา ประชาอุทิศ 1",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.624978,
-    "lng": 100.50809
+    "lat": 13.625,
+    "lng": 100.5081
    },
    "connectors": [
     {
@@ -5167,12 +5167,12 @@
    ]
   },
   {
-   "id": "ea-0062",
+   "id": "ea-13.8109-100.6256",
    "name": "บริษัท Eastern Group (ซอยโยธินพัฒนา 3 แยก2)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.810944,
-    "lng": 100.625551
+    "lat": 13.8109,
+    "lng": 100.6256
    },
    "connectors": [
     {
@@ -5197,12 +5197,12 @@
    ]
   },
   {
-   "id": "ea-0063",
+   "id": "ea-13.6503-100.4190",
    "name": "E-BUS เคหะธนบุรี (Station1)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.650271,
-    "lng": 100.418982
+    "lat": 13.6503,
+    "lng": 100.419
    },
    "connectors": [
     {
@@ -5222,12 +5222,12 @@
    ]
   },
   {
-   "id": "ea-0064",
+   "id": "ea-13.6710-100.6135",
    "name": "E-BUS NEX Express Bitec Bangna",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.671002,
-    "lng": 100.613466
+    "lat": 13.671,
+    "lng": 100.6135
    },
    "connectors": [
     {
@@ -5247,12 +5247,12 @@
    ]
   },
   {
-   "id": "ea-0065",
+   "id": "ea-13.7275-100.6419",
    "name": "MG วีมิโอ (สาขา สวนหลวง)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.727505,
-    "lng": 100.641852
+    "lat": 13.7275,
+    "lng": 100.6419
    },
    "connectors": [
     {
@@ -5272,12 +5272,12 @@
    ]
   },
   {
-   "id": "ea-0066",
+   "id": "ea-13.6330-100.4278",
    "name": "เกตุวานิช อุตสาหกรรม",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.632981,
-    "lng": 100.427775
+    "lat": 13.633,
+    "lng": 100.4278
    },
    "connectors": [
     {
@@ -5302,11 +5302,11 @@
    ]
   },
   {
-   "id": "ea-0067",
+   "id": "ea-13.6585-100.6098",
    "name": "7-11 ลาซาล ซ.16",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.65849,
+    "lat": 13.6585,
     "lng": 100.6098
    },
    "connectors": [
@@ -5327,12 +5327,12 @@
    ]
   },
   {
-   "id": "ea-0068",
+   "id": "ea-13.6255-100.4381",
    "name": "E-BUS แสมดำ (Station1)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.625515,
-    "lng": 100.43807
+    "lat": 13.6255,
+    "lng": 100.4381
    },
    "connectors": [
     {
@@ -5352,12 +5352,12 @@
    ]
   },
   {
-   "id": "ea-0069",
+   "id": "ea-13.6251-100.4377",
    "name": "E-BUS แสมดำ (Station2)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.625094,
-    "lng": 100.437744
+    "lat": 13.6251,
+    "lng": 100.4377
    },
    "connectors": [
     {
@@ -5377,12 +5377,12 @@
    ]
   },
   {
-   "id": "ea-0070",
+   "id": "ea-13.8359-100.6283",
    "name": "แฮปปี้ฮับ สปอร์ต แอนด์ รีครีเอชั่น (ถนนสุคนธสวัสดิ์)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.835864,
-    "lng": 100.628302
+    "lat": 13.8359,
+    "lng": 100.6283
    },
    "connectors": [
     {
@@ -5402,12 +5402,12 @@
    ]
   },
   {
-   "id": "ea-0071",
+   "id": "ea-13.8339-100.6306",
    "name": "7-11 ประดิษฐ์มนูธรรม 27",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.833919,
-    "lng": 100.630648
+    "lat": 13.8339,
+    "lng": 100.6306
    },
    "connectors": [
     {
@@ -5427,12 +5427,12 @@
    ]
   },
   {
-   "id": "ea-0072",
+   "id": "ea-13.7707-100.6540",
    "name": "สถานบันบัณฑิตพัฒนบริหารศาสตร์ (ม.นิด้า)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.770734,
-    "lng": 100.65396
+    "lat": 13.7707,
+    "lng": 100.654
    },
    "connectors": [
     {
@@ -5457,12 +5457,12 @@
    ]
   },
   {
-   "id": "ea-0073",
+   "id": "ea-13.8049-100.6474",
    "name": "SCB สาขาถนนนวมินทร์",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.804935,
-    "lng": 100.647431
+    "lat": 13.8049,
+    "lng": 100.6474
    },
    "connectors": [
     {
@@ -5487,12 +5487,12 @@
    ]
   },
   {
-   "id": "ea-0074",
+   "id": "ea-13.8489-100.6241",
    "name": "บิ๊กซี มัยลาภ",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.848906,
-    "lng": 100.624068
+    "lat": 13.8489,
+    "lng": 100.6241
    },
    "connectors": [
     {
@@ -5512,12 +5512,12 @@
    ]
   },
   {
-   "id": "ea-0075",
+   "id": "ea-13.8864-100.5812",
    "name": "อาคารหลักสี่พลาซ่า (ไอที หลักสี่)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.886412,
-    "lng": 100.581202
+    "lat": 13.8864,
+    "lng": 100.5812
    },
    "connectors": [
     {
@@ -5537,12 +5537,12 @@
    ]
   },
   {
-   "id": "ea-0076",
+   "id": "ea-13.6994-100.6471",
    "name": "คาร์ลอฟท์ ออโต้ อิมพอร์ต",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.699445,
-    "lng": 100.647085
+    "lat": 13.6994,
+    "lng": 100.6471
    },
    "connectors": [
     {
@@ -5562,12 +5562,12 @@
    ]
   },
   {
-   "id": "ea-0077",
+   "id": "ea-13.7470-100.6606",
    "name": "The Park กรุงเทพกรีฑา",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.747003,
-    "lng": 100.660641
+    "lat": 13.747,
+    "lng": 100.6606
    },
    "connectors": [
     {
@@ -5592,12 +5592,12 @@
    ]
   },
   {
-   "id": "ea-0078",
+   "id": "ea-13.6947-100.6478",
    "name": "ซีคอนสแควร์ (ศรีนครินทร์)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.694696,
-    "lng": 100.647763
+    "lat": 13.6947,
+    "lng": 100.6478
    },
    "connectors": [
     {
@@ -5622,12 +5622,12 @@
    ]
   },
   {
-   "id": "ea-0079",
+   "id": "ea-13.6710-100.6361",
    "name": "บริสโซ่ บางนา",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.670984,
-    "lng": 100.636102
+    "lat": 13.671,
+    "lng": 100.6361
    },
    "connectors": [
     {
@@ -5647,12 +5647,12 @@
    ]
   },
   {
-   "id": "ea-0080",
+   "id": "ea-13.6398-100.3912",
    "name": "7-11 พระปิ่น 5 (ซอยรางโพธิ์)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.639777,
-    "lng": 100.391165
+    "lat": 13.6398,
+    "lng": 100.3912
    },
    "connectors": [
     {
@@ -5672,12 +5672,12 @@
    ]
   },
   {
-   "id": "ea-0081",
+   "id": "ea-13.8562-100.6293",
    "name": "ศูนย์การค้า EASE PARK รามอินทรา",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.856239,
-    "lng": 100.62934
+    "lat": 13.8562,
+    "lng": 100.6293
    },
    "connectors": [
     {
@@ -5702,12 +5702,12 @@
    ]
   },
   {
-   "id": "ea-0082",
+   "id": "ea-13.8476-100.6377",
    "name": "ศิลา ฟิวเจอร์ จำกัด",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.847606,
-    "lng": 100.637679
+    "lat": 13.8476,
+    "lng": 100.6377
    },
    "connectors": [
     {
@@ -5727,12 +5727,12 @@
    ]
   },
   {
-   "id": "ea-0083",
+   "id": "ea-13.8540-100.6335",
    "name": "SCB สาขา รามอินทรา กม. 4.5",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.854002,
-    "lng": 100.633457
+    "lat": 13.854,
+    "lng": 100.6335
    },
    "connectors": [
     {
@@ -5757,12 +5757,12 @@
    ]
   },
   {
-   "id": "ea-0084",
+   "id": "ea-13.7742-100.6669",
    "name": "The Paseo Town (สาขารามคำแหง) ST.2",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.774233,
-    "lng": 100.666866
+    "lat": 13.7742,
+    "lng": 100.6669
    },
    "connectors": [
     {
@@ -5787,12 +5787,12 @@
    ]
   },
   {
-   "id": "ea-0085",
+   "id": "ea-13.8111-100.6638",
    "name": "ร้านอาหาร chocolate ville ถ.ประเสริฐมนูกิจ",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.811056,
-    "lng": 100.663809
+    "lat": 13.8111,
+    "lng": 100.6638
    },
    "connectors": [
     {
@@ -5812,12 +5812,12 @@
    ]
   },
   {
-   "id": "ea-0086",
+   "id": "ea-13.6402-100.3746",
    "name": "คาลเท็กซ์ ไทรทองรุ่งเรือง บางบอน 5",
    "network": "EA Anywhere",
    "position": {
     "lat": 13.6402,
-    "lng": 100.374563
+    "lng": 100.3746
    },
    "connectors": [
     {
@@ -5837,12 +5837,12 @@
    ]
   },
   {
-   "id": "ea-0087",
+   "id": "ea-13.6651-100.6503",
    "name": "Index Living Mall สาขาบางนา",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.665111,
-    "lng": 100.650286
+    "lat": 13.6651,
+    "lng": 100.6503
    },
    "connectors": [
     {
@@ -5867,12 +5867,12 @@
    ]
   },
   {
-   "id": "ea-0088",
+   "id": "ea-13.8584-100.6442",
    "name": "เพลินนารี่ มอลล์ วัชรพล",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.858407,
-    "lng": 100.644197
+    "lat": 13.8584,
+    "lng": 100.6442
    },
    "connectors": [
     {
@@ -5897,12 +5897,12 @@
    ]
   },
   {
-   "id": "ea-0089",
+   "id": "ea-13.7865-100.6790",
    "name": "E-BUS บึงกุ่ม (สเตชั่น3)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.786546,
-    "lng": 100.67899
+    "lat": 13.7865,
+    "lng": 100.679
    },
    "connectors": [
     {
@@ -5926,12 +5926,12 @@
    ]
   },
   {
-   "id": "ea-0090",
+   "id": "ea-13.7867-100.6796",
    "name": "E-BUS บึงกุ่ม (สเตชั่น1)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.786651,
-    "lng": 100.679558
+    "lat": 13.7867,
+    "lng": 100.6796
    },
    "connectors": [
     {
@@ -5951,12 +5951,12 @@
    ]
   },
   {
-   "id": "ea-0091",
+   "id": "ea-13.6366-100.3699",
    "name": "The Steel (บางบอน 5)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.636605,
-    "lng": 100.369934
+    "lat": 13.6366,
+    "lng": 100.3699
    },
    "connectors": [
     {
@@ -5981,12 +5981,12 @@
    ]
   },
   {
-   "id": "ea-0092",
+   "id": "ea-13.8413-100.6623",
    "name": "บิ๊กซี คู้บอน",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.841268,
-    "lng": 100.662285
+    "lat": 13.8413,
+    "lng": 100.6623
    },
    "connectors": [
     {
@@ -6006,12 +6006,12 @@
    ]
   },
   {
-   "id": "ea-0093",
+   "id": "ea-13.7959-100.6915",
    "name": "SCB สาขา เสรีไทย (สวนสยาม)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.795896,
-    "lng": 100.691478
+    "lat": 13.7959,
+    "lng": 100.6915
    },
    "connectors": [
     {
@@ -6036,12 +6036,12 @@
    ]
   },
   {
-   "id": "ea-0094",
+   "id": "ea-13.6735-100.6912",
    "name": "อี-บัส ราม 2 (Station 1)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.673501,
-    "lng": 100.691191
+    "lat": 13.6735,
+    "lng": 100.6912
    },
    "connectors": [
     {
@@ -6065,12 +6065,12 @@
    ]
   },
   {
-   "id": "ea-0095",
+   "id": "ea-13.6991-100.7051",
    "name": "K-space Mini Mall ถ.สุขาภิบาล2",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.699083,
-    "lng": 100.705073
+    "lat": 13.6991,
+    "lng": 100.7051
    },
    "connectors": [
     {
@@ -6090,12 +6090,12 @@
    ]
   },
   {
-   "id": "ea-0096",
+   "id": "ea-13.7318-100.7161",
    "name": "7-11 ถนนพัฒนาชนบท 3 จุด2",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.73178,
-    "lng": 100.716077
+    "lat": 13.7318,
+    "lng": 100.7161
    },
    "connectors": [
     {
@@ -6115,12 +6115,12 @@
    ]
   },
   {
-   "id": "ea-0097",
+   "id": "ea-13.7973-100.7145",
    "name": "7-11 รามคำแหง 170",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.797279,
-    "lng": 100.714516
+    "lat": 13.7973,
+    "lng": 100.7145
    },
    "connectors": [
     {
@@ -6140,12 +6140,12 @@
    ]
   },
   {
-   "id": "ea-0098",
+   "id": "ea-13.8004-100.7181",
    "name": "ซัสโก้ สาขา สุขาภิบาล 3/2",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.800374,
-    "lng": 100.71807
+    "lat": 13.8004,
+    "lng": 100.7181
    },
    "connectors": [
     {
@@ -6165,12 +6165,12 @@
    ]
   },
   {
-   "id": "ea-0099",
+   "id": "ea-13.9220-100.6427",
    "name": "ตลาดเอซี พลาซ่า สายไหม",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.922011,
-    "lng": 100.642749
+    "lat": 13.922,
+    "lng": 100.6427
    },
    "connectors": [
     {
@@ -6190,12 +6190,12 @@
    ]
   },
   {
-   "id": "ea-0100",
+   "id": "ea-13.9429-100.6233",
    "name": "ปั๊มน้ำมัน รวยเป๋าตุง จำกัด",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.942905,
-    "lng": 100.623263
+    "lat": 13.9429,
+    "lng": 100.6233
    },
    "connectors": [
     {
@@ -6215,12 +6215,12 @@
    ]
   },
   {
-   "id": "ea-0101",
+   "id": "ea-13.7217-100.7273",
    "name": "The Paseo Mall (สาขาลาดกระบัง) ST.1",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.721735,
-    "lng": 100.727302
+    "lat": 13.7217,
+    "lng": 100.7273
    },
    "connectors": [
     {
@@ -6245,12 +6245,12 @@
    ]
   },
   {
-   "id": "ea-0102",
+   "id": "ea-13.9213-100.6544",
    "name": "บริษัท วีอาร์ ออโต้ สปา จำกัด",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.921255,
-    "lng": 100.654383
+    "lat": 13.9213,
+    "lng": 100.6544
    },
    "connectors": [
     {
@@ -6275,12 +6275,12 @@
    ]
   },
   {
-   "id": "ea-0103",
+   "id": "ea-13.8068-100.7268",
    "name": "บิ๊กซี สุขาภิบาล3",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.806783,
-    "lng": 100.726847
+    "lat": 13.8068,
+    "lng": 100.7268
    },
    "connectors": [
     {
@@ -6300,12 +6300,12 @@
    ]
   },
   {
-   "id": "ea-0104",
+   "id": "ea-13.7223-100.7344",
    "name": "MG รุ่งเจริญ สาขา ลาดกระบัง",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.722254,
-    "lng": 100.734428
+    "lat": 13.7223,
+    "lng": 100.7344
    },
    "connectors": [
     {
@@ -6325,12 +6325,12 @@
    ]
   },
   {
-   "id": "ea-0105",
+   "id": "ea-13.8099-100.7376",
    "name": "บิ๊กซี ร่มเกล้า",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.809868,
-    "lng": 100.737612
+    "lat": 13.8099,
+    "lng": 100.7376
    },
    "connectors": [
     {
@@ -6350,12 +6350,12 @@
    ]
   },
   {
-   "id": "ea-0106",
+   "id": "ea-13.8604-100.7207",
    "name": "บิ๊กซี หทัยราษฎร์",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.860382,
-    "lng": 100.720714
+    "lat": 13.8604,
+    "lng": 100.7207
    },
    "connectors": [
     {
@@ -6375,12 +6375,12 @@
    ]
   },
   {
-   "id": "ea-0107",
+   "id": "ea-13.7452-100.7466",
    "name": "7-11 ร่มเกล้า23",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.745205,
-    "lng": 100.746591
+    "lat": 13.7452,
+    "lng": 100.7466
    },
    "connectors": [
     {
@@ -6400,12 +6400,12 @@
    ]
   },
   {
-   "id": "ea-0108",
+   "id": "ea-13.7539-100.7673",
    "name": "คาลเท็กซ์ เจ้าคุณ ออยล์ เจ้าคุณทหาร",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.753907,
-    "lng": 100.767286
+    "lat": 13.7539,
+    "lng": 100.7673
    },
    "connectors": [
     {
@@ -6425,12 +6425,12 @@
    ]
   },
   {
-   "id": "ea-0109",
+   "id": "ea-13.7192-100.7947",
    "name": "หจก. พีอาร์กรุ๊ป 1998",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.719229,
-    "lng": 100.79471
+    "lat": 13.7192,
+    "lng": 100.7947
    },
    "connectors": [
     {
@@ -6455,12 +6455,12 @@
    ]
   },
   {
-   "id": "ea-0110",
+   "id": "ea-13.8095-100.8035",
    "name": "MG กรุงเทพ (สาขาสุวินทวงศ์)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.809549,
-    "lng": 100.803471
+    "lat": 13.8095,
+    "lng": 100.8035
    },
    "connectors": [
     {
@@ -6480,12 +6480,12 @@
    ]
   },
   {
-   "id": "ea-0111",
+   "id": "ea-13.7137-100.8132",
    "name": "SUSCO สาขาทับยาว",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.713704,
-    "lng": 100.813221
+    "lat": 13.7137,
+    "lng": 100.8132
    },
    "connectors": [
     {
@@ -6505,12 +6505,12 @@
    ]
   },
   {
-   "id": "ea-0112",
+   "id": "ea-13.8092-100.8320",
    "name": "E-BUS มีนบุรี (Station 1)",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.809186,
-    "lng": 100.832026
+    "lat": 13.8092,
+    "lng": 100.832
    },
    "connectors": [
     {
@@ -6534,12 +6534,12 @@
    ]
   },
   {
-   "id": "ea-0113",
+   "id": "ea-13.8544-100.8547",
    "name": "บิ๊กซี หนองจอก",
    "network": "EA Anywhere",
    "position": {
-    "lat": 13.854351,
-    "lng": 100.854739
+    "lat": 13.8544,
+    "lng": 100.8547
    },
    "connectors": [
     {
@@ -6559,12 +6559,12 @@
    ]
   },
   {
-   "id": "mea-0001",
+   "id": "mea-13.7444-100.5435",
    "name": "กฟน เพลินจิต",
    "network": "MEA EV",
    "position": {
-    "lat": 13.74436,
-    "lng": 100.543503
+    "lat": 13.7444,
+    "lng": 100.5435
    },
    "connectors": [
     {
@@ -6594,12 +6594,12 @@
    ]
   },
   {
-   "id": "mea-0002",
+   "id": "mea-13.7211-100.5555",
    "name": "การไฟฟ้านครหลวง คลองเตย",
    "network": "MEA EV",
    "position": {
-    "lat": 13.72112,
-    "lng": 100.55549
+    "lat": 13.7211,
+    "lng": 100.5555
    },
    "connectors": [
     {
@@ -6624,12 +6624,12 @@
    ]
   },
   {
-   "id": "mea-0003",
+   "id": "mea-13.7421-100.5005",
    "name": "กฟน วัดเลียบ",
    "network": "MEA EV",
    "position": {
-    "lat": 13.74208,
-    "lng": 100.50052
+    "lat": 13.7421,
+    "lng": 100.5005
    },
    "connectors": [
     {
@@ -6659,12 +6659,12 @@
    ]
   },
   {
-   "id": "mea-0004",
+   "id": "mea-13.6792-100.5130",
    "name": "กฟน ราษฎร์บูรณะ",
    "network": "MEA EV",
    "position": {
-    "lat": 13.67921,
-    "lng": 100.51302
+    "lat": 13.6792,
+    "lng": 100.513
    },
    "connectors": [
     {
@@ -6689,12 +6689,12 @@
    ]
   },
   {
-   "id": "mea-0005",
+   "id": "mea-13.7459-100.4707",
    "name": "กฟน ธนบุรี",
    "network": "MEA EV",
    "position": {
     "lat": 13.7459,
-    "lng": 100.47071
+    "lng": 100.4707
    },
    "connectors": [
     {
@@ -6724,12 +6724,12 @@
    ]
   },
   {
-   "id": "mea-0006",
+   "id": "mea-13.8154-100.7464",
    "name": "กฟน ลาดกระบัง",
    "network": "MEA EV",
    "position": {
     "lat": 13.8154,
-    "lng": 100.74637
+    "lng": 100.7464
    },
    "connectors": [
     {
@@ -6759,12 +6759,12 @@
    ]
   },
   {
-   "id": "mea-0007",
+   "id": "mea-13.8711-100.5953",
    "name": "กฟน บางเขน",
    "network": "MEA EV",
    "position": {
-    "lat": 13.87111,
-    "lng": 100.59528
+    "lat": 13.8711,
+    "lng": 100.5953
    },
    "connectors": [
     {

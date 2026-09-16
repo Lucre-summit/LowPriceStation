@@ -4,18 +4,20 @@ import { StatusBar } from "expo-status-bar";
 import * as Location from "expo-location";
 
 import { loadDocuments, type Documents } from "./src/data/documents";
+import { loadFavorites, saveFavorites, toggleFavorite, type FavoriteRecord } from "./src/data/favorites";
 import { loadProfile, saveProfile } from "./src/data/profile";
 import { energyToAddKwh } from "./src/domain/price";
-import { networkNames, rankStations } from "./src/domain/rank";
+import { networkNames, rankStations, type RankedStation } from "./src/domain/rank";
 import { DEFAULT_VEHICLE, type LatLng, type NetworkTariff, type VehicleProfile } from "./src/domain/types";
 import { Controls } from "./src/ui/Controls";
 import { ProfileScreen } from "./src/ui/ProfileScreen";
 import { StationDetailScreen } from "./src/ui/StationDetailScreen";
 import { StationRow } from "./src/ui/StationRow";
-import { formatEnergy } from "./src/ui/format";
+import { formatEnergy, formatUnmatchedFavorites } from "./src/ui/format";
 import { strings } from "./src/ui/strings";
+import { listOptionsFor } from "./src/ui/listOptions";
 import { colors, spacing } from "./src/ui/theme";
-import type { SortOrder } from "./src/ui/types";
+import type { ListMode, SortOrder } from "./src/ui/types";
 
 const BANGKOK_CENTER: LatLng = { lat: 13.7563, lng: 100.5018 };
 
@@ -27,7 +29,9 @@ export default function App() {
   const [refreshing, setRefreshing] = useState(false);
   const [profile, setProfile] = useState<VehicleProfile>(DEFAULT_VEHICLE);
   const [editingProfile, setEditingProfile] = useState(false);
-  const [selectedStationId, setSelectedStationId] = useState<string | null>(null);
+  const [selectedEntry, setSelectedEntry] = useState<RankedStation | null>(null);
+  const [favorites, setFavorites] = useState<FavoriteRecord[]>([]);
+  const [mode, setMode] = useState<ListMode>("nearby");
 
   const [sort, setSort] = useState<SortOrder>("cheapest");
   const [radiusKm, setRadiusKm] = useState(10);
@@ -58,6 +62,7 @@ export default function App() {
     void locate();
     void load();
     void loadProfile().then(setProfile);
+    void loadFavorites().then(setFavorites);
   }, [load]);
 
   const onRefresh = useCallback(async () => {
@@ -74,9 +79,21 @@ export default function App() {
     return index;
   }, [documents]);
 
+  const favoriteIds = useMemo(() => new Set(favorites.map((favorite) => favorite.stationId)), [favorites]);
+
+  const unmatchedFavorites = useMemo(() => {
+    if (!documents) return 0;
+    const known = new Set(documents.stations.stations.map((station) => station.id));
+    return favorites.filter((favorite) => !known.has(favorite.stationId)).length;
+  }, [documents, favorites]);
+
   const ranked = useMemo(() => {
     if (!documents || !origin) return [];
-    return rankStations(documents.stations.stations, documents.tariffs, profile, {
+    const stations =
+      mode === "favorites"
+        ? documents.stations.stations.filter((station) => favoriteIds.has(station.id))
+        : documents.stations.stations;
+    const options = listOptionsFor(mode, {
       origin,
       departure: new Date(),
       radiusKm,
@@ -85,7 +102,8 @@ export default function App() {
       sort,
       energyOverrideKwh,
     });
-  }, [documents, origin, profile, sort, radiusKm, minPowerKw, network, energyOverrideKwh]);
+    return rankStations(stations, documents.tariffs, profile, options);
+  }, [documents, origin, mode, favoriteIds, profile, sort, radiusKm, minPowerKw, network, energyOverrideKwh]);
 
   const profileLabel = `${profile.connectorStandard} · ${formatEnergy(profile.batteryKwh)} kWh · ${profile.socFrom}→${profile.socTo}%`;
 
@@ -95,7 +113,14 @@ export default function App() {
     void saveProfile(next);
   }, []);
 
-  const selected = ranked.find((entry) => entry.station.id === selectedStationId) ?? null;
+  const toggleFavoriteStation = useCallback(
+    (stationId: string) => {
+      const next = toggleFavorite(favorites, stationId, new Date());
+      setFavorites(next);
+      void saveFavorites(next);
+    },
+    [favorites],
+  );
 
   if (editingProfile) {
     return (
@@ -110,19 +135,28 @@ export default function App() {
     );
   }
 
-  if (selected) {
+  if (selectedEntry) {
     return (
       <View style={styles.screen}>
         <StatusBar style="dark" />
         <StationDetailScreen
-          entry={selected}
-          tariff={tariffByNetwork[selected.station.network] ?? null}
+          entry={selectedEntry}
+          tariff={tariffByNetwork[selectedEntry.station.network] ?? null}
           energyKwh={energyKwh}
-          onBack={() => setSelectedStationId(null)}
+          isFavorite={favoriteIds.has(selectedEntry.station.id)}
+          onToggleFavorite={() => toggleFavoriteStation(selectedEntry.station.id)}
+          onBack={() => setSelectedEntry(null)}
         />
       </View>
     );
   }
+
+  const emptyMessage =
+    mode !== "favorites"
+      ? strings.noMatches
+      : unmatchedFavorites > 0
+        ? formatUnmatchedFavorites(unmatchedFavorites)
+        : strings.favoritesEmpty;
 
   return (
     <View style={styles.screen}>
@@ -151,10 +185,18 @@ export default function App() {
           data={ranked}
           keyExtractor={(item) => item.station.id}
           renderItem={({ item }) => (
-            <StationRow item={item} onPress={() => setSelectedStationId(item.station.id)} />
+            <StationRow
+              item={item}
+              isFavorite={favoriteIds.has(item.station.id)}
+              onPress={() => setSelectedEntry(item)}
+              onToggleFavorite={() => toggleFavoriteStation(item.station.id)}
+            />
           )}
           ListHeaderComponent={
             <Controls
+              mode={mode}
+              onMode={setMode}
+              favoriteCount={favorites.length}
               sort={sort}
               onSort={setSort}
               radiusKm={radiusKm}
@@ -169,12 +211,13 @@ export default function App() {
               profileLabel={profileLabel}
               onEditProfile={() => setEditingProfile(true)}
               resultCount={ranked.length}
+              unmatchedFavorites={unmatchedFavorites}
             />
           }
           refreshing={refreshing}
           onRefresh={onRefresh}
           contentContainerStyle={styles.list}
-          ListEmptyComponent={<Text style={styles.hint}>{strings.noMatches}</Text>}
+          ListEmptyComponent={<Text style={styles.hint}>{emptyMessage}</Text>}
         />
       )}
     </View>
