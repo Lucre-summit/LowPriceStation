@@ -1,6 +1,6 @@
 import { Linking, Platform, Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 
-import { networkAppUrl, navigationUrl, platformFor } from "../domain/handoff";
+import { networkAppCandidates, navigationCandidates, platformFor } from "../domain/handoff";
 import type { RankedStation } from "../domain/rank";
 import type { Connector, NetworkTariff } from "../domain/types";
 import {
@@ -25,6 +25,18 @@ const currentPlatform = platformFor(Platform.OS);
 
 function describeConnector(connector: Connector): string {
   return `${connector.standard} · ${connector.maxPowerKw} kW × ${connector.count}`;
+}
+
+/** Hands over to the first form the device can actually take, rather than failing silently. */
+async function openFirstAvailable(urls: string[]): Promise<void> {
+  for (const url of urls) {
+    try {
+      await Linking.openURL(url);
+      return;
+    } catch {
+      // Nothing handles this form here; the next one may still work.
+    }
+  }
 }
 
 function describeIdleFee(tariff: NetworkTariff | null): string | null {
@@ -122,14 +134,16 @@ export function StationDetailScreen({ entry, tariff, energyKwh, onBack }: Statio
 
       <Pressable
         style={styles.primaryButton}
-        onPress={() => void Linking.openURL(navigationUrl(currentPlatform, entry.station.position))}
+        onPress={() => void openFirstAvailable(navigationCandidates(currentPlatform, entry.station.position))}
       >
         <Text style={styles.primaryButtonText}>{strings.navigate}</Text>
       </Pressable>
       <Pressable
         style={styles.secondaryButton}
         onPress={() =>
-          void Linking.openURL(networkAppUrl(currentPlatform, entry.station.network, tariff?.appLinks ?? null))
+          void openFirstAvailable(
+            networkAppCandidates(currentPlatform, entry.station.network, tariff?.appLinks ?? null),
+          )
         }
       >
         <Text style={styles.secondaryButtonText}>{strings.openNetworkApp}</Text>

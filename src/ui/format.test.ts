@@ -13,6 +13,12 @@ test("a window covering every day says so, and an empty one means no peak window
   assert.equal(formatPeakDays([]), "ราคาเดียวทั้งวัน");
 });
 
+test("a window that covers more than the working week never claims to be one", () => {
+  assert.equal(formatPeakDays(["mon", "tue", "wed", "thu", "fri", "sat"]), "จ., อ., พ., พฤ., ศ., ส.");
+  assert.equal(formatPeakDays(["mon", "sat", "sun"]), "จ., ส., อา.");
+  assert.equal(formatPeakDays(["fri", "sat", "sun"]), "ศ., ส., อา.");
+});
+
 test("a scattered window lists its days", () => {
   assert.equal(formatPeakDays(["mon", "wed", "fri"]), "จ., พ., ศ.");
   assert.equal(formatPeakDays(["sun", "tue"]), "อ., อา.");

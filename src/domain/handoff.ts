@@ -29,20 +29,28 @@ const LINK_FOR_PLATFORM: Record<HandoffPlatform, (links: NetworkAppLinks) => str
   web: (links) => links.web ?? links.android,
 };
 
-/** Turn-by-turn starts in the platform's own map app, which is also what ADR-0002 settled on. */
-export function navigationUrl(platform: HandoffPlatform, position: LatLng): string {
-  return NAVIGATION_URL[platform](`${position.lat},${position.lng}`);
+/**
+ * Turn-by-turn starts in the platform's own map app, which is also what ADR-0002 settled on.
+ * The https form is kept behind it: the `google.navigation:` scheme is handled only by Google Maps,
+ * so a handset without it would otherwise get a tap that does nothing.
+ */
+export function navigationCandidates(platform: HandoffPlatform, position: LatLng): string[] {
+  const destination = `${position.lat},${position.lng}`;
+  const platformUrl = NAVIGATION_URL[platform](destination);
+  if (platform === "web") return [platformUrl];
+  return [platformUrl, NAVIGATION_URL.web(destination)];
 }
 
 /**
- * The network's own app where a verified link is known, and the store's search for its name otherwise —
+ * The network's own app where a verified link is known, then the store's search for its name —
  * a search still lands the driver one tap from installing, without inventing package ids.
  */
-export function networkAppUrl(
+export function networkAppCandidates(
   platform: HandoffPlatform,
   network: string,
   links: NetworkAppLinks | null | undefined,
-): string {
+): string[] {
+  const search = STORE_SEARCH_URL[platform](encodeURIComponent(network));
   const known = links ? LINK_FOR_PLATFORM[platform](links) : null;
-  return known ?? STORE_SEARCH_URL[platform](encodeURIComponent(network));
+  return known && known !== search ? [known, search] : [search];
 }

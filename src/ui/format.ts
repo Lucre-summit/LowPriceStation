@@ -67,8 +67,14 @@ export function formatPeakDays(days: string[]): string {
   const known = DAY_ORDER.filter((day) => days.includes(day));
   if (known.length === 0) return strings.flatAllDay;
   if (known.length === DAY_ORDER.length) return strings.everyDay;
-  if (WEEKDAY_ORDER.every((day) => known.includes(day))) return strings.weekdays;
-  if (WEEKEND_ORDER.every((day) => known.includes(day))) return strings.weekend;
+  // A shorthand only stands for the whole set it names: a window that also covers Saturday
+  // must list its days rather than claim to be the working week the pricer would not apply.
+  if (known.length === WEEKDAY_ORDER.length && WEEKDAY_ORDER.every((day) => known.includes(day))) {
+    return strings.weekdays;
+  }
+  if (known.length === WEEKEND_ORDER.length && WEEKEND_ORDER.every((day) => known.includes(day))) {
+    return strings.weekend;
+  }
   return known.map((day) => DAY_LABELS[day]).join(", ");
 }
 
